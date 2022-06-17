@@ -305,6 +305,21 @@ jQuery(function ($) {
                     y: 48
                 }]
             }],
+            xaxis: {
+                labels: {
+                  show: true,
+                  rotate: 0,
+                  rotateAlways: false,
+                  minHeight: 100,
+                  maxHeight: 180,
+                  style: {
+                  fontSize:12,
+                  fontFamily:'Tajawal',
+                  color:"#373A39",
+                  }
+                },
+      
+              },   
             tooltip: {
                 enabled: true,
                 enabledOnSeries: "colors",
