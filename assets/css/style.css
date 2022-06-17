@@ -415,7 +415,10 @@ text-align: right ;
     margin:auto;
     border-radius: 8px;
     overflow: hidden;
+    animation: jackInTheBox 2s infinite 
+
 }
+
 .EmplyeeImgCont{
     padding-top:20px;
     padding-bottom: 18px;;
