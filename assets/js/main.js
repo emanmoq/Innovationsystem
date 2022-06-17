@@ -481,5 +481,30 @@ jQuery(function ($) {
         chart.render();
     }
     _demo20();
+    function reveal(className) {
+        var reveals = document.querySelectorAll(className);
+        for (var i = 0; i < reveals.length; i++) {
+            var windowHeight = window.innerHeight;
+            var elementTop = reveals[i].getBoundingClientRect().top;
+            var elementVisible = 150;
+          
+
+          if(reveals[i]){
+          if (elementTop < windowHeight - elementVisible) {
+            reveals[i].classList.add("active");
+          } else {
+            reveals[i].classList.remove("active");
+          }
+        }
+    }
+}
+    window.addEventListener("scroll", scrolreval);
+    function scrolreval(){
+        reveal('.progress-bar');
+        reveal('.suggestPar');
+
+    }
+
+// To check the scroll position on page load
 });
 
