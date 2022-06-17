@@ -201,6 +201,9 @@ animation-duration: 1s;
     margin-left:14px;
     width: 18px;;
 }
+.dropdown-item{
+    text-align: right;
+}
 
 .profileIcons .dropdown-item.active,.profileIcons .dropdown-item:hover{
 background-color: rgba(125, 157, 146, .17);
@@ -210,7 +213,7 @@ color:#000000;
 opacity: .7;
 font-size: 0.875em;
 padding: 5px 12px;
-text-align: right;
+text-align: right ;
 }
 .langBtn:hover svg{
     animation: heartBeat 2000ms; 
