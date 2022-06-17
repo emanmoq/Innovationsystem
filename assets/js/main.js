@@ -1,14 +1,6 @@
 jQuery(function ($) {
-    wow = new WOW(
-        {
-        boxClass:     'wow',      // default
-        animateClass: 'animated', // default
-        offset:       0,          // default
-        mobile:       true,       // default
-        live:         true        // default
-      }
-      )
-      wow.init();
+    new WOW().init(); 
+
 
     var _initMixedWidget1 = function () {
         var element = document.getElementById("chart1");
