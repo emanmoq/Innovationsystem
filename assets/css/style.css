@@ -250,6 +250,7 @@ text-align: right;
  .dropdown-menu{
     min-width: 213px;
     position: relative;
+    z-index: 999999;
 }
 .profile .dropdown-menu{
     width:280px
