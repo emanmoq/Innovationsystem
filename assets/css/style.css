@@ -870,9 +870,25 @@ margin-bottom: 42px;
     animation: scale 5s linear infinite;
 }
 .darkLight path.lightScale{
-    animation: darklightBulb 3s linear infinite;
-   
+    animation: darklightBulb 3s linear infinite;   
 }
+.darkLight path.darklightScale{
+animation: darklightScale 3s ease-in infinite;
+}
+.darkLight path.darklight{
+    animation: darklight 3s ease-in infinite;
+    }
+@keyframes darklight {
+    0%{
+        fill:#9d9898
+    }
+    50% {
+      fill:#ffe064 
+    }
+    100% {
+     fill:#9d9898 
+    }
+  }
 @keyframes progressHeight {
     from {
         height: 0;
@@ -900,7 +916,21 @@ margin-bottom: 42px;
      fill:#fff 
     }
   }
-@keyframes scale {
+  @keyframes scale {
+    0%{
+    opacity: 0;
+    fill:#9d9898
+    }
+    50% {
+        opacity: 1;
+        fill:#ffe064 
+    }
+    100% {
+        opacity: 0;
+        fill:#9d9898 
+    }  
+}
+@keyframes darklightScale {
     0%{
     opacity: 0;
     fill:white
