@@ -313,7 +313,7 @@ jQuery(function ($) {
                   minHeight: 100,
                   maxHeight: 180,
                   style: {
-                  fontSize:12,
+                  fontSize:11,
                   fontFamily:'Tajawal',
                   color:"#373A39",
                   }
@@ -398,7 +398,7 @@ jQuery(function ($) {
                   minHeight: 100,
                   maxHeight: 180,
                   style: {
-                  fontSize:12,
+                  fontSize:11,
                   fontFamily:'Tajawal',
                   color:"#373A39",
                   }
