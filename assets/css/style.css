@@ -74,6 +74,9 @@ a:hover {
 .navbar{
     margin:auto;
 }
+.navbar-collapse{
+    justify-content: center;
+}
 .searchBox{
     width:466px;
     margin: auto;
