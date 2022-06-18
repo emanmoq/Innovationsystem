@@ -1,7 +1,5 @@
 jQuery(function ($) {
-    new WOW().init(); 
-
-
+    new WOW().init();
     var _initMixedWidget1 = function () {
         var element = document.getElementById("chart1");
         var height = parseInt(KTUtil.css(element, 'height'));
@@ -287,7 +285,7 @@ jQuery(function ($) {
                 toolbar: {
                     show: false,
                 },
-           
+
             },
             colors: ['#D0AD5B', "#8D8582", "#90AFC4"],
             dataLabels: {
@@ -295,10 +293,10 @@ jQuery(function ($) {
             },
             series: [{
                 data: [{
-                    
+
                     x: 'ليس من اختصاص الجهة',
                     y: 35,
-       
+
                 }, {
                     x: 'مقترح مكرر',
                     y: 45
@@ -309,19 +307,19 @@ jQuery(function ($) {
             }],
             xaxis: {
                 labels: {
-                  show: true,
-                  rotate: 0,
-                  rotateAlways: false,
-                  minHeight: 100,
-                  maxHeight: 180,
-                  style: {
-                  fontSize:11,
-                  fontFamily:'Tajawal',
-                  color:"#373A39",
-                  }
+                    show: true,
+                    rotate: 0,
+                    rotateAlways: false,
+                    minHeight: 100,
+                    maxHeight: 180,
+                    style: {
+                        fontSize: 11,
+                        fontFamily: 'Tajawal',
+                        color: "#373A39",
+                    }
                 },
-      
-              },   
+
+            },
             tooltip: {
                 enabled: true,
                 enabledOnSeries: "colors",
@@ -332,34 +330,34 @@ jQuery(function ($) {
                 custom: undefined,
                 fillSeriesColor: false,
                 style: {
-                  fontSize: '11px',
-                  fontFamily: undefined
+                    fontSize: '11px',
+                    fontFamily: undefined
                 },
                 onDatasetHover: {
                     highlightDataSeries: false,
-                    color:"#769E91"
+                    color: "#769E91"
                 },
-      
+
                 marker: {
-                    size:17,
-                    radius:17,
+                    size: 17,
+                    radius: 17,
                     show: true,
                     colors: undefined,
                 },
                 y: {
                     title: {
-                      formatter(seriesName) {
-                        seriesName=""
-                        return seriesName
-                      }
+                        formatter(seriesName) {
+                            seriesName = ""
+                            return seriesName
+                        }
                     }
-                  }
-        
-          
+                }
+
+
             },
-            
-            
-      
+
+
+
         }
 
 
@@ -386,57 +384,57 @@ jQuery(function ($) {
                 toolbar: {
                     show: false,
                 },
-           
+
             },
-            colors: ['#C3C8AA', "#8D8582", "#769E91","#D0AD5B","#9DA47A","#CD7747","#90AFC4"],
+            colors: ['#C3C8AA', "#8D8582", "#769E91", "#D0AD5B", "#9DA47A", "#CD7747", "#90AFC4"],
             dataLabels: {
                 enabled: false,
             },
             xaxis: {
                 labels: {
-                  show: true,
-                  rotate: 0,
-                  rotateAlways: false,
-                  minHeight: 100,
-                  maxHeight: 180,
-                  style: {
-                  fontSize:11,
-                  fontFamily:'Tajawal',
-                  color:"#373A39",
-                  }
+                    show: true,
+                    rotate: 0,
+                    rotateAlways: false,
+                    minHeight: 100,
+                    maxHeight: 180,
+                    style: {
+                        fontSize: 11,
+                        fontFamily: 'Tajawal',
+                        color: "#373A39",
+                    }
                 },
-      
-              },      
+
+            },
             series: [{
                 data: [{
-                    
-                    x:[ 'تعزيز سعادة ' ,'المواطنين'],
+
+                    x: ['تعزيز سعادة ', 'المواطنين'],
                     y: 15,
-       
+
                 }, {
-                    x:[ 'تعزيز سعادة' ,'المتعاملين'],
+                    x: ['تعزيز سعادة', 'المتعاملين'],
                     y: 15,
                 }, {
-                    x:[ 'المسؤولية' ,'الاجتماعية'],
+                    x: ['المسؤولية', 'الاجتماعية'],
                     y: 18
-                },{
-                    x:[ 'الاستغلال الأمثل' ,'للموارد المتاحة'],
+                }, {
+                    x: ['الاستغلال الأمثل', 'للموارد المتاحة'],
                     y: 18
                 }
-                ,{
-                    x:[ 'تحسين البيئة' ,' الداخلية في الجهة'],
+                    , {
+                    x: ['تحسين البيئة', ' الداخلية في الجهة'],
                     y: 38
                 }
-                ,{
-                    x:[ 'تطوير وتحسين' ,'طرق العمل'],
+                    , {
+                    x: ['تطوير وتحسين', 'طرق العمل'],
                     y: 42
-                } ,{
-                    x:[ 'تطبيق' ,'تكنولوجيا حديثة'],
+                }, {
+                    x: ['تطبيق', 'تكنولوجيا حديثة'],
 
                     y: 70
                 }
-            
-            ]
+
+                ]
             }],
             tooltip: {
                 enabled: true,
@@ -448,34 +446,34 @@ jQuery(function ($) {
                 custom: undefined,
                 fillSeriesColor: false,
                 style: {
-                  fontSize: '11px',
-                  fontFamily: undefined
+                    fontSize: '11px',
+                    fontFamily: undefined
                 },
                 onDatasetHover: {
                     highlightDataSeries: false,
-                    color:"#769E91"
+                    color: "#769E91"
                 },
-      
+
                 marker: {
-                    size:17,
-                    radius:17,
+                    size: 17,
+                    radius: 17,
                     show: true,
                     colors: undefined,
                 },
                 y: {
                     title: {
-                      formatter(seriesName) {
-                        seriesName=""
-                        return seriesName
-                      }
+                        formatter(seriesName) {
+                            seriesName = ""
+                            return seriesName
+                        }
                     }
-                  }
-        
-          
+                }
+
+
             },
-            
-            
-      
+
+
+
         }
 
 
@@ -489,24 +487,24 @@ jQuery(function ($) {
             var windowHeight = window.innerHeight;
             var elementTop = reveals[i].getBoundingClientRect().top;
             var elementVisible = 150;
-          
 
-          if(reveals[i]){
-          if (elementTop < windowHeight - elementVisible) {
-            reveals[i].classList.add("active");
-          } else {
-            reveals[i].classList.remove("active");
-          }
+
+            if (reveals[i]) {
+                if (elementTop < windowHeight - elementVisible) {
+                    reveals[i].classList.add("active");
+                } else {
+                    reveals[i].classList.remove("active");
+                }
+            }
         }
     }
-}
     window.addEventListener("scroll", scrolreval);
-    function scrolreval(){
+    function scrolreval() {
         reveal('.progress-bar');
         reveal('.suggestPar');
-
+        reveal('.voteSec .lampIcon');
     }
 
-// To check the scroll position on page load
+    // To check the scroll position on page load
 });
 
