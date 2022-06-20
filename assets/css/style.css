@@ -1504,3 +1504,7 @@ a:hover {
     top: 60%;
     animation-delay: -.7s
 }
+.loading{
+    margin-top: 30px;
+    width: 100px;
+}

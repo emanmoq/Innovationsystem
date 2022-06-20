@@ -504,7 +504,10 @@ jQuery(function ($) {
         reveal('.suggestPar');
         reveal('.voteSec .lampIcon');
     }
+        var flag=document.querySelector(".flag");
+        TweenMax.set(flag, {x: 65})
+        TweenMax.to(flag, 2, {x: 0, repeat:-1,ease:Linear.easeNone});
+      
 
-    // To check the scroll position on page load
 });
 
