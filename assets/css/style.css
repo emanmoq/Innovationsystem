@@ -1168,8 +1168,7 @@ a:hover {
 }
 
 #rotateSVg {
-    animation: heartBeat 2s infinite;
-    
+    animation:  swing 2s infinite
 }
 
 @keyframes goldColor {
