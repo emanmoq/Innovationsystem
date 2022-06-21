@@ -575,14 +575,12 @@ a:hover {
     height: 61px;
     border-radius: 8px;
     padding: 7px;
-    transition: all .5s;
-    ;
+    transition: all .5s;  
 }
 
 .employeeBox:hover {
     background-color: #D0AD5B;
     transition: all .5s;
-    ;
 }
 
 .emplyeesSection {
