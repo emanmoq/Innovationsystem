@@ -127,7 +127,6 @@ a:hover {
     padding: 5px 10px;
     border-radius: 8px;
     margin-left: 29px;
-    padding-left: 28px
 }
 
 .navbar-nav .nav-item:last-child {
@@ -365,7 +364,6 @@ a:hover {
 
 .dropdown-menu {
     min-width: 213px;
-    position: relative;
     z-index: 999999;
 }
 
@@ -492,8 +490,8 @@ a:hover {
 
 .yellowBox .statsticsNum {
     color: #D0AD5B;
-    left: 49%;
-    top: 29px;
+    left: 50%;
+    top: 18px;
 }
 
 .mostInteractiveEmployee {
@@ -901,8 +899,8 @@ a:hover {
 
 .lumpImg {
     position: absolute;
-    left: 21%;
-    top: 135PX;
+    left: 24%;
+    top: 152PX;
 }
 
 .progressBoxCont {
@@ -1119,7 +1117,7 @@ a:hover {
 
 .suggestNumBoxCateg {
     float: right;
-    width: 95px;
+    width: 94px;
     height: 109px;
     margin-left: 25px;
     text-align: center;
@@ -1190,7 +1188,7 @@ a:hover {
 }
 
 .darkLight path.lightScale {
-    animation: darklightBulb 1.5 linear infinite;
+    animation: darklightBulb 1.5s linear infinite;
 }
 
 .darkLight path.darklightScale {
@@ -1506,4 +1504,132 @@ a:hover {
 .loading{
     margin-top: 30px;
     width: 100px;
+}
+.createNewChallengr{
+    padding-top:34px;
+    padding-bottom: 39px;
+}
+.breadcrumb{
+    background-color: transparent;
+    margin-bottom: 19px;
+}
+ .breadcrumb-item,.breadcrumb-item.active{
+    font-size: 1.125em;
+    color:#242424;
+}
+.breadcrumb-item+.breadcrumb-item::before{
+    margin-left:5px
+}
+.breadcrumb-item:hover a{
+    color:#7D9D92
+}
+.createChallengeBox{
+    width: 100%;
+    background-color: #FAF3E8;
+    border-radius: 12px;
+    overflow: hidden;
+    padding-bottom: 80px;
+}
+.createChallengeBoxHeader{
+    background-color: #90AFC4;
+    padding: 16px 24px;
+}
+.createChallengeBoxHeaderIcon{
+    margin-left:12px;
+    display: inline-block;
+}
+.createChallengeBoxHeader p{
+    color:white;
+    display: inline-block;
+}
+.creatchallengeContent{
+    padding-top:57px;
+    padding-right:57px;
+    padding-left: 25px;
+}
+.createchallengesForm{
+    position: relative;
+}
+.headIcon{
+  position: absolute;
+  right: 0;
+}
+.createchallengedetails .form-group{
+    width:750px;
+    float: right;
+    position: relative;
+}
+
+.createchallengesForm .form-control{
+height: 56px;
+background-color: white;
+border:1px solid #C6C6C6;
+border-radius: 8px;
+}
+.challengeTitle{
+    margin-right:355px;
+    margin-bottom: 28px;
+    margin-top:20px
+}
+.descripChallengeForm-group{
+    margin-right: 416px;
+    margin-bottom: 41px;
+}
+.reasonhallengeForm-group{
+    margin-right: 439px;
+    margin-bottom: 73px;
+}
+.ProceduresChallenge-group{
+    margin-right: 425px;
+    margin-bottom: 90px;
+}
+.benfitChallenge-group{
+    margin-right: 300px;  
+}
+
+.moreChallengeDetails{
+    margin-top: 118px;;
+}
+.moreChallengeDetails label{
+    color:#242424;
+    margin-bottom: 11px;
+}
+.moreChallengeDetails .form-group{
+    width:46%;
+    float:right;
+    margin-bottom: 37px;
+    position: relative;
+}
+.moreChallengeDetails .form-group.marginLeft{
+    margin-left: 75px;
+}
+.select2-container{
+    height: 55px;
+}
+.select2-container .select2-selection--single{
+    height: 100%;
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: #999999;
+    height: 100%;;
+    font-size:1.125em
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow{
+    height: 100%;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow b{
+    content:"\f078";
+    font-family:"Font Awesome 5 Brands";
+    font-size:1.2em;
+}
+.moreChallengeDetails .form-group span{
+    margin-top:8px;
+    color:#999999;
+    font-family: 'Tajawal', sans-serif;
+
+}
+.dateIcon{
+    position: absolute;
+    LEFT: 11px;
+    TOP: 52px;
 }
