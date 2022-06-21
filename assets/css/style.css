@@ -492,6 +492,8 @@ a:hover {
 
 .yellowBox .statsticsNum {
     color: #D0AD5B;
+    left: 49%;
+    top: 29px;
 }
 
 .mostInteractiveEmployee {

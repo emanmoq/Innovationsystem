@@ -505,8 +505,8 @@ jQuery(function ($) {
         reveal('.voteSec .lampIcon');
     }
         var flag=document.querySelector(".flag");
-        TweenMax.set(flag, {x: 65})
-        TweenMax.to(flag, 2, {x: 0, repeat:-1,ease:Linear.easeNone});
+        TweenMax.set(flag, {x: 20})
+        TweenMax.to(flag, 1, {x: 0, repeat:-3,ease:Linear.easeNone});
       
 
 });
