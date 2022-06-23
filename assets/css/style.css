@@ -14,7 +14,10 @@ body {
     font-family: "GE-SS-Two-Light";
     src: url("../fonts/GE_SS_Two_Light.otf");
 }
-
+@font-face {
+    font-family: "sofiaPro";
+    src: url("../fonts/sofiapro-light.otf");
+}
 @font-face {
     font-family: "GE-SS-Two-medium";
     src: url("../fonts/ArbFONTS-GE_SS_TWO_MEDIUM_5.otf");
@@ -1632,4 +1635,238 @@ border-radius: 8px;
     position: absolute;
     LEFT: 11px;
     TOP: 52px;
+}
+.chatContainer{
+    padding:42px 39px
+}
+.chatUserBox.card,.messagesBox.card{
+    background-color: white;
+    padding:25px 13px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.messagesBox.card{
+    padding: 0;
+}
+
+.input-group.input-group-solid .form-control{
+    background-color: #F9FAFC;
+    height:40px;
+    border:1px solid #DBE5ED;
+}
+.input-group{
+    position: relative;
+}
+.chatUserBox.card.card-custom > .card-body{
+    padding:0;
+}
+.messagesBox.card.card-custom > .card-body{
+    padding:30px 20px
+}
+.svg-icon-lg{
+    position: absolute;
+    left:10px;
+    top:10px;
+    z-index: 999
+}
+.chatUserBox.card .scroll.scroll-pull{
+    padding-left:27px;
+    padding-right: 13px;
+    margin-top:38px
+
+}
+
+.chatUserBox .symbol{
+    position: relative;
+    margin-left:11px;
+    width:50px;
+    height: 50px;
+    background-color: #C3C8AA;
+    justify-content: center;
+    align-items: center;
+    font-family: "sofiaPro";
+    display: inline-flex;
+    font-size: 1em;
+    color: white;
+}
+.chatUserBox .symbol::before{
+    content:"";
+    width:16px;
+    height:16px;
+    border-radius: 50%;
+    border:3px solid #FFFFFF;
+    bottom: 0;
+    left:0;
+    display: block;
+    position: absolute;
+    
+}
+.chatUserBox .symbol.active::before{
+    background-color:#76C00D ;
+}
+.chatUserBox .symbol.away:before{
+    background-color:#FFBD08 ;
+
+}
+.chatUserBox .symbol.offline:before{
+    background-color: #AFBBC6;
+}
+.ChatPersonName{
+    color:#7B8793;
+    font-size: 1em;
+}
+.ChatgovermentName,.chatTime{
+    font-size:0.75em;
+    color:#7B8793;
+}
+.chatItemBox{
+    margin-bottom: 20px;
+}
+.messagesNum{
+    margin-top:12px;
+    width:20px;
+    height: 20px;
+    display: flex;
+    margin-top:12px;
+    color:white;
+    border-radius: 50%;
+    background-color: #CE7847;
+    justify-content: center;
+    font-size:.75em;
+    align-items: center;
+    font-family: "sofiaPro";
+}
+
+.messagesBox.card > .card-header{
+    background-color: #BCD0DB;
+    padding: 21px 36px;
+    color:white
+}
+.availableStatus{
+position: relative;
+font-size:1em;
+}
+.availableStatus:before{
+    content:"";
+ float: right;
+    margin-left:7px;
+    width:11px;
+    height: 11px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: 5px;
+}
+.availableStatus.active:before{
+    background-color: #76C00D;
+}
+.availableStatus.away:before{
+    background-color:#FFBD08 ;
+
+}
+.availableStatus.offline:before{
+    background-color: #AFBBC6;
+}
+.messagesBox.card > .card-header p{
+font-size:1.125em;
+margin-bottom: 5px;
+}
+.chatText{
+    border-radius: 20px;
+    padding:19px;
+    display: inline-block;
+    position: relative;
+    margin-right: 25px;
+}
+.chatText p{
+    font-size:.875em;
+    color:#373A39;
+    margin-bottom: 5px;
+    max-width:300px ;
+    border-radius: 12px;
+}
+.lightChatBox{
+    background-color: #D9DCC7
+}
+.chatText span{
+    font-size: .8125em;
+   color: #373A39
+}
+.messageItemBoxImg{
+    display: inline-flex;
+}
+.messageTime{
+    margin-top:10px;
+    width: 100%;
+    margin-top: 10px;
+    max-width: 300px;
+    color:#7D9D92;
+    font-size:.8125em;
+    display: flex;
+    flex-direction: column;
+}
+.rightPoint,.leftPoint{
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: rotate(-45deg);
+    border-top:  35px solid #D9DCC7;
+    right: -17px;
+    bottom: -14px;
+    z-index: 0;
+}
+.leftPoint{
+    right: auto;
+    left:-17px;
+    border-top: 35px solid #8D8582;;
+    transform: rotate(45deg);
+}
+
+.darkChatBox{
+    background-color: #8D8582;;
+    margin-right: 0;
+    margin-left:25px;
+}
+.darkChatBox p, .darkChatBox span{
+    color:white
+}
+.messages{
+    margin-bottom: 36px;
+}
+.messagesBox .card-footer{
+    padding: 0;
+    margin:31px 21px;
+    padding-top: 22px;
+}
+textarea{
+    resize: none;
+}
+.btn.chat-send{
+    background-color: #7D9D92;
+    border-radius: 5px;
+    width:87px;
+    height: 51px;
+    font-size: .875em;
+    color:white;
+    padding:0;
+    justify-content: center;
+    align-items: center;
+}
+.sendIcon{
+    display: inline-block;
+}
+.dropzone{
+    border:0;
+    padding: 0;
+    width:19px;
+    margin-left: 15px;
+}
+.dropzone .dz-message .dz-button{
+    display: none;
+    position: absolute
+}
+.attachIcon{
+    width: 100%;height: 100%;
 }

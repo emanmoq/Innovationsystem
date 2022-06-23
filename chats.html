@@ -1,0 +1,559 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Innovation system </title>
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Tajawal:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="assets/images/logo.png">
+    <link href="assets/css/animate.css" rel="stylesheet">
+    <link href="assets/css/plugins.bundle.css" rel="stylesheet">
+    <link href="assets/css/style.bundle.css" rel="stylesheet">
+    <link href="assets/css/prismjs.bundle.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <div class="topHeader">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="logo">
+                            <a href="index.html"> <img src="assets/images/logo.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <form class="searchBox">
+                            <input type="text" class="form-control searchInput" placeholder="البحث">
+                            <button class="searchIcon" type="submit"><svg id="ico_24_actions_search"
+                                    data-name="ico / 24 / actions / search" xmlns="http://www.w3.org/2000/svg"
+                                    width="24" height="24" viewBox="0 0 24 24">
+                                    <rect id="Bounding_box" data-name="Bounding box" width="24" height="24"
+                                        fill="rgba(255,255,255,0)" />
+                                    <path id="Icon_color" data-name="Icon color"
+                                        d="M16.8,18a.5.5,0,0,1-.355-.149l-4-4a2.683,2.683,0,0,1-.3-.361l-.75-1a7.026,7.026,0,0,1-4.37,1.532H7A7.01,7.01,0,0,1,3.974.69a6.991,6.991,0,0,1,8.518,1.971,7.016,7.016,0,0,1-.046,8.753l1,.691a2.471,2.471,0,0,1,.43.35l4,4.005a.5.5,0,0,1-.02.691l-.7.7A.5.5,0,0,1,16.8,18ZM7.025,2a5.008,5.008,0,1,0,5,5.007A5.009,5.009,0,0,0,7.025,2Z"
+                                        transform="translate(3 3)" fill="#707070" />
+                                </svg>
+                            </button>
+                        </form>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="profileIcons clearfix">
+                            <div class="dropdown notifications">
+                                <button class="notificationsbtn btn" type="button" id="notificationsbtn"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <span class="notifyNum">1</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                                        <path id="Icon_color" data-name="Icon color"
+                                            d="M8,16a1.6,1.6,0,0,1-1.6-1.6H9.6A1.6,1.6,0,0,1,8,16Zm5.6-3.2H2.4a.8.8,0,0,1-.8-.8v-.472a.806.806,0,0,1,.232-.56L2.5,10.3a2.417,2.417,0,0,0,.7-1.7V6.4a4.828,4.828,0,0,1,.96-2.88l.72-.96A2.411,2.411,0,0,1,6.8,1.6h.4V.4A.4.4,0,0,1,7.6,0h.8a.4.4,0,0,1,.4.4V1.6h.4a2.411,2.411,0,0,1,1.92.96l.72.96A4.828,4.828,0,0,1,12.8,6.4V8.608a2.417,2.417,0,0,0,.7,1.7l.664.664a.806.806,0,0,1,.232.56V12A.8.8,0,0,1,13.6,12.8Zm1.992-6.4h-.8a.4.4,0,0,1-.392-.384,6.471,6.471,0,0,0-1.312-3.448.29.29,0,0,1,.048-.4l.8-.624a.358.358,0,0,1,.216-.073h.031A.306.306,0,0,1,14.4,1.6,8.083,8.083,0,0,1,16,5.976a.438.438,0,0,1-.12.3.4.4,0,0,1-.288.128ZM1.2,6.4H.4a.386.386,0,0,1-.288-.128A.375.375,0,0,1,0,5.976,8.011,8.011,0,0,1,1.6,1.6a.3.3,0,0,1,.184-.128l.035,0a.32.32,0,0,1,.205.074l.8.624a.289.289,0,0,1,.048.4A6.48,6.48,0,0,0,1.6,6.016.41.41,0,0,1,1.2,6.4Z"
+                                            transform="translate(0)" fill="#ce7847" />
+                                    </svg>
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="langBtn">
+                                    <a class="dropdown-item" href="#">اشعار 1</a>
+                                    <a class="dropdown-item" href="#"> اشعار2</a>
+                                </div>
+                            </div>
+                            <div class="lang dropdown">
+                                <button class="langBtn btn" type="button" id="langBtn" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">
+
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20.911" height="20.911"
+                                        viewBox="0 0 20.911 20.911">
+                                        <path id="noun-language-1631796_1_" data-name="noun-language-1631796 (1)"
+                                            d="M127.125,46.668a10.455,10.455,0,1,0,10.455,10.455A10.455,10.455,0,0,0,127.125,46.668Zm7.233,6.273h-2.922a14.272,14.272,0,0,0-1.157-3.56,8.407,8.407,0,0,1,4.078,3.56Zm1.132,4.182a8.321,8.321,0,0,1-.275,2.091h-3.479c.062-.676.095-1.375.095-2.091s-.033-1.415-.095-2.091h3.479A8.328,8.328,0,0,1,135.49,57.124Zm-8.365,8.365c-.455,0-1.552-1.459-2.17-4.182H129.3c-.618,2.724-1.715,4.182-2.17,4.182Zm-2.507-6.273a20.565,20.565,0,0,1,0-4.182h5.015a20.583,20.583,0,0,1,0,4.182Zm-5.857-2.091a8.329,8.329,0,0,1,.275-2.091h3.479c-.062.676-.095,1.375-.095,2.091s.033,1.415.095,2.091h-3.479A8.329,8.329,0,0,1,118.761,57.124Zm8.365-8.365c.455,0,1.552,1.458,2.17,4.182h-4.341c.618-2.724,1.715-4.182,2.171-4.182Zm-3.154.622a14.263,14.263,0,0,0-1.157,3.56h-2.922a8.407,8.407,0,0,1,4.079-3.56Zm-4.079,11.924h2.922a14.26,14.26,0,0,0,1.157,3.56,8.406,8.406,0,0,1-4.078-3.56Zm10.387,3.56a14.266,14.266,0,0,0,1.157-3.56h2.922a8.406,8.406,0,0,1-4.078,3.56Z"
+                                            transform="translate(-116.67 -46.668)" fill="#d0ad5b" />
+                                    </svg>
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="notificationsbtn">
+                                    <a class="dropdown-item" href="#"> <span class="langIcon"><svg
+                                                xmlns="http://www.w3.org/2000/svg" width="24.833" height="24.833"
+                                                viewBox="0 0 24.833 24.833">
+                                                <g id="noun-arabic-1054740" transform="translate(-97.998 -28)">
+                                                    <path id="Path_791" data-name="Path 791"
+                                                        d="M247.52,187.975h2.042l-.993-3.173Z"
+                                                        transform="translate(-142.155 -149.076)" fill="#7d9d92" />
+                                                    <path id="Path_792" data-name="Path 792"
+                                                        d="M404.141,175.977a1.841,1.841,0,0,0-.773-.138H401.52v2.152h1.821a1.892,1.892,0,0,0,.8-.138.907.907,0,0,0,.469-.911,1.07,1.07,0,0,0-.469-.966Z"
+                                                        transform="translate(-288.567 -140.555)" fill="#7d9d92" />
+                                                    <path id="Path_793" data-name="Path 793"
+                                                        d="M119.8,28H101.033A2.937,2.937,0,0,0,98,30.842V45.107a2.937,2.937,0,0,0,3.035,2.842h1.987v4.222a.689.689,0,0,0,.414.607.594.594,0,0,0,.3.055.93.93,0,0,0,.469-.138l6.263-4.746H119.8a2.937,2.937,0,0,0,3.035-2.842V30.842A2.937,2.937,0,0,0,119.8,28ZM108.4,41.934l-.524-1.656H104.9l-.552,1.656h-1.766l2.87-8.057h1.931l2.842,8.057Zm9.437,0h-1.849c-.055-.166-.083-.331-.11-.442a5.853,5.853,0,0,1-.083-.69v-.745a1.329,1.329,0,0,0-.276-1.021,1.4,1.4,0,0,0-.966-.248H112.9v3.146h-1.656V33.877h3.863a3.083,3.083,0,0,1,1.269.221,1.886,1.886,0,0,1,.745.552,2.863,2.863,0,0,1,.414.69,2.067,2.067,0,0,1,.138.855,2.73,2.73,0,0,1-.276,1.131,1.617,1.617,0,0,1-.966.773,1.564,1.564,0,0,1,.8.635A2.551,2.551,0,0,1,117.45,40v.552a4.039,4.039,0,0,0,.055.745.709.709,0,0,0,.3.469v.166Z"
+                                                        transform="translate(0 0)" fill="#7d9d92" />
+                                                </g>
+                                            </svg>
+                                        </span>العربية</a>
+                                    <a class="dropdown-item" href="#"> <span class="langIcon"><svg
+                                                xmlns="http://www.w3.org/2000/svg" width="24.529" height="24.529"
+                                                viewBox="0 0 24.529 24.529">
+                                                <g id="noun-english-1044185" transform="translate(-97.998 -28)">
+                                                    <path id="Path_836" data-name="Path 836"
+                                                        d="M119.529,28H101a2.9,2.9,0,0,0-3,2.807V44.9a2.9,2.9,0,0,0,3,2.807h1.962v4.17a.68.68,0,0,0,.409.6.586.586,0,0,0,.3.055.919.919,0,0,0,.463-.136l6.187-4.688h9.212a2.9,2.9,0,0,0,3-2.807V30.807a2.9,2.9,0,0,0-3-2.807ZM109.472,41.764h-6.023V33.805h5.833v1.417h-4.2v1.69h3.87V38.3h-3.87v2.044H109.5v1.417Zm7.74,0H115.55l-3.243-5.642v5.642h-1.554V33.805H112.5l3.162,5.56v-5.56h1.554Z"
+                                                        fill="#7d9d92" />
+                                                </g>
+                                            </svg>
+                                        </span>
+                                        الانجليزية</a>
+                                </div>
+                            </div>
+                            <div class="profile dropdown">
+                                <button class="profileBtn btn clearfix" type="button" id="profilebtn"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <span class="profileImg"><img src="assets/images/Ellipse 1.png" alt=""></span>
+                                    <span class="userName">
+                                        <p class="name">
+                                            عمرو
+                                        </p>
+                                        <span class="validity">أدمن</span>
+                                    </span>
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="profilebtn">
+                                    <a class="dropdown-item" href="#"><span class="profileImg"><img
+                                                src="assets/images/Ellipse 1.png" alt=""></span>
+                                        <span class="userName">darkChatBox
+                                            <p class="name">
+                                                عمرو أحمد
+                                            </p>
+                                            <span class="validity">أدمن</span>
+                                        </span></a>
+                                    <a class="dropdown-item" href="#"> <span class="langIcon"><svg
+                                                xmlns="http://www.w3.org/2000/svg" width="18.851" height="16.154"
+                                                viewBox="0 0 18.851 16.154">
+                                                <path id="noun-personal-information-4037194_1_"
+                                                    data-name="noun-personal-information-4037194 (1)"
+                                                    d="M106.951,70a2.027,2.027,0,0,0-2.023,2.018V84.13a2.031,2.031,0,0,0,2.023,2.023h14.81a2.022,2.022,0,0,0,2.018-2.018V72.023A2.027,2.027,0,0,0,121.761,70Zm1.345,2.692h5.725a.336.336,0,0,1,.333.338V74.04a1.448,1.448,0,0,1-1.346,1.346l-6.39,0a.337.337,0,0,1-.338-.338h0l0-.338a2.144,2.144,0,0,1,2.019-2.019Zm7.071.672h1.346a.338.338,0,0,1,0,.676h-1.346a.338.338,0,0,1,0-.676Zm2.694,0H122.1a.338.338,0,1,1,0,.676h-4.035a.338.338,0,1,1,0-.676Zm-2.694,2.022h4.71a.336.336,0,1,1,0,.672h-4.71a.336.336,0,1,1,0-.672Zm6.056,0h.672a.336.336,0,1,1,0,.672h-.672a.336.336,0,1,1,0-.672Zm-14.809.672h6.055a.336.336,0,0,1,.338.337v3.027a3.365,3.365,0,1,1-6.731,0V76.394a.336.336,0,0,1,.338-.337Zm8.753,1.346h1.346a.338.338,0,0,1,0,.676h-1.346a.338.338,0,0,1,0-.676Zm2.694,0h4.035a.338.338,0,1,1,0,.676H118.06a.338.338,0,1,1,0-.676Zm-2.694,2.017h4.71a.338.338,0,0,1,0,.676h-4.71a.338.338,0,1,1,0-.676Zm6.056,0h.672a.338.338,0,1,1,0,.676h-.672a.338.338,0,1,1,0-.676Zm-6.056,2.023h1.346a.335.335,0,0,1,0,.671h-1.346a.335.335,0,1,1,0-.671Zm2.694,0h4.035a.335.335,0,1,1,0,.671H118.06a.335.335,0,1,1,0-.671Z"
+                                                    transform="translate(-104.928 -70)" fill="#4a4a4a" />
+                                            </svg>
+
+                                        </span>
+                                        تعديل الملف الشخصي</a>
+                                    <a class="dropdown-item" href="#"> <span class="langIcon"><svg
+                                                id="noun-password-4149185" xmlns="http://www.w3.org/2000/svg"
+                                                width="17.096" height="19.784" viewBox="0 0 17.096 19.784">
+                                                <path id="Path_774" data-name="Path 774"
+                                                    d="M131.238,17.327a4.911,4.911,0,0,1,4.9,4.907h1.686a6.6,6.6,0,1,0-13.2,0h1.707a4.913,4.913,0,0,1,4.907-4.907Zm6.217,5.718h-12.22a2.438,2.438,0,0,0-2.438,2.438v7.374a2.438,2.438,0,0,0,2.438,2.44h12.22a2.438,2.438,0,0,0,2.438-2.438V25.485a2.438,2.438,0,0,0-2.438-2.44Zm-5.1,7.1v2.379a1.009,1.009,0,0,1-2.018,0V30.145a2.018,2.018,0,1,1,2.018,0Z"
+                                                    transform="translate(-122.797 -15.513)" fill="#4a4a4a" />
+                                            </svg>
+                                        </span>
+                                        تغيير كلمة المرور </a>
+                                    <a class="dropdown-item" href="#"> <span class="langIcon"><svg id="sign_in"
+                                                xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24">
+                                                <rect id="Bounding_box" data-name="Bounding box" width="24" height="24"
+                                                    fill="rgba(255,255,255,0)" />
+                                                <path id="Icon_color" data-name="Icon color"
+                                                    d="M16,18H10.5a.5.5,0,0,1-.5-.5v-1a.5.5,0,0,1,.5-.5H16V2H10.5a.5.5,0,0,1-.5-.5V.5a.5.5,0,0,1,.5-.5H16a2,2,0,0,1,2,2V16A2,2,0,0,1,16,18ZM8.285,15a.5.5,0,0,1-.356-.148l-.71-.7a.5.5,0,0,1,0-.71L10.67,10H.5A.5.5,0,0,1,0,9.5v-1A.5.5,0,0,1,.5,8H10.67L7.22,4.56a.491.491,0,0,1,0-.7l.71-.71A.5.5,0,0,1,8.285,3a.5.5,0,0,1,.355.148l5.14,5.13a.768.768,0,0,1,.22.53v.38a.76.76,0,0,1-.22.53L8.64,14.85A.5.5,0,0,1,8.285,15Z"
+                                                    transform="translate(3 3)" opacity="0.7" />
+                                            </svg>
+
+
+                                        </span>
+                                        تسجيل خروج </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mainMenu">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <nav class="navbar navbar-expand-lg">
+                            <a class="navbar-brand" href="index.html"></a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarNav">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item ">
+                                        <a class="nav-link" href="index.html">لوحة التحكم </a>
+                                    </li>
+                                    <li class="nav-item  active dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="challenges" role="button"
+                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            التحديات
+                                        </a>
+                                        <div class="dropdown-menu" aria-labelledby="challenges">
+                                            <a class="dropdown-item" href="#">المقترحات المستلمة</a>
+                                            <a class="dropdown-item" href="#">مقترحات تم تغييرها سابقا </a>
+                                            <a class="dropdown-item" href="#">تقييم المقترحات الجديدة </a>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="suggestions" role="button"
+                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            المقترحات
+                                        </a>
+                                        <div class="dropdown-menu" aria-labelledby="suggestions">
+                                            <a class="dropdown-item" href="#">طرح تحدي</a>
+                                            <a class="dropdown-item" href="#">التحديات المطروحة</a>
+                                            <a class="dropdown-item" href="#">التحديات المطروحة مسبقا</a>
+                                            <a class="dropdown-item" href="#">التحديات المستلمة</a>
+
+                                        </div>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">محادثاتي</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">الملف الشخصي</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="createNewChallengr">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="createChallengeBox chatContainer">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <!--begin::Card-->
+                                <div class="card chatUserBox card-custom" id="kt_chat_aside">
+                                    <!--begin::Body-->
+                                    <div class="card-body">
+                                        <div class="input-group input-group-solid">
+                                            <input type="text" class="form-control" placeholder="البريد الالكتروني" />
+                                            <span class="svg-icon svg-icon-lg">
+                                                <!--begin::Svg Icon | path:assets/media/svg/icons/General/Search.svg-->
+                                                <svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="24px"
+                                                    height="24px" viewBox="0 0 24 24" version="1.1">
+                                                    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                                        <rect x="0" y="0" width="24" height="24" />
+                                                        <path
+                                                            d="M14.2928932,16.7071068 C13.9023689,16.3165825 13.9023689,15.6834175 14.2928932,15.2928932 C14.6834175,14.9023689 15.3165825,14.9023689 15.7071068,15.2928932 L19.7071068,19.2928932 C20.0976311,19.6834175 20.0976311,20.3165825 19.7071068,20.7071068 C19.3165825,21.0976311 18.6834175,21.0976311 18.2928932,20.7071068 L14.2928932,16.7071068 Z"
+                                                            fill="#000000" fill-rule="nonzero" opacity="0.3" />
+                                                        <path
+                                                            d="M11,16 C13.7614237,16 16,13.7614237 16,11 C16,8.23857625 13.7614237,6 11,6 C8.23857625,6 6,8.23857625 6,11 C6,13.7614237 8.23857625,16 11,16 Z M11,18 C7.13400675,18 4,14.8659932 4,11 C4,7.13400675 7.13400675,4 11,4 C14.8659932,4 18,7.13400675 18,11 C18,14.8659932 14.8659932,18 11,18 Z"
+                                                            fill="#000000" fill-rule="nonzero" />
+                                                    </g>
+                                                </svg>
+                                                <!--end::Svg Icon-->
+                                            </span>
+                                        </div>
+                                        <!--begin:Users-->
+                                        <div class="scroll scroll-pull">
+                                            <!--begin:User-->
+                                            <div class="d-flex align-items-center justify-content-between chatItemBox">
+                                                <div class="d-flex align-items-center">
+                                                    <div class="symbol  active symbol-circle symbol-50 ">
+                                                        <img alt="Pic" src="assets/images/chat1.jpg" />
+                                                    </div>
+                                                    <div class="d-flex flex-column">
+                                                        <a href="#" class="ChatPersonName"></a>
+                                                        <p>عبدالله</p>
+                                                        </a>
+                                                        <span class="ChatgovermentName">
+                                                            اسم الجهة الحكومية
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex flex-column align-items-end">
+                                                    <span class="chatTime">منذ ساعة
+                                                    </span>
+                                                    <span class="messagesNum">4</span>
+
+                                                </div>
+                                            </div>
+                                            <!--end:User-->
+                                            <!--begin:User-->
+                                            <div class="d-flex align-items-center justify-content-between chatItemBox">
+                                                <div class="d-flex align-items-center">
+                                                    <div class="symbol  active symbol-circle symbol-50 ">
+                                                        <span>RL</span>
+                                                    </div>
+                                                    <div class="d-flex flex-column">
+                                                        <a href="#" class="ChatPersonName">
+                                                            <p>خالد</p>
+                                                        </a>
+                                                        <span class="ChatgovermentName">
+                                                            اسم الجهة الحكومية
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex flex-column align-items-end">
+                                                    <span class="chatTime">منذ ساعتين
+                                                    </span>
+                                                    <span class="messagesNum">4</span>
+
+                                                </div>
+                                            </div>
+                                            <!--end:User-->
+                                            <!--begin:User-->
+                                            <div class="d-flex align-items-center justify-content-between chatItemBox">
+                                                <div class="d-flex align-items-center">
+                                                    <div class="symbol  away symbol-circle symbol-50 ">
+                                                        <img alt="Pic" src="assets/images/chat2.png" />
+                                                    </div>
+                                                    <div class="d-flex flex-column">
+                                                        <a href="#" class="ChatPersonName"></a>
+                                                        <p>أسماء</p>
+                                                        </a>
+                                                        <span class="ChatgovermentName">
+                                                            اسم الجهة الحكومية
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex flex-column align-items-end">
+                                                    <span class="chatTime">منذ 6 ساعات
+                                                    </span>
+                                                    <span class="messagesNum">4</span>
+
+                                                </div>
+                                            </div>
+                                            <div class="d-flex align-items-center justify-content-between chatItemBox">
+                                                <div class="d-flex align-items-center">
+                                                    <div class="symbol  offline symbol-circle symbol-50 ">
+                                                        <img alt="Pic" src="assets/images/chat2.png" />
+                                                    </div>
+                                                    <div class="d-flex flex-column">
+                                                        <a href="#" class="ChatPersonName"></a>
+                                                        <p>أسماء</p>
+                                                        </a>
+                                                        <span class="ChatgovermentName">
+                                                            اسم الجهة الحكومية
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex flex-column align-items-end">
+                                                    <span class="chatTime">منذ 6 ساعات
+                                                    </span>
+                                                    <span class="messagesNum">4</span>
+
+                                                </div>
+                                            </div>
+                                            <!--end:User-->
+                                            <div class="d-flex align-items-center justify-content-between chatItemBox">
+                                                <div class="d-flex align-items-center">
+                                                    <div class="symbol  active symbol-circle symbol-50 ">
+                                                        <img alt="Pic" src="assets/images/chat4.png" />
+                                                    </div>
+                                                    <div class="d-flex flex-column">
+                                                        <a href="#" class="ChatPersonName">
+                                                            <p>أحمد</p>
+                                                        </a>
+                                                        <span class="ChatgovermentName">
+                                                            اسم الجهة الحكومية
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex flex-column align-items-end">
+                                                    <span class="chatTime">منذ يومين
+                                                    </span>
+
+                                                </div>
+                                            </div>
+                                            <!--end:User-->
+                                            <!--begin:User-->
+                                            <div class="d-flex align-items-center justify-content-between chatItemBox">
+                                                <div class="d-flex align-items-center">
+                                                    <div class="symbol  away symbol-circle symbol-50 ">
+                                                        <img alt="Pic" src="assets/images/chat2.png" />
+                                                    </div>
+                                                    <div class="d-flex flex-column">
+                                                        <a href="#" class="ChatPersonName"></a>
+                                                        <p>فيصل</p>
+                                                        </a>
+                                                        <span class="ChatgovermentName">
+                                                            اسم الجهة الحكومية
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex flex-column align-items-end">
+                                                    <span class="chatTime">منذ 3 أيام
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <!--end:User-->
+                                            <!--begin:User-->
+                                            <div class="d-flex align-items-center justify-content-between chatItemBox">
+                                                <div class="d-flex align-items-center">
+                                                    <div class="symbol  offline symbol-circle symbol-50 ">
+                                                        <span>BB</span>
+                                                    </div>
+                                                    <div class="d-flex flex-column">
+                                                        <a href="#" class="ChatPersonName"></a>
+                                                        <p>بلال</p>
+                                                        </a>
+                                                        <span class="ChatgovermentName">
+                                                            اسم الجهة الحكومية
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex flex-column align-items-end">
+                                                    <span class="chatTime">منذ أسبوع
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <!--end:User-->
+
+                                        </div>
+                                        <!--end:Users-->
+                                    </div>
+                                    <!--end::Body-->
+                                </div>
+                                <!--end::Card-->
+                            </div>
+                            <div class="col-md-8">
+                                <!--begin::Card-->
+                                <div class="card messagesBox" id="kt_chat_content">
+                                    <!--begin::Header-->
+                                    <div class="card-header">
+                                        <div class="text-right">
+                                            <p class="">عبد الله
+
+                                            </p>
+                                            <span class="availableStatus active">متاح</span>
+                                        </div>
+                                    </div>
+                                    <!--end::Header-->
+                                    <!--begin::Body-->
+                                    <div class="card-body">
+                                        <!--begin::Scroll-->
+                                        <div class="scroll scroll-pull" data-mobile-height="350">
+                                            <!--begin::Messages-->
+                                            <div class="messages d-flex flex-column align-items-start">
+                                                <!--begin::Message In-->
+                                                <div class="d-flex  messageItemBox ">
+                                                    <div class="messageItemBoxImg align-items-end">
+                                                        <div class="symbol symbol-circle symbol-40">
+                                                            <img alt="Pic" src="assets/images/chat5.png" />
+                                                        </div>
+                                                    </div>
+                                                    <div class="lightChatBox chatText ">
+                                                        <div class="rightPoint"></div>
+                                                        <p>عبد الله</p>
+                                                        <span> مثال على نص عربي يوضح تعليق على التحدي</span>
+                                                    </div>
+
+                                                </div>
+                                                <div class="messageTime text-left align-items-end">
+                                                    <span>09:35</span>
+                                                </div>
+                                                <!--end::Message In-->
+                                                <!--begin::Message Out-->
+
+                                            </div>
+                                            <!--end::Messages-->
+                                            <div class="messages d-flex flex-column align-items-end">
+                                                <!--begin::Message In-->
+                                                <div class="d-flex  messageItemBox">
+                                                    <div class=" chatText darkChatBox ">
+                                                        <div class="leftPoint"></div>
+                                                        <p>عبد الله</p>
+                                                        <span> مثال على نص عربي يوضح تعليق على التحدي</span>
+                                                    </div>
+                                                    <div class="messageItemBoxImg  align-items-end">
+                                                        <div class="symbol symbol-circle symbol-40">
+                                                            <img alt="Pic" src="assets/images/chat5.png" />
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="messageTime text-right align-items-start ">
+                                                    <span>09:35</span>
+                                                </div>
+                                                <!--end::Message In-->
+                                                <!--begin::Message Out-->
+
+                                            </div>
+                                            <!--end::Messages-->
+                                        </div>
+                                        <!--end::Scroll-->
+                                    </div>
+                                    <!--end::Body-->
+                                    <!--begin::Footer-->
+                                    <div class="card-footer align-items-center d-flex">
+                                        <!--begin::Compose-->
+                                        <textarea class="form-control border-0 p-0" rows="2"
+                                            placeholder="..اكتب رسالة"></textarea>
+                                        <div class="dropzone" id="kt_dropzone_1">
+                                            <div class="dropzone" id="kt_dropzone_1">
+                                                <div class="dropzone-msg dz-message ">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" class="attachIcon"
+                                                    width="22.384" height="23.174" viewBox="0 0 22.384 23.174">
+                                                    <g id="Group_25" data-name="Group 25" transform="translate(1 1)">
+                                                        <path id="paperclip"
+                                                            d="M21.972,11.314,12.53,20.756a6.168,6.168,0,1,1-8.722-8.722l9.441-9.441a4.112,4.112,0,1,1,5.815,5.815L9.613,17.848a2.056,2.056,0,1,1-2.907-2.907l8.722-8.712"
+                                                            transform="translate(-2.002 -1.388)" fill="none"
+                                                            stroke="#787993" stroke-linecap="round"
+                                                            stroke-linejoin="round" stroke-width="2" />
+                                                    </g>
+                                                </svg>
+                                                </div>
+                                            </div>
+                                        
+                                        </div>
+                                        <div>
+                                            <button type="button" class="btn  chat-send">
+                                                <span> ارسال
+                                                    <svg class="sendIcon" xmlns="http://www.w3.org/2000/svg"
+                                                        width="17.825" height="17.825" viewBox="0 0 17.825 17.825">
+                                                        <g id="send" transform="translate(1 1.414)">
+                                                            <line id="Line_25" data-name="Line 25" x1="8.476" y2="8.476"
+                                                                transform="translate(6.935)" fill="none" stroke="#fff"
+                                                                stroke-linecap="round" stroke-linejoin="round"
+                                                                stroke-width="2" />
+                                                            <path id="Path_50" data-name="Path 50"
+                                                                d="M17.41,2,12.017,17.41,8.935,10.476,2,7.394Z"
+                                                                transform="translate(-2 -2)" fill="none" stroke="#fff"
+                                                                stroke-linecap="round" stroke-linejoin="round"
+                                                                stroke-width="2" />
+                                                        </g>
+                                                    </svg></span></button>
+                                        </div>
+
+                                        <!--begin::Compose-->
+                                    </div>
+                                    <!--end::Footer-->
+                                </div>
+                                <!--end::Card-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript" src="assets/js/jquery.js"></script>
+    <script type="text/javascript" src="assets/js/popper.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+    <script>var KTAppSettings = { "breakpoints": { "sm": 576, "md": 768, "lg": 992, "xl": 1200, "xxl": 1400 }, "colors": { "theme": { "base": { "white": "#ffffff", "primary": "#3699FF", "secondary": "#E5EAEE", "success": "#1BC5BD", "info": "#8950FC", "warning": "#FFA800", "danger": "#F64E60", "light": "#E4E6EF", "dark": "#181C32" }, "light": { "white": "#ffffff", "primary": "#E1F0FF", "secondary": "#EBEDF3", "success": "#C9F7F5", "info": "#EEE5FF", "warning": "#FFF4DE", "danger": "#FFE2E5", "light": "#F3F6F9", "dark": "#D6D6E0" }, "inverse": { "white": "#ffffff", "primary": "#ffffff", "secondary": "#3F4254", "success": "#ffffff", "info": "#ffffff", "warning": "#ffffff", "danger": "#ffffff", "light": "#464E5F", "dark": "#ffffff" } }, "gray": { "gray-100": "#F3F6F9", "gray-200": "#EBEDF3", "gray-300": "#E4E6EF", "gray-400": "#D1D3E0", "gray-500": "#B5B5C3", "gray-600": "#7E8299", "gray-700": "#5E6278", "gray-800": "#3F4254", "gray-900": "#181C32" } }, "font-family": "Poppins" };</script>
+    <script src="assets/js/plugins.bundle.js"></script>
+    <script src="assets/js/prismjs.bundle.js"></script>
+    <script src="assets/js/scripts.bundle.js"></script>
+    <script src="assets/js/wow.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script type="text/javascript" src="assets/js/chat.js"></script>
+    <script type="text/javascript" src="assets/js/fileUpload.js"></script>
+
+    <script type="text/javascript" src="assets/js/main.js"></script>
+    <!--  <script type="text/javascript" src="assets/js/jquery1.js"></script>
+  <script type="text/javascript" src="assets/js/waypoints-min.js"></script>
+  <script type="text/javascript" src="assets/js/countUp.js"></script>-->
+
+
+
+
+</body>
+
+</html>
