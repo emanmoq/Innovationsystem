@@ -14,10 +14,12 @@ body {
     font-family: "GE-SS-Two-Light";
     src: url("../fonts/GE_SS_Two_Light.otf");
 }
+
 @font-face {
     font-family: "sofiaPro";
     src: url("../fonts/sofiapro-light.otf");
 }
+
 @font-face {
     font-family: "GE-SS-Two-medium";
     src: url("../fonts/ArbFONTS-GE_SS_TWO_MEDIUM_5.otf");
@@ -578,7 +580,7 @@ a:hover {
     height: 61px;
     border-radius: 8px;
     padding: 7px;
-    transition: all .5s;  
+    transition: all .5s;
 }
 
 .employeeBox:hover {
@@ -1169,7 +1171,7 @@ a:hover {
 }
 
 #rotateSVg {
-    animation:  swing 2s infinite
+    animation: swing 2s infinite
 }
 
 @keyframes goldColor {
@@ -1504,183 +1506,223 @@ a:hover {
     top: 60%;
     animation-delay: -.7s
 }
-.loading{
+
+.loading {
     margin-top: 30px;
     width: 100px;
 }
-.createNewChallengr{
-    padding-top:34px;
+
+.createNewChallengr {
+    padding-top: 34px;
     padding-bottom: 39px;
 }
-.breadcrumb{
+
+.breadcrumb {
     background-color: transparent;
     margin-bottom: 19px;
 }
- .breadcrumb-item,.breadcrumb-item.active{
+
+.breadcrumb-item,
+.breadcrumb-item.active {
     font-size: 1.125em;
-    color:#242424;
+    color: #242424;
 }
-.breadcrumb-item+.breadcrumb-item::before{
-    margin-left:5px
+
+.breadcrumb-item+.breadcrumb-item::before {
+    margin-left: 5px
 }
-.breadcrumb-item:hover a{
-    color:#7D9D92
+
+.breadcrumb-item:hover a {
+    color: #7D9D92
 }
-.createChallengeBox{
+
+.createChallengeBox {
     width: 100%;
     background-color: #FAF3E8;
     border-radius: 12px;
     overflow: hidden;
     padding-bottom: 80px;
 }
-.createChallengeBoxHeader{
+
+.createChallengeBoxHeader {
     background-color: #90AFC4;
     padding: 16px 24px;
     border-radius: 12px 12px 0 0;
 }
-.createChallengeBoxHeaderIcon{
-    margin-left:12px;
+
+.createChallengeBoxHeaderIcon {
+    margin-left: 12px;
     display: inline-block;
 }
-.createChallengeBoxHeader p{
-    color:white;
+
+.createChallengeBoxHeader p {
+    color: white;
     display: inline-block;
 }
-.creatchallengeContent{
-    padding-top:57px;
-    padding-right:57px;
+
+.creatchallengeContent {
+    padding-top: 57px;
+    padding-right: 57px;
     padding-left: 25px;
 }
-.createchallengesForm{
+
+.createchallengesForm {
     position: relative;
 }
-.headIcon{
-  position: absolute;
-  right: 0;
+
+.headIcon {
+    position: absolute;
+    right: 0;
 }
-.createchallengedetails .form-group{
-    width:750px;
+
+.createchallengedetails .form-group {
+    width: 750px;
     float: right;
     position: relative;
 }
 
-.createchallengesForm .form-control{
-height: 56px;
-background-color: white;
-border:1px solid #C6C6C6;
-border-radius: 8px;
+.createchallengesForm .form-control {
+    height: 56px;
+    background-color: white;
+    border: 1px solid #C6C6C6;
+    border-radius: 8px;
 }
-.challengeTitle{
-    margin-right:355px;
+
+.challengeTitle {
+    margin-right: 355px;
     margin-bottom: 28px;
-    margin-top:20px
+    margin-top: 20px
 }
-.descripChallengeForm-group{
+
+.descripChallengeForm-group {
     margin-right: 416px;
     margin-bottom: 41px;
 }
-.reasonhallengeForm-group{
+
+.reasonhallengeForm-group {
     margin-right: 439px;
     margin-bottom: 73px;
 }
-.ProceduresChallenge-group{
+
+.ProceduresChallenge-group {
     margin-right: 425px;
     margin-bottom: 90px;
 }
-.benfitChallenge-group{
-    margin-right: 300px;  
+
+.benfitChallenge-group {
+    margin-right: 300px;
 }
 
-.moreChallengeDetails{
-    margin-top: 118px;;
+.moreChallengeDetails {
+    margin-top: 118px;
+    ;
 }
-.moreChallengeDetails label{
-    color:#242424;
+
+.moreChallengeDetails label {
+    color: #242424;
     margin-bottom: 11px;
 }
-.moreChallengeDetails .form-group{
-    width:46%;
-    float:right;
+
+.moreChallengeDetails .form-group {
+    width: 46%;
+    float: right;
     margin-bottom: 37px;
     position: relative;
 }
-.moreChallengeDetails .form-group.marginLeft{
+
+.moreChallengeDetails .form-group.marginLeft {
     margin-left: 75px;
 }
-.select2-container{
+
+.select2-container {
     height: 55px;
 }
-.select2-container .select2-selection--single{
+
+.select2-container .select2-selection--single {
     height: 100%;
 }
+
 .select2-container--default .select2-selection--single .select2-selection__rendered {
     color: #999999;
-    height: 100%;;
-    font-size:1.125em
+    height: 100%;
+    ;
+    font-size: 1.125em
 }
-.select2-container--default .select2-selection--single .select2-selection__arrow{
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
     height: 100%;
 }
-.select2-container--default .select2-selection--single .select2-selection__arrow b{
-    content:"\f078";
-    font-family:"Font Awesome 5 Brands";
-    font-size:1.2em;
+
+.select2-container--default .select2-selection--single .select2-selection__arrow b {
+    content: "\f078";
+    font-family: "Font Awesome 5 Brands";
+    font-size: 1.2em;
 }
-.moreChallengeDetails .form-group span{
-    margin-top:8px;
-    color:#999999;
+
+.moreChallengeDetails .form-group span {
+    margin-top: 8px;
+    color: #999999;
     font-family: 'Tajawal', sans-serif;
 
 }
-.dateIcon{
+
+.dateIcon {
     position: absolute;
     LEFT: 11px;
     TOP: 52px;
 }
-.chatContainer{
-    padding:42px 39px
+
+.chatContainer {
+    padding: 42px 39px
 }
-.chatUserBox.card,.messagesBox.card{
+
+.chatUserBox.card,
+.messagesBox.card {
     background-color: white;
-    padding:25px 13px;
+    padding: 25px 13px;
     border-radius: 20px;
     overflow: hidden;
 }
-.messagesBox.card{
+
+.messagesBox.card {
     padding: 0;
 }
 
-.input-group.input-group-solid .form-control{
+.input-group.input-group-solid .form-control {
     background-color: #F9FAFC;
-    height:40px;
-    border:1px solid #DBE5ED;
+    height: 40px;
+    border: 1px solid #DBE5ED;
 }
-.input-group{
+
+.input-group {
     position: relative;
 }
-.chatUserBox.card.card-custom > .card-body{
-    padding:0;
+
+.chatUserBox.card.card-custom>.card-body {
+    padding: 0;
 }
-.messagesBox.card.card-custom > .card-body{
-    padding:30px 20px
+
+.messagesBox.card.card-custom>.card-body {
+    padding: 30px 20px
 }
-.svg-icon-lg{
+
+.svg-icon-lg {
     position: absolute;
-    left:10px;
-    top:10px;
+    left: 10px;
+    top: 10px;
     z-index: 999
 }
-.chatUserBox.card .scroll.scroll-pull{
-    padding-left:27px;
-    padding-right: 13px;
-    margin-top:38px
 
+.chatUserBox.card .scroll.scroll-pull {
+    padding-left: 27px;
+    padding-right: 13px;
+    margin-top: 38px
 }
 
-.chatUserBox .symbol{
+.chatUserBox .symbol {
     position: relative;
-    margin-left:11px;
-    width:50px;
+    margin-left: 11px;
+    width: 50px;
     height: 50px;
     background-color: #C3C8AA;
     justify-content: center;
@@ -1690,122 +1732,145 @@ border-radius: 8px;
     font-size: 1em;
     color: white;
 }
-.chatUserBox .symbol::before{
-    content:"";
-    width:16px;
-    height:16px;
+
+.chatUserBox .symbol::before {
+    content: "";
+    width: 16px;
+    height: 16px;
     border-radius: 50%;
-    border:3px solid #FFFFFF;
+    border: 3px solid #FFFFFF;
     bottom: 0;
-    left:0;
+    left: 0;
     display: block;
     position: absolute;
-    
-}
-.chatUserBox .symbol.active::before{
-    background-color:#76C00D ;
-}
-.chatUserBox .symbol.away:before{
-    background-color:#FFBD08 ;
 
 }
-.chatUserBox .symbol.offline:before{
+
+.chatUserBox .symbol.active::before {
+    background-color: #76C00D;
+}
+
+.chatUserBox .symbol.away:before {
+    background-color: #FFBD08;
+
+}
+
+.chatUserBox .symbol.offline:before {
     background-color: #AFBBC6;
 }
-.ChatPersonName{
-    color:#7B8793;
+
+.ChatPersonName {
+    color: #7B8793;
     font-size: 1em;
 }
-.ChatgovermentName,.chatTime{
-    font-size:0.75em;
-    color:#7B8793;
+
+.ChatgovermentName,
+.chatTime {
+    font-size: 0.75em;
+    color: #7B8793;
 }
-.chatItemBox{
+
+.chatItemBox {
     margin-bottom: 20px;
 }
-.messagesNum{
-    margin-top:12px;
-    width:20px;
+
+.messagesNum {
+    margin-top: 12px;
+    width: 20px;
     height: 20px;
     display: flex;
-    margin-top:12px;
-    color:white;
+    margin-top: 12px;
+    color: white;
     border-radius: 50%;
     background-color: #CE7847;
     justify-content: center;
-    font-size:.75em;
+    font-size: .75em;
     align-items: center;
     font-family: "sofiaPro";
 }
 
-.messagesBox.card > .card-header{
+.messagesBox.card>.card-header {
     background-color: #BCD0DB;
     padding: 21px 36px;
-    color:white
+    color: white
 }
-.availableStatus{
-position: relative;
-font-size:1em;
+
+.availableStatus {
+    position: relative;
+    font-size: 1em;
 }
-.availableStatus:before{
-    content:"";
- float: right;
-    margin-left:7px;
-    width:11px;
+
+.availableStatus:before {
+    content: "";
+    float: right;
+    margin-left: 7px;
+    width: 11px;
     height: 11px;
     border-radius: 50%;
     overflow: hidden;
     margin-top: 5px;
 }
-.availableStatus.active:before{
+
+.availableStatus.active:before {
     background-color: #76C00D;
 }
-.availableStatus.away:before{
-    background-color:#FFBD08 ;
+
+.availableStatus.away:before {
+    background-color: #FFBD08;
 
 }
-.availableStatus.offline:before{
+
+.availableStatus.offline:before {
     background-color: #AFBBC6;
 }
-.messagesBox.card > .card-header p{
-font-size:1.125em;
-margin-bottom: 5px;
+
+.messagesBox.card>.card-header p {
+    font-size: 1.125em;
+    margin-bottom: 5px;
 }
-.chatText{
+
+.chatText {
     border-radius: 20px;
-    padding:19px;
+    padding: 19px;
     display: inline-block;
     position: relative;
     margin-right: 25px;
 }
-.chatText p{
-    font-size:.875em;
-    color:#373A39;
+
+.chatText p {
+    font-size: .875em;
+    color: #373A39;
     margin-bottom: 5px;
-    max-width:300px ;
+    max-width: 300px;
     border-radius: 12px;
 }
-.lightChatBox{
+
+.lightChatBox {
     background-color: #D9DCC7
 }
-.chatText span{
+
+.chatText span {
     font-size: .8125em;
-   color: #373A39
+    color: #373A39
 }
-.messageItemBoxImg{
+
+.messageItemBoxImg {
     display: inline-flex;
 }
-.messageTime{
-    margin-top:10px;
+
+.messageTime {
+    margin-top: 10px;
     width: 100%;
     margin-top: 10px;
     max-width: 300px;
-    color:#7D9D92;
-    font-size:.8125em;
+    color: #7D9D92;
+    font-size: .8125em;
     display: flex;
     flex-direction: column;
 }
-.rightPoint,.leftPoint{
+
+.rightPoint,
+.leftPoint {
     content: "";
     position: absolute;
     width: 0px;
@@ -1813,163 +1878,195 @@ margin-bottom: 5px;
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;
     transform: rotate(-45deg);
-    border-top:  35px solid #D9DCC7;
+    border-top: 35px solid #D9DCC7;
     right: -17px;
     bottom: -14px;
     z-index: 0;
 }
-.leftPoint{
+
+.leftPoint {
     right: auto;
-    left:-17px;
-    border-top: 35px solid #8D8582;;
+    left: -17px;
+    border-top: 35px solid #8D8582;
+    ;
     transform: rotate(45deg);
 }
 
-.darkChatBox{
-    background-color: #8D8582;;
+.darkChatBox {
+    background-color: #8D8582;
+    ;
     margin-right: 0;
-    margin-left:25px;
+    margin-left: 25px;
 }
-.darkChatBox p, .darkChatBox span{
-    color:white
+
+.darkChatBox p,
+.darkChatBox span {
+    color: white
 }
-.messages{
+
+.messages {
     margin-bottom: 36px;
 }
-.messagesBox .card-footer{
+
+.messagesBox .card-footer {
     padding: 0;
-    margin:31px 21px;
+    margin: 31px 21px;
     padding-top: 22px;
 }
-textarea{
+
+textarea {
     resize: none;
 }
-.btn.chat-send{
+
+.btn.chat-send {
     background-color: #7D9D92;
     border-radius: 5px;
-    width:87px;
+    width: 87px;
     height: 51px;
     font-size: .875em;
-    color:white;
-    padding:0;
+    color: white;
+    padding: 0;
     justify-content: center;
     align-items: center;
 }
-.sendIcon{
+
+.sendIcon {
     display: inline-block;
 }
-.dropzone{
-    border:0;
+
+.dropzone {
+    border: 0;
     padding: 0;
-    width:19px;
+    width: 19px;
     margin-left: 15px;
 }
-.dropzone .dz-message .dz-button{
+
+.dropzone .dz-message .dz-button {
     display: none;
     position: absolute
 }
-.attachIcon{
-    width: 100%;height: 100%;
+
+.attachIcon {
+    width: 100%;
+    height: 100%;
 }
-.suggChallengeContent{
-    padding:21px 0
+
+.suggChallengeContent {
+    padding: 21px 0
 }
-.suggChallengeContainer{
+
+.suggChallengeContainer {
     background-color: white;
     border-radius: 12px;
-    padding:24px 15px 24px 24px;
+    padding: 24px 15px 24px 24px;
     margin-bottom: 28px;
 }
-.adminImage{
-    width:62px;
-    height:48px;
+
+.adminImage {
+    width: 62px;
+    height: 48px;
     border-radius: 8px;
     overflow: hidden;
-    margin-left:8px;
+    margin-left: 8px;
     display: inline-flex;
     align-items: flex-start
 }
 
 
-.challengeSuggestDetails p{
-background-color: #DEC88F;
-display: inline-block;
-padding:2px 14px;
-border-radius: 5px;
-font-size:.875em;
-margin-bottom: 7px;;
+.challengeSuggestDetails p {
+    background-color: #DEC88F;
+    display: inline-block;
+    padding: 2px 14px;
+    border-radius: 5px;
+    font-size: .875em;
+    margin-bottom: 7px;
+    ;
 }
-.dateOfChallenge span{
-    margin-left:18px;
+
+.dateOfChallenge span {
+    margin-left: 18px;
     font-size: 14px;
     display: flex;
     align-items: flex-start;
 }
 
-.challengesuggTime{
+.challengesuggTime {
     font-family: 'Tajawal', sans-serif;
-    font-size:14px;
+    font-size: 14px;
     display: inline-block;
     text-align: left;
     margin-right: 8px;
 }
-.suggestChallengeAdminCont .downloadBtn{
+
+.suggestChallengeAdminCont .downloadBtn {
     padding: 0
 }
-.suggestChallengeAdminCont .downloadBtn i{
-    color:black
+
+.suggestChallengeAdminCont .downloadBtn i {
+    color: black
 }
-.suggestChallengeAdminCont{
-margin-bottom: 32px;
+
+.suggestChallengeAdminCont {
+    margin-bottom: 32px;
 }
-.suggchallengeTextBox{
+
+.suggchallengeTextBox {
     background-color: white;
-    padding:14px 24px;
+    padding: 14px 24px;
     border-radius: 12px;
-    box-shadow: 5px 5px 25px rgba(0, 0,0, .1);
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, .1);
     margin-bottom: 30px;
 }
-.challengTextInteaction span{
-font-weight: 500;
- font-family: 'Tajawal', sans-serif;
- padding:6px 11px;
- border-radius: 12px;
+
+.challengTextInteaction span {
+    font-weight: 500;
+    font-family: 'Tajawal', sans-serif;
+    padding: 6px 11px;
+    border-radius: 12px;
 }
-.challengTextInteaction .danger{
-    color:#CE7847;
+
+.challengTextInteaction .danger {
+    color: #CE7847;
     background-color: #F1D2BD;
 }
-.commIcon{
-   display: inline-block;
-   margin-left:8px;
+
+.commIcon {
+    display: inline-block;
+    margin-left: 8px;
 }
-.challengTextInteaction  .success{
-color:#769F91
+
+.challengTextInteaction .success {
+    color: #769F91
 }
-.challengTextInteaction{
-    margin-top:20px
+
+.challengTextInteaction {
+    margin-top: 20px
 }
-.addCommentForm{
-    width:100%;
-    padding:7px 12px;
-    border:1px solid rgba(144, 175, 196, .5);
+
+.addCommentForm {
+    width: 100%;
+    padding: 7px 12px;
+    border: 1px solid rgba(144, 175, 196, .5);
     border-radius: 4px;
     height: 51px;
 
 }
-.addCommentForm-group{
-    width:80%;
+
+.addCommentForm-group {
+    width: 80%;
     float: right;
-    margin:0
+    margin: 0
 }
-.addComment-control{
-    border:0;
-    padding:0;
- background-color: transparent;
- height: 100%;
+
+.addComment-control {
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    height: 100%;
 }
-.addCommentBtn{
-    width:35px;
+
+.addCommentBtn {
+    width: 35px;
     height: 35px;
     border-radius: 50%;
     background-color: #90AFC4;
@@ -1977,171 +2074,476 @@ color:#769F91
     text-align: center;
     padding: 0;
 }
-.newestChallenge{
+
+.newestChallenge {
     border-radius: 12px;
     background-color: white;
 }
-.newestChallengeHeader{
-    padding:15px 18px;
+
+.newestChallengeHeader {
+    padding: 15px 18px;
     background-color: #DEC88F;
     border-radius: 12px 12px 0 0;
 }
-.newestChallengeheaderIcon{
-    margin-left:12px;
+
+.newestChallengeheaderIcon {
+    margin-left: 12px;
     display: inline-block;
 }
-.newestChallengeHeader p{
-    font-size:.875em;
+
+.newestChallengeHeader p {
+    font-size: .875em;
     display: inline-block;
 }
-.newestchallengeContainer{
-    padding:25px 11px;
+
+.newestchallengeContainer {
+    padding: 25px 11px;
     overflow: hidden;
 
 }
+
 .newestchallengeContainer .scrollabeleSec {
     padding-left: 30px;
     max-height: 500;
     overflow-y: scroll;
 }
 
- .scrollabeleSec::-webkit-scrollbar {
+.scrollabeleSec::-webkit-scrollbar {
     width: 6px;
-    height: 110px!important;
+    height: 110px !important;
 }
+
 .scrollabeleSec::-webkit-scrollbar-track {
-  background-color: transparent; 
-height: 110px;
+    background-color: transparent;
+    height: 110px;
 }
+
 .scrollabeleSec::-webkit-scrollbar-thumb {
     border-radius: 10px;
-   background-color: #BDCFDB;
-   max-height: 30px;
+    background-color: #BDCFDB;
+    max-height: 30px;
 }
-.Challengereplays{
+
+.Challengereplays {
     margin-bottom: 42px;
 }
-.newwstChallengeBox{
+
+.newwstChallengeBox {
     background-color: rgba(222, 200, 143, .39);
-    padding:11px 10px;
+    padding: 11px 10px;
     border-radius: 12px;
     margin-bottom: 16px;
 }
-.newestAdmnImg{
+
+.newestAdmnImg {
     width: 46px;
     border-radius: 8px;
     overflow: hidden;
     display: inline-flex;
 }
-.newsetAdminDetails p{
-display: inline-flex;
-font-size:.875em;
-color:#373A39;
-align-self: center;
-margin-right: 9px;
+
+.newsetAdminDetails p {
+    display: inline-flex;
+    font-size: .875em;
+    color: #373A39;
+    align-self: center;
+    margin-right: 9px;
 }
-.newsetAdminDetails a{
-    font-size:.875em;
+
+.newsetAdminDetails a {
+    font-size: .875em;
     text-decoration: underline;
-    color:#CD7747;
+    color: #CD7747;
     -ms-flex-positive: 1 !important;
     flex-grow: 1 !important;
     text-align: left;
     align-self: center;
 }
-.newsetAdminDetails{
-    display: flex;  
+
+.newsetAdminDetails {
+    display: flex;
 }
-.newwstChallengeBox span{
+
+.newwstChallengeBox span {
     font-size: .875em;
-    color:#373A39;
+    color: #373A39;
     display: block;
-    margin-top:15px;
+    margin-top: 15px;
 }
-.newestChallengeFooter{
-    margin-top:10px;
+
+.newestChallengeFooter {
+    margin-top: 10px;
     background-color: #BCD0DB;
     display: flex;
-    padding:7px;
+    padding: 7px;
     justify-content: center;
 }
-.newestChallengeFooterIcon{
+
+.newestChallengeFooterIcon {
     display: inline-flex;
-    margin-left:12px;
+    margin-left: 12px;
     width: 26px;
 }
-.newestChallengeFooter p{
+
+.newestChallengeFooter p {
     display: inline-flex;
     align-self: center;
 }
-.newestChallengeFooter span{
+
+.newestChallengeFooter span {
     font-family: 'Tajawal', sans-serif;
     font-size: 1em;
     font-weight: 500;
     display: inline-flex;
     align-self: center;
-    margin:0;
-    margin-right:5px;
+    margin: 0;
+    margin-right: 5px;
 
 }
-.Challengereplays .scrollabeleSec{
+
+.Challengereplays .scrollabeleSec {
     max-height: 318px;
     overflow-y: scroll;
 }
-.replaybox .messageItemBoxImg{
+
+.replaybox .messageItemBoxImg {
     border-radius: 0;
-    width:84px;
+    width: 84px;
 }
 
-.pinkBox{
+.pinkBox {
     background-color: #FAF3E8;
 }
-.pinkBox .rightPoint{
-    border-top-color:#FAF3E8;
+
+.pinkBox .rightPoint {
+    border-top-color: #FAF3E8;
 }
-.chatText  p span{
-    font-size:11px;
+
+.chatText p span {
+    font-size: 11px;
     font-family: "GE-SS-Two-Light";
-    margin-right:15px;
-    opacity:45%;
+    margin-right: 15px;
+    opacity: 45%;
     display: inline-block;
 }
-.chatText{
+
+.chatText {
     margin-bottom: 20px;
 }
-.likeDislike{
+
+.likeDislike {
     margin-right: 10px;
 }
-.likeDislikeIcon{
+
+.likeDislikeIcon {
     display: inline-block;
     margin-left: 6px;
 }
-.likeDislike a{
-    width:57px;
+
+.likeDislike a {
+    width: 57px;
     height: 29px;
     border-radius: 12px;
-    padding:6px 9px;
+    padding: 6px 9px;
     display: inline-block;
-    font-size:11px;
+    font-size: 11px;
     font-family: "GE-SS-Two-medium";
 }
-.likeDislike a.like{
-background-color:#F1D2BD;
-color:#CE7847;
+
+.likeDislike a.like {
+    background-color: #F1D2BD;
+    color: #CE7847;
 }
-.dislike{
-    color:#769F91;
+
+.dislike {
+    color: #769F91;
     margin-right: 10px;
 }
-.grayBox{
+
+.grayBox {
     background-color: #D8D5D0;
     margin-right: 0;
-    margin-left:25px;
+    margin-left: 25px;
 }
-.grayBox .leftPoint{
+
+.grayBox .leftPoint {
     border-top-color: #D8D5D0;
 }
-.replaybox .messages{
-    margin-left:10px;
+
+.replaybox .messages {
+    margin-left: 10px;
     margin-right: 10px;
+}
+
+.reciveChallengeHeader {
+    margin-bottom: 35px;
+}
+
+.importBtn {
+    float: left;
+    width: 163px;
+    height: 46px;
+    background-color: #BCD0DB;
+    border-radius: 8px;
+    font-size: 1.125em;
+    color: rgba(0, 0, 0, .63);
+    padding: 6px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.importIcon {
+    margin-left: 8px;
+    display: inline-block;
+}
+
+.importBtn.dropdown-toggle:after {
+    margin-right: 22px;
+    align-self: center;
+}
+
+.importBtn:hover {
+    background-color: #90AFC4;
+}
+
+.reciveChallengeHeader span {
+    font-size: 1.125em;
+    ;
+}
+
+.tableFilters label {
+    font-size: 1.25em;
+    color: #242424;
+    font-family: 'Tajawal', sans-serif;
+}
+
+.tableFilters .form-control {
+    height: 54px;
+    border: 1px solid #C6C6C6;
+    border-radius: 8px;
+}
+
+.tableFilters .form-control::placeholder {
+    color: #999999;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 1.25em
+}
+
+.flaticon2-search-1 {
+    color: #999999;
+}
+
+.filterSearchBtn {
+    float: left;
+    margin-top: 18px;
+    background-color: #7D9D92;
+    border-radius: 8px;
+    font-size: 1.125em;
+    width: 163px;
+    height: 48px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.btn span {
+    align-self: center;
+}
+
+.btn {
+    transition: all .5s;
+    ;
+}
+
+.btn:hover {
+    transition: all .5s;
+    ;
+}
+
+.filterSearchBtn:hover {
+    background-color: #8ac2af;
+    color: white
+}
+
+.tableEmployeeIimg {
+    width: 39px;
+    height: 39px;
+    border-radius: 50%;
+    margin-left: 11px;
+    float: right;
+}
+
+.tableEmpdesc {
+    float: right;
+}
+
+.tableEmpdesc p {
+    font-size: 14px;
+    margin-bottom: 2px;
+}
+
+.tableEmpdesc span {
+    font-size: 12px;
+}
+
+.recivedSuggTable {
+    border-collapse: separate;
+    border-spacing: 15px 22px;
+    margin-left: auto;
+    margin-right: -14px;
+    margin-top: 70px;
+    width: 103%;
+}
+
+.recivedSuggTable td {
+    font-size: 0.75em;
+}
+
+.recivedSuggTable.table thead {
+    border: 0
+}
+.recivedSuggTable td,
+.recivedSuggTable.table thead th {
+    border-radius: 5px;
+    text-align: center;
+    vertical-align: middle;
+    height: 78px;
+    box-shadow: 0 3px 30px rgba(0, 0, 0, .06);
+    border: 0;
+    position: relative;
+}
+
+.tableHeaderIcon {
+    position: absolute;
+    top: -18px;
+    left: 0;
+    width: 100%;
+    z-index: 0;
+}
+.headerInnerIcon{
+    margin-bottom: 8px;
+}
+.recivedSuggTable th .tableHeaderText {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    top:2px;
+    left:0
+}
+.blueTD {
+    background-color: #E5ECF2;
+}
+
+.recivedSuggTable th {
+    background-color: white;
+    width: 14.2%;
+    font-size: 0.8125em;
+    color: white;
+    position: relative;
+}
+
+.pinkTD {
+    background-color: rgba(242, 210, 187, .7);
+}
+
+.greenTD {
+    background-color: rgba(223, 224, 206, .7);
+}
+
+.yellowTD {
+    background-color: #FAF4E8;
+}
+
+.purbleTD {
+    background-color: rgba(214, 211, 206, .7);
+}
+
+.statusTD {
+    background-color: rgba(214, 211, 206, .38);
+}
+
+.actionsTD {
+    background-color: rgba(208, 224, 214, .38);
+}
+
+.dateTd {
+    font-weight: 500;
+    font-family: 'Tajawal', sans-serif;
+}
+
+.warningStatus {
+    background-color: #F1D2BD;
+    color: #FF6700;
+}
+
+.statusTD span {
+    border-radius: 12px;
+    padding: 4px 6px
+}
+
+.actionsTD a {
+    margin-left: 11px;
+    width: 24px;
+    height: 24px;
+    border-radius: 5px;
+    display: inline-flex;
+}
+
+.actionsTD a:first-child {
+    margin-left: 20px;
+}
+
+.actionsTD a:last-child {
+    margin-left: 0
+}
+
+.delteBtn {
+    background-color: #FAF3E8;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.delteBtn i {
+    color: #FF0000;
+    align-self: center;
+}
+
+.delteBtn:hover {
+    background-color: #f7cec9;
+}
+
+.successStatus {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.dangerStatus {
+    color: #721c24;
+    background-color: #f8d7da;
+}
+.titleText{
+    max-width: 95px;
+    display: inline-flex;
+    text-align: center;
+    justify-content: center;
+}
+.evaSuggTables td,.evaSuggTables th{
+width:17%;
+}
+.actionsTD a.showEvalBtn{
+background-color: #90AFC4;
+border-radius: 8px;
+width:103px;
+height: 46px;
+color:white;
+
+}
+.evaSuggTables .actionsTD a:first-child{
+    margin-left:10px;
+}
+.actionsTD a.showEvalBtn:hover{
+background-color:#498dbc;
 }
