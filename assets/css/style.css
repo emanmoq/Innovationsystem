@@ -1536,6 +1536,7 @@ a:hover {
 .createChallengeBoxHeader{
     background-color: #90AFC4;
     padding: 16px 24px;
+    border-radius: 12px 12px 0 0;
 }
 .createChallengeBoxHeaderIcon{
     margin-left:12px;
@@ -1869,4 +1870,278 @@ textarea{
 }
 .attachIcon{
     width: 100%;height: 100%;
+}
+.suggChallengeContent{
+    padding:21px 0
+}
+.suggChallengeContainer{
+    background-color: white;
+    border-radius: 12px;
+    padding:24px 15px 24px 24px;
+    margin-bottom: 28px;
+}
+.adminImage{
+    width:62px;
+    height:48px;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-left:8px;
+    display: inline-flex;
+    align-items: flex-start
+}
+
+
+.challengeSuggestDetails p{
+background-color: #DEC88F;
+display: inline-block;
+padding:2px 14px;
+border-radius: 5px;
+font-size:.875em;
+margin-bottom: 7px;;
+}
+.dateOfChallenge span{
+    margin-left:18px;
+    font-size: 14px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.challengesuggTime{
+    font-family: 'Tajawal', sans-serif;
+    font-size:14px;
+    display: inline-block;
+    text-align: left;
+    margin-right: 8px;
+}
+.suggestChallengeAdminCont .downloadBtn{
+    padding: 0
+}
+.suggestChallengeAdminCont .downloadBtn i{
+    color:black
+}
+.suggestChallengeAdminCont{
+margin-bottom: 32px;
+}
+.suggchallengeTextBox{
+    background-color: white;
+    padding:14px 24px;
+    border-radius: 12px;
+    box-shadow: 5px 5px 25px rgba(0, 0,0, .1);
+    margin-bottom: 30px;
+}
+.challengTextInteaction span{
+font-weight: 500;
+ font-family: 'Tajawal', sans-serif;
+ padding:6px 11px;
+ border-radius: 12px;
+}
+.challengTextInteaction .danger{
+    color:#CE7847;
+    background-color: #F1D2BD;
+}
+.commIcon{
+   display: inline-block;
+   margin-left:8px;
+}
+.challengTextInteaction  .success{
+color:#769F91
+}
+.challengTextInteaction{
+    margin-top:20px
+}
+.addCommentForm{
+    width:100%;
+    padding:7px 12px;
+    border:1px solid rgba(144, 175, 196, .5);
+    border-radius: 4px;
+    height: 51px;
+
+}
+.addCommentForm-group{
+    width:80%;
+    float: right;
+    margin:0
+}
+.addComment-control{
+    border:0;
+    padding:0;
+ background-color: transparent;
+ height: 100%;
+}
+.addCommentBtn{
+    width:35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #90AFC4;
+    float: left;
+    text-align: center;
+    padding: 0;
+}
+.newestChallenge{
+    border-radius: 12px;
+    background-color: white;
+}
+.newestChallengeHeader{
+    padding:15px 18px;
+    background-color: #DEC88F;
+    border-radius: 12px 12px 0 0;
+}
+.newestChallengeheaderIcon{
+    margin-left:12px;
+    display: inline-block;
+}
+.newestChallengeHeader p{
+    font-size:.875em;
+    display: inline-block;
+}
+.newestchallengeContainer{
+    padding:25px 11px;
+    overflow: hidden;
+
+}
+.newestchallengeContainer .scrollabeleSec {
+    padding-left: 30px;
+    max-height: 500;
+    overflow-y: scroll;
+}
+
+ .scrollabeleSec::-webkit-scrollbar {
+    width: 6px;
+    height: 110px!important;
+}
+.scrollabeleSec::-webkit-scrollbar-track {
+  background-color: transparent; 
+height: 110px;
+}
+.scrollabeleSec::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+   background-color: #BDCFDB;
+   max-height: 30px;
+}
+.Challengereplays{
+    margin-bottom: 42px;
+}
+.newwstChallengeBox{
+    background-color: rgba(222, 200, 143, .39);
+    padding:11px 10px;
+    border-radius: 12px;
+    margin-bottom: 16px;
+}
+.newestAdmnImg{
+    width: 46px;
+    border-radius: 8px;
+    overflow: hidden;
+    display: inline-flex;
+}
+.newsetAdminDetails p{
+display: inline-flex;
+font-size:.875em;
+color:#373A39;
+align-self: center;
+margin-right: 9px;
+}
+.newsetAdminDetails a{
+    font-size:.875em;
+    text-decoration: underline;
+    color:#CD7747;
+    -ms-flex-positive: 1 !important;
+    flex-grow: 1 !important;
+    text-align: left;
+    align-self: center;
+}
+.newsetAdminDetails{
+    display: flex;  
+}
+.newwstChallengeBox span{
+    font-size: .875em;
+    color:#373A39;
+    display: block;
+    margin-top:15px;
+}
+.newestChallengeFooter{
+    margin-top:10px;
+    background-color: #BCD0DB;
+    display: flex;
+    padding:7px;
+    justify-content: center;
+}
+.newestChallengeFooterIcon{
+    display: inline-flex;
+    margin-left:12px;
+    width: 26px;
+}
+.newestChallengeFooter p{
+    display: inline-flex;
+    align-self: center;
+}
+.newestChallengeFooter span{
+    font-family: 'Tajawal', sans-serif;
+    font-size: 1em;
+    font-weight: 500;
+    display: inline-flex;
+    align-self: center;
+    margin:0;
+    margin-right:5px;
+
+}
+.Challengereplays .scrollabeleSec{
+    max-height: 318px;
+    overflow-y: scroll;
+}
+.replaybox .messageItemBoxImg{
+    border-radius: 0;
+    width:84px;
+}
+
+.pinkBox{
+    background-color: #FAF3E8;
+}
+.pinkBox .rightPoint{
+    border-top-color:#FAF3E8;
+}
+.chatText  p span{
+    font-size:11px;
+    font-family: "GE-SS-Two-Light";
+    margin-right:15px;
+    opacity:45%;
+    display: inline-block;
+}
+.chatText{
+    margin-bottom: 20px;
+}
+.likeDislike{
+    margin-right: 10px;
+}
+.likeDislikeIcon{
+    display: inline-block;
+    margin-left: 6px;
+}
+.likeDislike a{
+    width:57px;
+    height: 29px;
+    border-radius: 12px;
+    padding:6px 9px;
+    display: inline-block;
+    font-size:11px;
+    font-family: "GE-SS-Two-medium";
+}
+.likeDislike a.like{
+background-color:#F1D2BD;
+color:#CE7847;
+}
+.dislike{
+    color:#769F91;
+    margin-right: 10px;
+}
+.grayBox{
+    background-color: #D8D5D0;
+    margin-right: 0;
+    margin-left:25px;
+}
+.grayBox .leftPoint{
+    border-top-color: #D8D5D0;
+}
+.replaybox .messages{
+    margin-left:10px;
+    margin-right: 10px;
 }

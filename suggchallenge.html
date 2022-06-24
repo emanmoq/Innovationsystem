@@ -230,111 +230,715 @@
                             <li class="breadcrumb-item active" aria-current="page"> التحديات المطروحة</li>
                         </ol>
                     </nav>
-                    <div class="createChallengeBox">
+                    <div class="suggChallengeBox">
                         <div class="createChallengeBoxHeader">
                             <div class="createChallengeBoxHeaderIcon">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="29.532" height="39.415" viewBox="0 0 29.532 39.415">
-                                    <path id="noun-challenge-3264256" d="M163.974,0a1.231,1.231,0,0,0-.674.219l-10.2,5.1a1.232,1.232,0,0,0,0,2.2l9.666,4.833v2.567h-3.284a1.232,1.232,0,0,0-1.236,1.236v5.473h-7.782a1.232,1.232,0,0,0-1.237,1.239v3.009h-7.792a1.232,1.232,0,0,0-1.227,1.237V38.177a1.231,1.231,0,0,0,1.227,1.236H168.5a1.232,1.232,0,0,0,1.236-1.236V16.155a1.232,1.232,0,0,0-1.236-1.236h-3.274V11.63c0-.013,0-.026,0-.038V1.245A1.232,1.232,0,0,0,163.973,0Z" transform="translate(-140.208 0.002)" fill="#fff"/>
-                                  </svg>
-                                  
+                                <svg xmlns="http://www.w3.org/2000/svg" width="29.532" height="39.415"
+                                    viewBox="0 0 29.532 39.415">
+                                    <path id="noun-challenge-3264256"
+                                        d="M163.974,0a1.231,1.231,0,0,0-.674.219l-10.2,5.1a1.232,1.232,0,0,0,0,2.2l9.666,4.833v2.567h-3.284a1.232,1.232,0,0,0-1.236,1.236v5.473h-7.782a1.232,1.232,0,0,0-1.237,1.239v3.009h-7.792a1.232,1.232,0,0,0-1.227,1.237V38.177a1.231,1.231,0,0,0,1.227,1.236H168.5a1.232,1.232,0,0,0,1.236-1.236V16.155a1.232,1.232,0,0,0-1.236-1.236h-3.274V11.63c0-.013,0-.026,0-.038V1.245A1.232,1.232,0,0,0,163.973,0Z"
+                                        transform="translate(-140.208 0.002)" fill="#fff" />
+                                </svg>
+
                             </div>
                             <p>طرح تحدي جديد</p>
                         </div>
-                        <div class="creatchallengeContent">
-                            <form action="" class="clearfix createchallengesForm">
-                                <div class="headIcon wow bounceInRight" data-wow-duration="2s" data-wow-delay=".2s">
-                                    <img src="assets/images/heade.svg" alt="">
-                                </div>
-                                <div class="createchallengedetails clearfix">
-                                    <div class="form-group challengeTitle wow bounceInRight" data-wow-duration="2s"
-                                        data-wow-delay=".4s">
-                                        <input type="text" class="form-control" placeholder="..اكتب عنوان التحدي هنا">
-                                    </div>
-                                    <div class="form-group wow  bounceInRight descripChallengeForm-group"
-                                        data-wow-duration="2s" data-wow-delay=".6s">
-                                        <input type="text" class="form-control" placeholder="..اكتب وصف التحدي">
-                                    </div>
-                                    <div class="form-group wow  bounceInRight reasonhallengeForm-group"
-                                        data-wow-duration="2s" data-wow-delay=".8s">
-                                        <input type="text" class="form-control"
-                                            placeholder="..اكتب سبب وجود التحدي هنا">
-                                    </div>
-                                    <div class="form-group wow  bounceInRight ProceduresChallenge-group"
-                                        data-wow-duration="2s" data-wow-delay="1s">
-                                        <input type="text" class="form-control"
-                                            placeholder="..اكتب الإجراءات الحالية لمعالجة التحدي">
-                                    </div>
-                                    <div class="form-group wow  bounceInRight benfitChallenge-group"
-                                        data-wow-duration="2s" data-wow-delay="1.2s">
-                                        <input type="text" class="form-control"
-                                            placeholder="..اكتب الفائدة المرجوة من معالجة التحدي">
-                                    </div>
-                                </div>
-                                <div class="moreChallengeDetails clearfix">
-                                    <div class="form-group marginLeft">
-                                        <label for="">الجهة المعنية  بالتحدي</label>
-                                        <select class="form-control" id="kt_select2_1">
-                                            <option value="">
-                                               اختر 
-                                            </option>
-                                            <option value="">
-                                                option1
-                                             </option>
-                                        </select>
-                                    </div>
-                                    <div class="form-group ">
-                                        <label for="">:أولوية التحدي</label>
-                                        <select class="form-control" id="kt_select2_2">
-                                            <option value="">
-                                                حدد أولوية التحدي 
-                                            </option>
-                                            <option value="">
-                                                option1
-                                             </option>
-                                        </select>
-                                    </div>
-                                    <div class="form-group marginLeft">
-                                        <label for=""> :يبدأ في</label>
-                                        <input type="text" class="form-control" readonly="readonly" value="dd/mm/yy" id="kt_datepicker_3" />
-                                        <div class="dateIcon">
-                                            <svg id="Group_10673" data-name="Group 10673" xmlns="http://www.w3.org/2000/svg" width="20.621" height="20.632" viewBox="0 0 20.621 20.632">
-                                                <path id="Path_117" data-name="Path 117" d="M4.773.059a.928.928,0,0,0-.488.508,3.238,3.238,0,0,0-.044.6v.452l-.775.016a3.438,3.438,0,0,0-1.142.129A3.3,3.3,0,0,0,.136,3.949l-.113.363v13.68l.113.363a3.313,3.313,0,0,0,2.187,2.187l.363.113H17.981l.363-.113a3.218,3.218,0,0,0,2.3-2.958c0-.375,0-.416-.1-.569a.72.72,0,0,0-.682-.355.627.627,0,0,0-.428.109.843.843,0,0,0-.379.718,1.625,1.625,0,0,1-1.1,1.481c-.194.069-.589.073-7.611.073s-7.417,0-7.611-.073a1.641,1.641,0,0,1-.993-.944l-.093-.234V11.173c0-6.263,0-6.63.073-6.824a1.624,1.624,0,0,1,.944-.989,2.433,2.433,0,0,1,.9-.109l.674-.016.012.541c.016.48.024.553.113.69a1.061,1.061,0,0,0,.258.262.612.612,0,0,0,.432.109.612.612,0,0,0,.432-.109,1.061,1.061,0,0,0,.258-.262c.089-.137.1-.21.109-.69l.016-.533H9.478l.016.537c.012.5.02.549.121.7a.72.72,0,0,0,.682.355.628.628,0,0,0,.428-.109,1.061,1.061,0,0,0,.258-.262c.089-.137.1-.21.109-.69l.016-.533h3.656l.016.537c.012.5.02.549.121.7a.721.721,0,0,0,.682.355.628.628,0,0,0,.428-.109,1.061,1.061,0,0,0,.258-.262c.089-.137.1-.21.113-.69l.012-.541.694.016a2.383,2.383,0,0,1,.908.1,1.62,1.62,0,0,1,.94.924l.093.234L19.05,9.1l.02,4.58.109.165a.825.825,0,0,0,1.356,0l.109-.165V4.312l-.113-.363a3.308,3.308,0,0,0-2.187-2.183,3.487,3.487,0,0,0-1.158-.129L16.4,1.621l-.016-.533c-.012-.5-.02-.545-.121-.7A.825.825,0,0,0,14.9.39c-.1.153-.109.2-.121.7l-.016.537H11.109l-.016-.537c-.012-.476-.02-.549-.109-.686a1.061,1.061,0,0,0-.258-.262A.628.628,0,0,0,10.3.035.72.72,0,0,0,9.616.39c-.1.153-.109.2-.121.7l-.016.537H5.863l-.016-.537C5.834.616,5.826.543,5.738.406A.867.867,0,0,0,4.773.059Z" transform="translate(-0.023 -0.023)" fill="#636262"/>
-                                                <path id="Path_118" data-name="Path 118" d="M5.049,8.225a.9.9,0,0,0-.5.529.835.835,0,0,0,.355.925.868.868,0,0,0,.848-.012.726.726,0,0,0,.355-.678.723.723,0,0,0-.343-.67A.979.979,0,0,0,5.049,8.225Z" transform="translate(-0.299 -0.523)" fill="#636262"/>
-                                                <path id="Path_119" data-name="Path 119" d="M8.788,8.225a.9.9,0,0,0-.5.529.835.835,0,0,0,.355.925.868.868,0,0,0,.848-.012.726.726,0,0,0,.355-.678.723.723,0,0,0-.343-.67A.979.979,0,0,0,8.788,8.225Z" transform="translate(-0.527 -0.523)" fill="#636262"/>
-                                                <path id="Path_120" data-name="Path 120" d="M12.528,8.225a.905.905,0,0,0-.5.529.835.835,0,0,0,.355.925.868.868,0,0,0,.848-.012.726.726,0,0,0,.355-.678.723.723,0,0,0-.343-.67A.979.979,0,0,0,12.528,8.225Z" transform="translate(-0.756 -0.523)" fill="#636262"/>
-                                                <path id="Path_121" data-name="Path 121" d="M16.267,8.225a.9.9,0,0,0-.5.529.835.835,0,0,0,.355.925.868.868,0,0,0,.848-.012.726.726,0,0,0,.355-.678.723.723,0,0,0-.343-.67A.979.979,0,0,0,16.267,8.225Z" transform="translate(-0.985 -0.523)" fill="#636262"/>
-                                                <path id="Path_122" data-name="Path 122" d="M5.049,11.965a.905.905,0,0,0-.5.529.835.835,0,0,0,.355.925.868.868,0,0,0,.848-.012.826.826,0,0,0,.012-1.349A.979.979,0,0,0,5.049,11.965Z" transform="translate(-0.299 -0.752)" fill="#636262"/>
-                                                <path id="Path_123" data-name="Path 123" d="M8.788,11.965a.905.905,0,0,0-.5.529.835.835,0,0,0,.355.925.868.868,0,0,0,.848-.012.826.826,0,0,0,.012-1.349A.979.979,0,0,0,8.788,11.965Z" transform="translate(-0.527 -0.752)" fill="#636262"/>
-                                                <path id="Path_124" data-name="Path 124" d="M13.217,11.982a1.6,1.6,0,0,0-1.182,1.259A11.153,11.153,0,0,0,12,14.613c.012,1.1.02,1.174.1,1.4a1.652,1.652,0,0,0,.993.944,5.034,5.034,0,0,0,1.457.073,5.034,5.034,0,0,0,1.457-.073,1.641,1.641,0,0,0,.993-.944c.089-.226.093-.27.093-1.505a5.162,5.162,0,0,0-.073-1.477,1.652,1.652,0,0,0-.944-.993c-.222-.089-.287-.093-1.445-.1A7.032,7.032,0,0,0,13.217,11.982Zm2.288,2.5v.948h-1.9v-1.9h1.9Z" transform="translate(-0.756 -0.752)" fill="#636262"/>
-                                                <path id="Path_125" data-name="Path 125" d="M5.049,15.7a.905.905,0,0,0-.5.529.835.835,0,0,0,.355.925.868.868,0,0,0,.848-.012A.826.826,0,0,0,5.767,15.8.979.979,0,0,0,5.049,15.7Z" transform="translate(-0.299 -0.981)" fill="#636262"/>
-                                                <path id="Path_126" data-name="Path 126" d="M8.788,15.7a.905.905,0,0,0-.5.529.835.835,0,0,0,.355.925.868.868,0,0,0,.848-.012A.826.826,0,0,0,9.507,15.8.979.979,0,0,0,8.788,15.7Z" transform="translate(-0.527 -0.981)" fill="#636262"/>
-                                              </svg>
-                                              
-                                        </div>
+                        <div class="suggChallengeContent">
+                            <div class="row">
+                                <div class="col-md-7">
+                                    <div class="suggchallengeContainer">
+                                        <div class="suggestChallengeAdminCont clearfix">
+                                            <div class="adminNameDetails float-right">
+                                                <div class="adminImage float-right">
+                                                    <img src="assets/images/Rectangle 197.png" alt="">
+                                                </div>
+                                                <div class="challengeSuggestDetails float-right">
+                                                    <p>اسم الأدمن</p>
+                                                    <div class="dateOfChallenge d-flex">
+                                                        <span> أمس <div class="challengesuggTime"> 04:32 pm</div></span>
+                                                        <span>المعنيين: كافة الموظفين </span>
+                                                        <span>ينتهي في <div class="challengesuggTime">22/05/2022</div>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="dropdown ">
+                                                <button class="downloadBtn  float-left btn" type="button"
+                                                    id="downloadBtn" data-toggle="dropdown" aria-haspopup="true"
+                                                    aria-expanded="false">
+                                                    <i class="fas fa-ellipsis-h"></i>
+                                                </button>
+                                                <div class="dropdown-menu text-left downloadMenu"
+                                                    aria-labelledby="downloadBtn">
+                                                    <a class="dropdown-item" href="#">option1</a>
+                                                    <a class="dropdown-item" href="#"> option 2</a>
+                                                    <a class="dropdown-item" href="#"> option3</a>
+                                                </div>
+                                            </div>
 
-                                        <span>الرجاء اختيار تاريخ البداية</span>
+                                        </div>
+                                        <div class="suggchallengeTextBox">
+                                            <div>مثال على نص عربي يوضح وصف التحدي بالكامل مثال على نص عربي يوضح وصف
+                                                التحدي بالكامل مثال على نص عربي يوضح وصف التحدي بالكامل مثال على نص عربي
+                                                يوضح وصف التحدي بالكامل
+                                            </div>
+                                            <div class="challengTextInteaction">
+                                                <span class="danger">
+                                                    <div class="commIcon"><svg id="ico_24_communication_comment_vs"
+                                                            data-name="ico / 24 / communication / comment_vs"
+                                                            xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                            viewBox="0 0 24 24">
+                                                            <rect id="Bounding_box" data-name="Bounding box" width="24"
+                                                                height="24" fill="rgba(255,255,255,0)" />
+                                                            <path id="Icon_color" data-name="Icon color"
+                                                                d="M.5,20a.5.5,0,0,1-.5-.5V4A4,4,0,0,1,4,0H16a4,4,0,0,1,4,4v8a4,4,0,0,1-4,4H5.943a2.985,2.985,0,0,0-2.092.851l-3,3A.5.5,0,0,1,.5,20Zm4-11a.5.5,0,0,0-.5.5v1a.5.5,0,0,0,.5.5h7a.5.5,0,0,0,.5-.5v-1a.5.5,0,0,0-.5-.5Zm0-4a.5.5,0,0,0-.5.5v1a.5.5,0,0,0,.5.5h11a.5.5,0,0,0,.5-.5v-1a.5.5,0,0,0-.5-.5Z"
+                                                                transform="translate(2 2)" fill="#ce7847" />
+                                                        </svg>
+                                                    </div>
+                                                    24
+                                                </span>
+                                                <span class="success">
+                                                    <div class="commIcon"><svg id="heart"
+                                                            xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                            viewBox="0 0 24 24">
+                                                            <rect id="Bounding_box" data-name="Bounding box" width="24"
+                                                                height="24" fill="rgba(255,255,255,0)" />
+                                                            <path id="Icon_color" data-name="Icon color"
+                                                                d="M20,5.5A5.5,5.5,0,0,0,14.5,0,6.36,6.36,0,0,0,10,2.07,6.36,6.36,0,0,0,5.5,0,5.5,5.5,0,0,0,0,5.5C0,9.42,4.75,13.75,7,16l2.28,2.28a.75.75,0,0,0,.53.22h.38a.75.75,0,0,0,.53-.22L13,16C15.25,13.75,20,9.42,20,5.5Z"
+                                                                transform="translate(2 3)" fill="#769f91" />
+                                                        </svg>
+
+                                                    </div>
+                                                    7
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="Challengereplays">
+                                            <div class="scrollabeleSec">
+                                                <div class="replaybox">
+                                                    <div class="messages d-flex flex-column align-items-start">
+                                                        <!--begin::Message In-->
+                                                        <div class="d-flex  messageItemBox ">
+                                                            <div class="messageItemBoxImg align-items-center">
+                                                                <img alt="Pic" src="assets/images/Rectangle 197.png" />
+                                                            </div>
+                                                            <div class="replayChartBox">
+                                                                <div class="pinkBox chatText ">
+                                                                    <div class="rightPoint"></div>
+                                                                    <p>عبد الله <span> (منذ يوم)</span> </p>
+                                                                    <span> مثال على نص عربي يوضح تعليق على التحدي</span>
+                                                                </div>
+                                                                <div class="likeDislike">
+                                                                    <a href="#" class="like">
+                                                                        <div class="likeDislikeIcon"><svg
+                                                                                xmlns="http://www.w3.org/2000/svg"
+                                                                                width="11.474" height="14.786"
+                                                                                viewBox="0 0 11.474 14.786">
+                                                                                <g id="noun-dislike-4714595"
+                                                                                    transform="translate(11.474 14.786) rotate(180)">
+                                                                                    <path id="Path_668"
+                                                                                        data-name="Path 668"
+                                                                                        d="M10.776,8.726a1.1,1.1,0,0,1-.8.352H7.957a.231.231,0,0,0-.206.336,5.991,5.991,0,0,1,.7,2.5,3,3,0,0,1-.42,1.733,1.388,1.388,0,0,1-1.079.67,12.1,12.1,0,0,0-.9-3.371h0A5.1,5.1,0,0,0,4.129,8.773L4.11,8.761a2.922,2.922,0,0,1-.971-.808V1.587A2.9,2.9,0,0,1,5.42.462H9.377a1.082,1.082,0,0,1,1.035,1.055l.069.752H9.333a.231.231,0,0,0,0,.462h1.19l.165,1.808H9.54A.231.231,0,1,0,9.54,5h1.19l.165,1.807H9.747a.231.231,0,1,0,0,.462h1.189l.072.795a.859.859,0,0,1-.234.66Zm-8.1-.335H.462V1.219H2.676Zm8.793-.367-.6-6.549A1.536,1.536,0,0,0,9.377,0H5.42A3.355,3.355,0,0,0,3.126.915.231.231,0,0,0,2.908.758H.231A.231.231,0,0,0,0,.989V8.622a.231.231,0,0,0,.231.231H2.908a.23.23,0,0,0,.23-.217,3.4,3.4,0,0,0,.75.531c1.535.993,2.178,2.311,2.642,5.417h0a.23.23,0,0,0,.211.2c.046,0,.092.005.137.005a1.843,1.843,0,0,0,1.543-.879c.556-.836.8-2.4-.1-4.367H9.974a1.571,1.571,0,0,0,1.142-.5,1.315,1.315,0,0,0,.353-1.014Z"
+                                                                                        transform="translate(0)"
+                                                                                        fill="#ce7847"
+                                                                                        fill-rule="evenodd" />
+                                                                                </g>
+                                                                            </svg>
+                                                                        </div>مع
+                                                                    </a>
+                                                                    <a href="#" class="dislike">
+                                                                        <div class="likeDislikeIcon"><svg
+                                                                                xmlns="http://www.w3.org/2000/svg"
+                                                                                width="11.474" height="14.786"
+                                                                                viewBox="0 0 11.474 14.786">
+                                                                                <g id="noun-dislike-4714595"
+                                                                                    transform="translate(0)">
+                                                                                    <path id="Path_668"
+                                                                                        data-name="Path 668"
+                                                                                        d="M148.05,14.617a1.1,1.1,0,0,1-.8.352h-2.018a.231.231,0,0,0-.206.336,5.991,5.991,0,0,1,.7,2.5,3,3,0,0,1-.42,1.733,1.388,1.388,0,0,1-1.079.67,12.1,12.1,0,0,0-.9-3.371h0a5.1,5.1,0,0,0-1.929-2.177l-.019-.011a2.922,2.922,0,0,1-.971-.808V7.478a2.9,2.9,0,0,1,2.281-1.125h3.957a1.082,1.082,0,0,1,1.035,1.055l.069.752h-1.148a.231.231,0,0,0,0,.462h1.19l.165,1.808h-1.148a.231.231,0,1,0,0,.461H148l.165,1.807h-1.148a.231.231,0,1,0,0,.462h1.189l.072.795a.859.859,0,0,1-.234.66Zm-8.1-.335h-2.214V7.11h2.214Zm8.793-.367-.6-6.549a1.536,1.536,0,0,0-1.5-1.475h-3.957a3.354,3.354,0,0,0-2.293.915.231.231,0,0,0-.219-.158h-2.677a.231.231,0,0,0-.231.231v7.633a.231.231,0,0,0,.231.231h2.677a.23.23,0,0,0,.23-.217,3.4,3.4,0,0,0,.75.531c1.535.993,2.178,2.311,2.642,5.417h0a.23.23,0,0,0,.211.2c.046,0,.092.005.137.005a1.843,1.843,0,0,0,1.543-.879c.556-.836.8-2.4-.1-4.367h1.649a1.571,1.571,0,0,0,1.142-.5,1.315,1.315,0,0,0,.353-1.014Z"
+                                                                                        transform="translate(-137.274 -5.891)"
+                                                                                        fill="#769f91"
+                                                                                        fill-rule="evenodd" />
+                                                                                </g>
+                                                                            </svg>
+                                                                        </div>ضد
+                                                                    </a>
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <!--end::Message In-->
+                                                        <!--begin::Message Out-->
+
+                                                    </div>
+                                                    <div class="messages d-flex flex-column align-items-end">
+                                                        <!--begin::Message In-->
+                                                        <div class="d-flex  messageItemBox ">
+                                                            <div class="replayChartBox">
+                                                                <div class="grayBox chatText ">
+                                                                    <div class="leftPoint"></div>
+                                                                    <p>عبد الله <span> (منذ يوم)</span> </p>
+                                                                    <span> مثال على نص عربي يوضح تعليق على التحدي</span>
+                                                                </div>
+                                                                <div class="likeDislike">
+                                                                    <a href="#" class="like">
+                                                                        <div class="likeDislikeIcon"><svg
+                                                                                xmlns="http://www.w3.org/2000/svg"
+                                                                                width="11.474" height="14.786"
+                                                                                viewBox="0 0 11.474 14.786">
+                                                                                <g id="noun-dislike-4714595"
+                                                                                    transform="translate(11.474 14.786) rotate(180)">
+                                                                                    <path id="Path_668"
+                                                                                        data-name="Path 668"
+                                                                                        d="M10.776,8.726a1.1,1.1,0,0,1-.8.352H7.957a.231.231,0,0,0-.206.336,5.991,5.991,0,0,1,.7,2.5,3,3,0,0,1-.42,1.733,1.388,1.388,0,0,1-1.079.67,12.1,12.1,0,0,0-.9-3.371h0A5.1,5.1,0,0,0,4.129,8.773L4.11,8.761a2.922,2.922,0,0,1-.971-.808V1.587A2.9,2.9,0,0,1,5.42.462H9.377a1.082,1.082,0,0,1,1.035,1.055l.069.752H9.333a.231.231,0,0,0,0,.462h1.19l.165,1.808H9.54A.231.231,0,1,0,9.54,5h1.19l.165,1.807H9.747a.231.231,0,1,0,0,.462h1.189l.072.795a.859.859,0,0,1-.234.66Zm-8.1-.335H.462V1.219H2.676Zm8.793-.367-.6-6.549A1.536,1.536,0,0,0,9.377,0H5.42A3.355,3.355,0,0,0,3.126.915.231.231,0,0,0,2.908.758H.231A.231.231,0,0,0,0,.989V8.622a.231.231,0,0,0,.231.231H2.908a.23.23,0,0,0,.23-.217,3.4,3.4,0,0,0,.75.531c1.535.993,2.178,2.311,2.642,5.417h0a.23.23,0,0,0,.211.2c.046,0,.092.005.137.005a1.843,1.843,0,0,0,1.543-.879c.556-.836.8-2.4-.1-4.367H9.974a1.571,1.571,0,0,0,1.142-.5,1.315,1.315,0,0,0,.353-1.014Z"
+                                                                                        transform="translate(0)"
+                                                                                        fill="#ce7847"
+                                                                                        fill-rule="evenodd" />
+                                                                                </g>
+                                                                            </svg>
+                                                                        </div>مع
+                                                                    </a>
+                                                                    <a href="#" class="dislike">
+                                                                        <div class="likeDislikeIcon"><svg
+                                                                                xmlns="http://www.w3.org/2000/svg"
+                                                                                width="11.474" height="14.786"
+                                                                                viewBox="0 0 11.474 14.786">
+                                                                                <g id="noun-dislike-4714595"
+                                                                                    transform="translate(0)">
+                                                                                    <path id="Path_668"
+                                                                                        data-name="Path 668"
+                                                                                        d="M148.05,14.617a1.1,1.1,0,0,1-.8.352h-2.018a.231.231,0,0,0-.206.336,5.991,5.991,0,0,1,.7,2.5,3,3,0,0,1-.42,1.733,1.388,1.388,0,0,1-1.079.67,12.1,12.1,0,0,0-.9-3.371h0a5.1,5.1,0,0,0-1.929-2.177l-.019-.011a2.922,2.922,0,0,1-.971-.808V7.478a2.9,2.9,0,0,1,2.281-1.125h3.957a1.082,1.082,0,0,1,1.035,1.055l.069.752h-1.148a.231.231,0,0,0,0,.462h1.19l.165,1.808h-1.148a.231.231,0,1,0,0,.461H148l.165,1.807h-1.148a.231.231,0,1,0,0,.462h1.189l.072.795a.859.859,0,0,1-.234.66Zm-8.1-.335h-2.214V7.11h2.214Zm8.793-.367-.6-6.549a1.536,1.536,0,0,0-1.5-1.475h-3.957a3.354,3.354,0,0,0-2.293.915.231.231,0,0,0-.219-.158h-2.677a.231.231,0,0,0-.231.231v7.633a.231.231,0,0,0,.231.231h2.677a.23.23,0,0,0,.23-.217,3.4,3.4,0,0,0,.75.531c1.535.993,2.178,2.311,2.642,5.417h0a.23.23,0,0,0,.211.2c.046,0,.092.005.137.005a1.843,1.843,0,0,0,1.543-.879c.556-.836.8-2.4-.1-4.367h1.649a1.571,1.571,0,0,0,1.142-.5,1.315,1.315,0,0,0,.353-1.014Z"
+                                                                                        transform="translate(-137.274 -5.891)"
+                                                                                        fill="#769f91"
+                                                                                        fill-rule="evenodd" />
+                                                                                </g>
+                                                                            </svg>
+                                                                        </div>ضد
+                                                                    </a>
+
+                                                                </div>
+                                                            </div>
+                                                            <div class="messageItemBoxImg align-items-center">
+                                                                <img alt="Pic" src="assets/images/Rectangle 197.png" />
+                                                            </div>
+                                                        </div>
+
+
+                                                        <!--end::Message In-->
+                                                        <!--begin::Message Out-->
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <form action="" class="addCommentForm clearfix">
+                                            <div class="form-group addCommentForm-group">
+                                                <input type="text" class="form-control addComment-control"
+                                                    placeholder="...اضف تعليق">
+
+                                            </div>
+                                            <button class="addCommentBtn btn">
+                                                <span> <svg xmlns="http://www.w3.org/2000/svg" width="22.272"
+                                                        height="21.833" viewBox="0 0 22.272 21.833">
+                                                        <g id="icon.send"
+                                                            transform="matrix(-0.695, -0.719, 0.719, -0.695, 11.184, 20.772)">
+                                                            <line id="Line_2" data-name="Line 2" x1="6.849" y2="6.849"
+                                                                transform="translate(7.091 0)" fill="none" stroke="#fff"
+                                                                stroke-linecap="round" stroke-linejoin="round"
+                                                                stroke-width="1.5" />
+                                                            <path id="Path_76" data-name="Path 76"
+                                                                d="M13.941,0,11.07,13.941,7.091,6.849,0,2.871Z"
+                                                                transform="translate(0 0)" fill="none" stroke="#fff"
+                                                                stroke-linecap="round" stroke-linejoin="round"
+                                                                stroke-width="1.5" />
+                                                        </g>
+                                                    </svg></span>
+
+                                            </button>
+                                        </form>
                                     </div>
-                                    <div class="form-group ">
-                                        <label for="">: :ينتهي في</label>
-                                        <input type="text" class="form-control"  value="dd/mm/yy" id="kt_datepicker_2" />
-                                        <div class="dateIcon">
-                                            <svg id="Group_10673" data-name="Group 10673" xmlns="http://www.w3.org/2000/svg" width="20.621" height="20.632" viewBox="0 0 20.621 20.632">
-                                                <path id="Path_117" data-name="Path 117" d="M4.773.059a.928.928,0,0,0-.488.508,3.238,3.238,0,0,0-.044.6v.452l-.775.016a3.438,3.438,0,0,0-1.142.129A3.3,3.3,0,0,0,.136,3.949l-.113.363v13.68l.113.363a3.313,3.313,0,0,0,2.187,2.187l.363.113H17.981l.363-.113a3.218,3.218,0,0,0,2.3-2.958c0-.375,0-.416-.1-.569a.72.72,0,0,0-.682-.355.627.627,0,0,0-.428.109.843.843,0,0,0-.379.718,1.625,1.625,0,0,1-1.1,1.481c-.194.069-.589.073-7.611.073s-7.417,0-7.611-.073a1.641,1.641,0,0,1-.993-.944l-.093-.234V11.173c0-6.263,0-6.63.073-6.824a1.624,1.624,0,0,1,.944-.989,2.433,2.433,0,0,1,.9-.109l.674-.016.012.541c.016.48.024.553.113.69a1.061,1.061,0,0,0,.258.262.612.612,0,0,0,.432.109.612.612,0,0,0,.432-.109,1.061,1.061,0,0,0,.258-.262c.089-.137.1-.21.109-.69l.016-.533H9.478l.016.537c.012.5.02.549.121.7a.72.72,0,0,0,.682.355.628.628,0,0,0,.428-.109,1.061,1.061,0,0,0,.258-.262c.089-.137.1-.21.109-.69l.016-.533h3.656l.016.537c.012.5.02.549.121.7a.721.721,0,0,0,.682.355.628.628,0,0,0,.428-.109,1.061,1.061,0,0,0,.258-.262c.089-.137.1-.21.113-.69l.012-.541.694.016a2.383,2.383,0,0,1,.908.1,1.62,1.62,0,0,1,.94.924l.093.234L19.05,9.1l.02,4.58.109.165a.825.825,0,0,0,1.356,0l.109-.165V4.312l-.113-.363a3.308,3.308,0,0,0-2.187-2.183,3.487,3.487,0,0,0-1.158-.129L16.4,1.621l-.016-.533c-.012-.5-.02-.545-.121-.7A.825.825,0,0,0,14.9.39c-.1.153-.109.2-.121.7l-.016.537H11.109l-.016-.537c-.012-.476-.02-.549-.109-.686a1.061,1.061,0,0,0-.258-.262A.628.628,0,0,0,10.3.035.72.72,0,0,0,9.616.39c-.1.153-.109.2-.121.7l-.016.537H5.863l-.016-.537C5.834.616,5.826.543,5.738.406A.867.867,0,0,0,4.773.059Z" transform="translate(-0.023 -0.023)" fill="#636262"/>
-                                                <path id="Path_118" data-name="Path 118" d="M5.049,8.225a.9.9,0,0,0-.5.529.835.835,0,0,0,.355.925.868.868,0,0,0,.848-.012.726.726,0,0,0,.355-.678.723.723,0,0,0-.343-.67A.979.979,0,0,0,5.049,8.225Z" transform="translate(-0.299 -0.523)" fill="#636262"/>
-                                                <path id="Path_119" data-name="Path 119" d="M8.788,8.225a.9.9,0,0,0-.5.529.835.835,0,0,0,.355.925.868.868,0,0,0,.848-.012.726.726,0,0,0,.355-.678.723.723,0,0,0-.343-.67A.979.979,0,0,0,8.788,8.225Z" transform="translate(-0.527 -0.523)" fill="#636262"/>
-                                                <path id="Path_120" data-name="Path 120" d="M12.528,8.225a.905.905,0,0,0-.5.529.835.835,0,0,0,.355.925.868.868,0,0,0,.848-.012.726.726,0,0,0,.355-.678.723.723,0,0,0-.343-.67A.979.979,0,0,0,12.528,8.225Z" transform="translate(-0.756 -0.523)" fill="#636262"/>
-                                                <path id="Path_121" data-name="Path 121" d="M16.267,8.225a.9.9,0,0,0-.5.529.835.835,0,0,0,.355.925.868.868,0,0,0,.848-.012.726.726,0,0,0,.355-.678.723.723,0,0,0-.343-.67A.979.979,0,0,0,16.267,8.225Z" transform="translate(-0.985 -0.523)" fill="#636262"/>
-                                                <path id="Path_122" data-name="Path 122" d="M5.049,11.965a.905.905,0,0,0-.5.529.835.835,0,0,0,.355.925.868.868,0,0,0,.848-.012.826.826,0,0,0,.012-1.349A.979.979,0,0,0,5.049,11.965Z" transform="translate(-0.299 -0.752)" fill="#636262"/>
-                                                <path id="Path_123" data-name="Path 123" d="M8.788,11.965a.905.905,0,0,0-.5.529.835.835,0,0,0,.355.925.868.868,0,0,0,.848-.012.826.826,0,0,0,.012-1.349A.979.979,0,0,0,8.788,11.965Z" transform="translate(-0.527 -0.752)" fill="#636262"/>
-                                                <path id="Path_124" data-name="Path 124" d="M13.217,11.982a1.6,1.6,0,0,0-1.182,1.259A11.153,11.153,0,0,0,12,14.613c.012,1.1.02,1.174.1,1.4a1.652,1.652,0,0,0,.993.944,5.034,5.034,0,0,0,1.457.073,5.034,5.034,0,0,0,1.457-.073,1.641,1.641,0,0,0,.993-.944c.089-.226.093-.27.093-1.505a5.162,5.162,0,0,0-.073-1.477,1.652,1.652,0,0,0-.944-.993c-.222-.089-.287-.093-1.445-.1A7.032,7.032,0,0,0,13.217,11.982Zm2.288,2.5v.948h-1.9v-1.9h1.9Z" transform="translate(-0.756 -0.752)" fill="#636262"/>
-                                                <path id="Path_125" data-name="Path 125" d="M5.049,15.7a.905.905,0,0,0-.5.529.835.835,0,0,0,.355.925.868.868,0,0,0,.848-.012A.826.826,0,0,0,5.767,15.8.979.979,0,0,0,5.049,15.7Z" transform="translate(-0.299 -0.981)" fill="#636262"/>
-                                                <path id="Path_126" data-name="Path 126" d="M8.788,15.7a.905.905,0,0,0-.5.529.835.835,0,0,0,.355.925.868.868,0,0,0,.848-.012A.826.826,0,0,0,9.507,15.8.979.979,0,0,0,8.788,15.7Z" transform="translate(-0.527 -0.981)" fill="#636262"/>
-                                              </svg>
-                                              
+                                    <div class="suggchallengeContainer">
+                                        <div class="suggestChallengeAdminCont clearfix">
+                                            <div class="adminNameDetails float-right">
+                                                <div class="adminImage float-right">
+                                                    <img src="assets/images/Rectangle 197.png" alt="">
+                                                </div>
+                                                <div class="challengeSuggestDetails float-right">
+                                                    <p>اسم الأدمن</p>
+                                                    <div class="dateOfChallenge d-flex">
+                                                        <span> أمس <div class="challengesuggTime"> 04:32 pm</div></span>
+                                                        <span>المعنيين: كافة الموظفين </span>
+                                                        <span>ينتهي في <div class="challengesuggTime">22/05/2022</div>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="dropdown ">
+                                                <button class="downloadBtn  float-left btn" type="button"
+                                                    id="downloadBtn" data-toggle="dropdown" aria-haspopup="true"
+                                                    aria-expanded="false">
+                                                    <i class="fas fa-ellipsis-h"></i>
+                                                </button>
+                                                <div class="dropdown-menu text-left downloadMenu"
+                                                    aria-labelledby="downloadBtn">
+                                                    <a class="dropdown-item" href="#">option1</a>
+                                                    <a class="dropdown-item" href="#"> option 2</a>
+                                                    <a class="dropdown-item" href="#"> option3</a>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="suggchallengeTextBox">
+                                            <div>مثال على نص عربي يوضح وصف التحدي بالكامل مثال على نص عربي يوضح وصف
+                                                التحدي بالكامل مثال على نص عربي يوضح وصف التحدي بالكامل مثال على نص عربي
+                                                يوضح وصف التحدي بالكامل
+                                            </div>
+                                            <div class="challengTextInteaction">
+                                                <span class="danger">
+                                                    <div class="commIcon"><svg id="ico_24_communication_comment_vs"
+                                                            data-name="ico / 24 / communication / comment_vs"
+                                                            xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                            viewBox="0 0 24 24">
+                                                            <rect id="Bounding_box" data-name="Bounding box" width="24"
+                                                                height="24" fill="rgba(255,255,255,0)" />
+                                                            <path id="Icon_color" data-name="Icon color"
+                                                                d="M.5,20a.5.5,0,0,1-.5-.5V4A4,4,0,0,1,4,0H16a4,4,0,0,1,4,4v8a4,4,0,0,1-4,4H5.943a2.985,2.985,0,0,0-2.092.851l-3,3A.5.5,0,0,1,.5,20Zm4-11a.5.5,0,0,0-.5.5v1a.5.5,0,0,0,.5.5h7a.5.5,0,0,0,.5-.5v-1a.5.5,0,0,0-.5-.5Zm0-4a.5.5,0,0,0-.5.5v1a.5.5,0,0,0,.5.5h11a.5.5,0,0,0,.5-.5v-1a.5.5,0,0,0-.5-.5Z"
+                                                                transform="translate(2 2)" fill="#ce7847" />
+                                                        </svg>
+                                                    </div>
+                                                    24
+                                                </span>
+                                                <span class="success">
+                                                    <div class="commIcon"><svg id="heart"
+                                                            xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                            viewBox="0 0 24 24">
+                                                            <rect id="Bounding_box" data-name="Bounding box" width="24"
+                                                                height="24" fill="rgba(255,255,255,0)" />
+                                                            <path id="Icon_color" data-name="Icon color"
+                                                                d="M20,5.5A5.5,5.5,0,0,0,14.5,0,6.36,6.36,0,0,0,10,2.07,6.36,6.36,0,0,0,5.5,0,5.5,5.5,0,0,0,0,5.5C0,9.42,4.75,13.75,7,16l2.28,2.28a.75.75,0,0,0,.53.22h.38a.75.75,0,0,0,.53-.22L13,16C15.25,13.75,20,9.42,20,5.5Z"
+                                                                transform="translate(2 3)" fill="#769f91" />
+                                                        </svg>
+
+                                                    </div>
+                                                    7
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <form action="" class="addCommentForm clearfix">
+                                            <div class="form-group addCommentForm-group">
+                                                <input type="text" class="form-control addComment-control"
+                                                    placeholder="...اضف تعليق">
+
+                                            </div>
+                                            <button class="addCommentBtn btn">
+                                                <span> <svg xmlns="http://www.w3.org/2000/svg" width="22.272"
+                                                        height="21.833" viewBox="0 0 22.272 21.833">
+                                                        <g id="icon.send"
+                                                            transform="matrix(-0.695, -0.719, 0.719, -0.695, 11.184, 20.772)">
+                                                            <line id="Line_2" data-name="Line 2" x1="6.849" y2="6.849"
+                                                                transform="translate(7.091 0)" fill="none" stroke="#fff"
+                                                                stroke-linecap="round" stroke-linejoin="round"
+                                                                stroke-width="1.5" />
+                                                            <path id="Path_76" data-name="Path 76"
+                                                                d="M13.941,0,11.07,13.941,7.091,6.849,0,2.871Z"
+                                                                transform="translate(0 0)" fill="none" stroke="#fff"
+                                                                stroke-linecap="round" stroke-linejoin="round"
+                                                                stroke-width="1.5" />
+                                                        </g>
+                                                    </svg></span>
+
+                                            </button>
+                                        </form>
+                                    </div>
+                                    <div class="suggchallengeContainer">
+                                        <div class="suggestChallengeAdminCont clearfix">
+                                            <div class="adminNameDetails float-right">
+                                                <div class="adminImage float-right">
+                                                    <img src="assets/images/Rectangle 197.png" alt="">
+                                                </div>
+                                                <div class="challengeSuggestDetails float-right">
+                                                    <p>اسم الأدمن</p>
+                                                    <div class="dateOfChallenge d-flex">
+                                                        <span> أمس <div class="challengesuggTime"> 04:32 pm</div></span>
+                                                        <span>المعنيين: كافة الموظفين </span>
+                                                        <span>ينتهي في <div class="challengesuggTime">22/05/2022</div>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="dropdown ">
+                                                <button class="downloadBtn  float-left btn" type="button"
+                                                    id="downloadBtn" data-toggle="dropdown" aria-haspopup="true"
+                                                    aria-expanded="false">
+                                                    <i class="fas fa-ellipsis-h"></i>
+                                                </button>
+                                                <div class="dropdown-menu text-left downloadMenu"
+                                                    aria-labelledby="downloadBtn">
+                                                    <a class="dropdown-item" href="#">option1</a>
+                                                    <a class="dropdown-item" href="#"> option 2</a>
+                                                    <a class="dropdown-item" href="#"> option3</a>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="suggchallengeTextBox">
+                                            <div>مثال على نص عربي يوضح وصف التحدي بالكامل مثال على نص عربي يوضح وصف
+                                                التحدي بالكامل مثال على نص عربي يوضح وصف التحدي بالكامل مثال على نص عربي
+                                                يوضح وصف التحدي بالكامل
+                                            </div>
+                                            <div class="challengTextInteaction">
+                                                <span class="danger">
+                                                    <div class="commIcon"><svg id="ico_24_communication_comment_vs"
+                                                            data-name="ico / 24 / communication / comment_vs"
+                                                            xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                            viewBox="0 0 24 24">
+                                                            <rect id="Bounding_box" data-name="Bounding box" width="24"
+                                                                height="24" fill="rgba(255,255,255,0)" />
+                                                            <path id="Icon_color" data-name="Icon color"
+                                                                d="M.5,20a.5.5,0,0,1-.5-.5V4A4,4,0,0,1,4,0H16a4,4,0,0,1,4,4v8a4,4,0,0,1-4,4H5.943a2.985,2.985,0,0,0-2.092.851l-3,3A.5.5,0,0,1,.5,20Zm4-11a.5.5,0,0,0-.5.5v1a.5.5,0,0,0,.5.5h7a.5.5,0,0,0,.5-.5v-1a.5.5,0,0,0-.5-.5Zm0-4a.5.5,0,0,0-.5.5v1a.5.5,0,0,0,.5.5h11a.5.5,0,0,0,.5-.5v-1a.5.5,0,0,0-.5-.5Z"
+                                                                transform="translate(2 2)" fill="#ce7847" />
+                                                        </svg>
+                                                    </div>
+                                                    24
+                                                </span>
+                                                <span class="success">
+                                                    <div class="commIcon"><svg id="heart"
+                                                            xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                            viewBox="0 0 24 24">
+                                                            <rect id="Bounding_box" data-name="Bounding box" width="24"
+                                                                height="24" fill="rgba(255,255,255,0)" />
+                                                            <path id="Icon_color" data-name="Icon color"
+                                                                d="M20,5.5A5.5,5.5,0,0,0,14.5,0,6.36,6.36,0,0,0,10,2.07,6.36,6.36,0,0,0,5.5,0,5.5,5.5,0,0,0,0,5.5C0,9.42,4.75,13.75,7,16l2.28,2.28a.75.75,0,0,0,.53.22h.38a.75.75,0,0,0,.53-.22L13,16C15.25,13.75,20,9.42,20,5.5Z"
+                                                                transform="translate(2 3)" fill="#769f91" />
+                                                        </svg>
+
+                                                    </div>
+                                                    7
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <form action="" class="addCommentForm clearfix">
+                                            <div class="form-group addCommentForm-group">
+                                                <input type="text" class="form-control addComment-control"
+                                                    placeholder="...اضف تعليق">
+
+                                            </div>
+                                            <button class="addCommentBtn btn">
+                                                <span> <svg xmlns="http://www.w3.org/2000/svg" width="22.272"
+                                                        height="21.833" viewBox="0 0 22.272 21.833">
+                                                        <g id="icon.send"
+                                                            transform="matrix(-0.695, -0.719, 0.719, -0.695, 11.184, 20.772)">
+                                                            <line id="Line_2" data-name="Line 2" x1="6.849" y2="6.849"
+                                                                transform="translate(7.091 0)" fill="none" stroke="#fff"
+                                                                stroke-linecap="round" stroke-linejoin="round"
+                                                                stroke-width="1.5" />
+                                                            <path id="Path_76" data-name="Path 76"
+                                                                d="M13.941,0,11.07,13.941,7.091,6.849,0,2.871Z"
+                                                                transform="translate(0 0)" fill="none" stroke="#fff"
+                                                                stroke-linecap="round" stroke-linejoin="round"
+                                                                stroke-width="1.5" />
+                                                        </g>
+                                                    </svg></span>
+
+                                            </button>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="col-md-5">
+                                    <div class="newestChallenge">
+                                        <div class="newestChallengeHeader">
+                                            <div class="newestChallengeheaderIcon">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="42.386" height="30.197"
+                                                    viewBox="0 0 42.386 30.197">
+                                                    <g id="noun-missed-call-1953505"
+                                                        transform="translate(-94.872 -104.18)">
+                                                        <path id="Path_681" data-name="Path 681"
+                                                            d="M114.362,104.18v6.048h12.572l-15.6,15.6L99.149,113.635l-4.277,4.277,16.466,16.465L131.21,114.5v12.572h6.048v-22.9Zm21.168,21.169h-2.592V110.333l-21.6,21.6L97.316,117.912l1.833-1.833,12.189,12.189L131.106,108.5H116.09v-2.592h19.44Z" />
+                                                    </g>
+                                                </svg>
+                                            </div>
+                                            <p>أحدث التحديات السابقة المطروحة</p>
+                                        </div>
+                                        <div class="newestchallengeContainer">
+                                            <div class="scrollabeleSec">
+                                                <div class="newwstChallengeBox">
+                                                    <div class="newsetAdminDetails clearfix">
+                                                        <div class="newestAdmnImg">
+                                                            <img src="assets/images/Rectangle 197.png" alt="">
+                                                        </div>
+                                                        <p>اسم الأدمن</p>
+                                                        <a href="#">تفاصيل التحدي</a>
+                                                    </div>
+                                                    <span>مثال على نص عربي يوضح وصف التحدي بالكامل مثال على نص عربي يوضح
+                                                        وصف التحدي بالكامل مثال على نص عربي يوضح وصف التحدي بالكامل مثال
+                                                        على نص عربي يوضح وصف التحدي بالكامل
+                                                    </span>
+                                                    <div class="newestChallengeFooter">
+                                                        <div class="newestChallengeFooterIcon">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="26.478"
+                                                                height="26.439" viewBox="0 0 26.478 26.439">
+                                                                <g id="noun-deadline-4483858"
+                                                                    transform="translate(-83.127 -13.125)">
+                                                                    <path id="Path_669" data-name="Path 669"
+                                                                        d="M144.966,41.013a11.988,11.988,0,0,0-4.28,4.315l-.018.031a.217.217,0,0,0,.08.3l8.7,4.983h-7.542a.217.217,0,0,0-.217.217v.867a.217.217,0,0,0,.217.217h7.732a1.517,1.517,0,1,0,2.158-1.946l-.571-1.8V39.586a.217.217,0,0,0-.217-.217,11.909,11.909,0,0,0-6,1.618ZM149.6,44.5,151.28,49.8h0a1.51,1.51,0,0,0-1.256.341L148.362,44.9Z"
+                                                                        transform="translate(-54.663 -24.944)"
+                                                                        fill="#4b5052" />
+                                                                    <path id="Path_670" data-name="Path 670"
+                                                                        d="M142.246,375.717l-1.5.864a.217.217,0,1,0,.216.376l1.5-.864a.217.217,0,0,0-.216-.376Z"
+                                                                        transform="translate(-54.66 -344.604)"
+                                                                        fill="#4b5052" />
+                                                                    <path id="Path_671" data-name="Path 671"
+                                                                        d="M520.214,158.939a.216.216,0,0,0,.108-.029l1.5-.864a.217.217,0,1,0-.216-.376l-1.5.864a.217.217,0,0,0,.108.4Z"
+                                                                        transform="translate(-415.23 -137.358)"
+                                                                        fill="#4b5052" />
+                                                                    <path id="Path_672" data-name="Path 672"
+                                                                        d="M446.308,72.857a.217.217,0,0,0,.3-.079l.87-1.5a.217.217,0,1,0-.375-.217l-.87,1.5a.217.217,0,0,0,.079.3Z"
+                                                                        transform="translate(-345.089 -54.962)"
+                                                                        fill="#4b5052" />
+                                                                    <path id="Path_673" data-name="Path 673"
+                                                                        d="M111.533,276.239a.217.217,0,0,0-.217-.216h0l-1.734,0a.217.217,0,1,0,0,.433h0l1.734,0a.217.217,0,0,0,.216-.217Z"
+                                                                        transform="translate(-24.94 -249.875)"
+                                                                        fill="#4b5052" />
+                                                                    <path id="Path_674" data-name="Path 674"
+                                                                        d="M546.88,275.381a.217.217,0,0,0,.217.216h0l1.734,0a.217.217,0,0,0,0-.433h0l-1.734,0a.217.217,0,0,0-.216.217Z"
+                                                                        transform="translate(-440.782 -249.056)"
+                                                                        fill="#4b5052" />
+                                                                    <path id="Path_675" data-name="Path 675"
+                                                                        d="M109.5,35.6l-1.157-3.689a13.22,13.22,0,1,0-23.625.718h-.936a.217.217,0,0,0-.2.294l2.153,5.6v.827a.217.217,0,0,0,.217.217h21a.217.217,0,0,0,.216-.234L107.1,38.7h.116a2.384,2.384,0,0,0,2.274-3.1ZM85.209,32.63a12.785,12.785,0,1,1,22.933-1.346l-.435-1.388a1.659,1.659,0,0,0-1.59-1.167h-3.27v-1.3a.791.791,0,0,0,.4-.687v0l.005-1.248a1.189,1.189,0,0,0-1.182-1.188,1.087,1.087,0,0,1-.6-.187,1.517,1.517,0,0,0-.842-.261h-.161a.813.813,0,0,0-.813.814v.275l-.19.13a.665.665,0,0,0,.373,1.214h.329l0,.873a1.1,1.1,0,0,0,.951,1.1v.472H97.947a1.647,1.647,0,0,0-1.567,1.134l-1.906,5.8h-.5l-1.114-2.9a.217.217,0,0,0-.2-.139Zm19.7-.529,1.113,3.563H102.6l-.19-4.551.433-.867-.711-.711.559-.373h3.421a1.228,1.228,0,0,1,1.176.863l1,3.179-2.323.835-.646-2.068a.217.217,0,0,0-.414.129Zm-3.36-.988-.19,4.551H98.842l-.3-3.65a.217.217,0,0,0-.432.035l.121,1.489-.243.779-2.367-.767L96.792,30a1.214,1.214,0,0,1,1.155-.836h3.318l.56.373-.711.711Zm-3.14,4.551h-.381l.3-.97Zm3.14-6.834v-.592a1.312,1.312,0,0,0,.311-.109.217.217,0,1,0-.194-.387.886.886,0,0,1-.4.094.669.669,0,0,1-.666-.673l0-.873.6,0h0a1.339,1.339,0,0,0,.576.608.217.217,0,0,0,.32-.181.358.358,0,0,1,.359-.343h0a.361.361,0,0,1,.358.36v0a.358.358,0,0,1-.251.34.217.217,0,0,0-.152.207V28.83l-.433.289ZM90.061,35.664a.868.868,0,1,1-.254-.613.867.867,0,0,1,.254.613Zm4.551,3.467H86.161V38.7h8.452Zm.366-.867L94.144,36.1h.486a.217.217,0,0,0,.206-.149l.653-1.986,2.373.769-.291.933H96.485a.582.582,0,0,0-.581.581.575.575,0,0,0,.117.349.585.585,0,0,0,.3.21l.814.235a1.929,1.929,0,0,1-1.829,1.226Zm1.729,0a2.32,2.32,0,0,0,.85-1.105l.152.044a.792.792,0,0,1,.548.568,1.22,1.22,0,0,0,.255.494Zm4.506.867h-.749V38.7h.768Zm1.542,0V38.7h3.915l.035.433Zm6.038-1.662a1.931,1.931,0,0,1-1.572.8H99.444a.78.78,0,0,1-.477-.161l-.01-.007h0a.79.79,0,0,1-.28-.431,1.227,1.227,0,0,0-.849-.879l-1.383-.4a.148.148,0,0,1,.04-.29h9.83a.217.217,0,0,0,.207-.281l-.425-1.362,2.324-.835.662,2.111h0a1.931,1.931,0,0,1-.289,1.738Z"
+                                                                        transform="translate(0 -0.001)"
+                                                                        fill="#4b5052" />
+                                                                    <path id="Path_676" data-name="Path 676"
+                                                                        d="M192.953,22.843a.217.217,0,0,0,.361-.24l-.433-.65a.217.217,0,1,0-.361.24Z"
+                                                                        transform="translate(-103.939 -8.298)"
+                                                                        fill="#4b5052" />
+                                                                    <path id="Path_677" data-name="Path 677"
+                                                                        d="M170.842,48.558h.867a.217.217,0,0,0,0-.433h-.867a.217.217,0,1,0,0,.433Z"
+                                                                        transform="translate(-83.164 -33.266)"
+                                                                        fill="#4b5052" />
+                                                                    <path id="Path_678" data-name="Path 678"
+                                                                        d="M223.342,14.425a.217.217,0,0,0,.217-.217v-.867a.217.217,0,0,0-.433,0v.867a.217.217,0,0,0,.217.217Z"
+                                                                        transform="translate(-133.064)"
+                                                                        fill="#4b5052" />
+                                                                </g>
+                                                            </svg>
+
+                                                        </div>
+                                                        <p>انتهى التفاعل على التحدي في</p>
+                                                        <span>
+                                                            20/04/2022
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="newwstChallengeBox">
+                                                    <div class="newsetAdminDetails clearfix">
+                                                        <div class="newestAdmnImg">
+                                                            <img src="assets/images/Rectangle 197.png" alt="">
+                                                        </div>
+                                                        <p>اسم الأدمن</p>
+                                                        <a href="#">تفاصيل التحدي</a>
+                                                    </div>
+                                                    <span>مثال على نص عربي يوضح وصف التحدي بالكامل مثال على نص عربي يوضح
+                                                        وصف التحدي بالكامل مثال على نص عربي يوضح وصف التحدي بالكامل مثال
+                                                        على نص عربي يوضح وصف التحدي بالكامل
+                                                    </span>
+                                                    <div class="newestChallengeFooter">
+                                                        <div class="newestChallengeFooterIcon">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="26.478"
+                                                                height="26.439" viewBox="0 0 26.478 26.439">
+                                                                <g id="noun-deadline-4483858"
+                                                                    transform="translate(-83.127 -13.125)">
+                                                                    <path id="Path_669" data-name="Path 669"
+                                                                        d="M144.966,41.013a11.988,11.988,0,0,0-4.28,4.315l-.018.031a.217.217,0,0,0,.08.3l8.7,4.983h-7.542a.217.217,0,0,0-.217.217v.867a.217.217,0,0,0,.217.217h7.732a1.517,1.517,0,1,0,2.158-1.946l-.571-1.8V39.586a.217.217,0,0,0-.217-.217,11.909,11.909,0,0,0-6,1.618ZM149.6,44.5,151.28,49.8h0a1.51,1.51,0,0,0-1.256.341L148.362,44.9Z"
+                                                                        transform="translate(-54.663 -24.944)"
+                                                                        fill="#4b5052" />
+                                                                    <path id="Path_670" data-name="Path 670"
+                                                                        d="M142.246,375.717l-1.5.864a.217.217,0,1,0,.216.376l1.5-.864a.217.217,0,0,0-.216-.376Z"
+                                                                        transform="translate(-54.66 -344.604)"
+                                                                        fill="#4b5052" />
+                                                                    <path id="Path_671" data-name="Path 671"
+                                                                        d="M520.214,158.939a.216.216,0,0,0,.108-.029l1.5-.864a.217.217,0,1,0-.216-.376l-1.5.864a.217.217,0,0,0,.108.4Z"
+                                                                        transform="translate(-415.23 -137.358)"
+                                                                        fill="#4b5052" />
+                                                                    <path id="Path_672" data-name="Path 672"
+                                                                        d="M446.308,72.857a.217.217,0,0,0,.3-.079l.87-1.5a.217.217,0,1,0-.375-.217l-.87,1.5a.217.217,0,0,0,.079.3Z"
+                                                                        transform="translate(-345.089 -54.962)"
+                                                                        fill="#4b5052" />
+                                                                    <path id="Path_673" data-name="Path 673"
+                                                                        d="M111.533,276.239a.217.217,0,0,0-.217-.216h0l-1.734,0a.217.217,0,1,0,0,.433h0l1.734,0a.217.217,0,0,0,.216-.217Z"
+                                                                        transform="translate(-24.94 -249.875)"
+                                                                        fill="#4b5052" />
+                                                                    <path id="Path_674" data-name="Path 674"
+                                                                        d="M546.88,275.381a.217.217,0,0,0,.217.216h0l1.734,0a.217.217,0,0,0,0-.433h0l-1.734,0a.217.217,0,0,0-.216.217Z"
+                                                                        transform="translate(-440.782 -249.056)"
+                                                                        fill="#4b5052" />
+                                                                    <path id="Path_675" data-name="Path 675"
+                                                                        d="M109.5,35.6l-1.157-3.689a13.22,13.22,0,1,0-23.625.718h-.936a.217.217,0,0,0-.2.294l2.153,5.6v.827a.217.217,0,0,0,.217.217h21a.217.217,0,0,0,.216-.234L107.1,38.7h.116a2.384,2.384,0,0,0,2.274-3.1ZM85.209,32.63a12.785,12.785,0,1,1,22.933-1.346l-.435-1.388a1.659,1.659,0,0,0-1.59-1.167h-3.27v-1.3a.791.791,0,0,0,.4-.687v0l.005-1.248a1.189,1.189,0,0,0-1.182-1.188,1.087,1.087,0,0,1-.6-.187,1.517,1.517,0,0,0-.842-.261h-.161a.813.813,0,0,0-.813.814v.275l-.19.13a.665.665,0,0,0,.373,1.214h.329l0,.873a1.1,1.1,0,0,0,.951,1.1v.472H97.947a1.647,1.647,0,0,0-1.567,1.134l-1.906,5.8h-.5l-1.114-2.9a.217.217,0,0,0-.2-.139Zm19.7-.529,1.113,3.563H102.6l-.19-4.551.433-.867-.711-.711.559-.373h3.421a1.228,1.228,0,0,1,1.176.863l1,3.179-2.323.835-.646-2.068a.217.217,0,0,0-.414.129Zm-3.36-.988-.19,4.551H98.842l-.3-3.65a.217.217,0,0,0-.432.035l.121,1.489-.243.779-2.367-.767L96.792,30a1.214,1.214,0,0,1,1.155-.836h3.318l.56.373-.711.711Zm-3.14,4.551h-.381l.3-.97Zm3.14-6.834v-.592a1.312,1.312,0,0,0,.311-.109.217.217,0,1,0-.194-.387.886.886,0,0,1-.4.094.669.669,0,0,1-.666-.673l0-.873.6,0h0a1.339,1.339,0,0,0,.576.608.217.217,0,0,0,.32-.181.358.358,0,0,1,.359-.343h0a.361.361,0,0,1,.358.36v0a.358.358,0,0,1-.251.34.217.217,0,0,0-.152.207V28.83l-.433.289ZM90.061,35.664a.868.868,0,1,1-.254-.613.867.867,0,0,1,.254.613Zm4.551,3.467H86.161V38.7h8.452Zm.366-.867L94.144,36.1h.486a.217.217,0,0,0,.206-.149l.653-1.986,2.373.769-.291.933H96.485a.582.582,0,0,0-.581.581.575.575,0,0,0,.117.349.585.585,0,0,0,.3.21l.814.235a1.929,1.929,0,0,1-1.829,1.226Zm1.729,0a2.32,2.32,0,0,0,.85-1.105l.152.044a.792.792,0,0,1,.548.568,1.22,1.22,0,0,0,.255.494Zm4.506.867h-.749V38.7h.768Zm1.542,0V38.7h3.915l.035.433Zm6.038-1.662a1.931,1.931,0,0,1-1.572.8H99.444a.78.78,0,0,1-.477-.161l-.01-.007h0a.79.79,0,0,1-.28-.431,1.227,1.227,0,0,0-.849-.879l-1.383-.4a.148.148,0,0,1,.04-.29h9.83a.217.217,0,0,0,.207-.281l-.425-1.362,2.324-.835.662,2.111h0a1.931,1.931,0,0,1-.289,1.738Z"
+                                                                        transform="translate(0 -0.001)"
+                                                                        fill="#4b5052" />
+                                                                    <path id="Path_676" data-name="Path 676"
+                                                                        d="M192.953,22.843a.217.217,0,0,0,.361-.24l-.433-.65a.217.217,0,1,0-.361.24Z"
+                                                                        transform="translate(-103.939 -8.298)"
+                                                                        fill="#4b5052" />
+                                                                    <path id="Path_677" data-name="Path 677"
+                                                                        d="M170.842,48.558h.867a.217.217,0,0,0,0-.433h-.867a.217.217,0,1,0,0,.433Z"
+                                                                        transform="translate(-83.164 -33.266)"
+                                                                        fill="#4b5052" />
+                                                                    <path id="Path_678" data-name="Path 678"
+                                                                        d="M223.342,14.425a.217.217,0,0,0,.217-.217v-.867a.217.217,0,0,0-.433,0v.867a.217.217,0,0,0,.217.217Z"
+                                                                        transform="translate(-133.064)"
+                                                                        fill="#4b5052" />
+                                                                </g>
+                                                            </svg>
+
+                                                        </div>
+                                                        <p>انتهى التفاعل على التحدي في</p>
+                                                        <span>
+                                                            20/04/2022
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="newwstChallengeBox">
+                                                    <div class="newsetAdminDetails clearfix">
+                                                        <div class="newestAdmnImg">
+                                                            <img src="assets/images/Rectangle 197.png" alt="">
+                                                        </div>
+                                                        <p>اسم الأدمن</p>
+                                                        <a href="#">تفاصيل التحدي</a>
+                                                    </div>
+                                                    <span>مثال على نص عربي يوضح وصف التحدي بالكامل مثال على نص عربي يوضح
+                                                        وصف التحدي بالكامل مثال على نص عربي يوضح وصف التحدي بالكامل مثال
+                                                        على نص عربي يوضح وصف التحدي بالكامل
+                                                    </span>
+                                                    <div class="newestChallengeFooter">
+                                                        <div class="newestChallengeFooterIcon">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="26.478"
+                                                                height="26.439" viewBox="0 0 26.478 26.439">
+                                                                <g id="noun-deadline-4483858"
+                                                                    transform="translate(-83.127 -13.125)">
+                                                                    <path id="Path_669" data-name="Path 669"
+                                                                        d="M144.966,41.013a11.988,11.988,0,0,0-4.28,4.315l-.018.031a.217.217,0,0,0,.08.3l8.7,4.983h-7.542a.217.217,0,0,0-.217.217v.867a.217.217,0,0,0,.217.217h7.732a1.517,1.517,0,1,0,2.158-1.946l-.571-1.8V39.586a.217.217,0,0,0-.217-.217,11.909,11.909,0,0,0-6,1.618ZM149.6,44.5,151.28,49.8h0a1.51,1.51,0,0,0-1.256.341L148.362,44.9Z"
+                                                                        transform="translate(-54.663 -24.944)"
+                                                                        fill="#4b5052" />
+                                                                    <path id="Path_670" data-name="Path 670"
+                                                                        d="M142.246,375.717l-1.5.864a.217.217,0,1,0,.216.376l1.5-.864a.217.217,0,0,0-.216-.376Z"
+                                                                        transform="translate(-54.66 -344.604)"
+                                                                        fill="#4b5052" />
+                                                                    <path id="Path_671" data-name="Path 671"
+                                                                        d="M520.214,158.939a.216.216,0,0,0,.108-.029l1.5-.864a.217.217,0,1,0-.216-.376l-1.5.864a.217.217,0,0,0,.108.4Z"
+                                                                        transform="translate(-415.23 -137.358)"
+                                                                        fill="#4b5052" />
+                                                                    <path id="Path_672" data-name="Path 672"
+                                                                        d="M446.308,72.857a.217.217,0,0,0,.3-.079l.87-1.5a.217.217,0,1,0-.375-.217l-.87,1.5a.217.217,0,0,0,.079.3Z"
+                                                                        transform="translate(-345.089 -54.962)"
+                                                                        fill="#4b5052" />
+                                                                    <path id="Path_673" data-name="Path 673"
+                                                                        d="M111.533,276.239a.217.217,0,0,0-.217-.216h0l-1.734,0a.217.217,0,1,0,0,.433h0l1.734,0a.217.217,0,0,0,.216-.217Z"
+                                                                        transform="translate(-24.94 -249.875)"
+                                                                        fill="#4b5052" />
+                                                                    <path id="Path_674" data-name="Path 674"
+                                                                        d="M546.88,275.381a.217.217,0,0,0,.217.216h0l1.734,0a.217.217,0,0,0,0-.433h0l-1.734,0a.217.217,0,0,0-.216.217Z"
+                                                                        transform="translate(-440.782 -249.056)"
+                                                                        fill="#4b5052" />
+                                                                    <path id="Path_675" data-name="Path 675"
+                                                                        d="M109.5,35.6l-1.157-3.689a13.22,13.22,0,1,0-23.625.718h-.936a.217.217,0,0,0-.2.294l2.153,5.6v.827a.217.217,0,0,0,.217.217h21a.217.217,0,0,0,.216-.234L107.1,38.7h.116a2.384,2.384,0,0,0,2.274-3.1ZM85.209,32.63a12.785,12.785,0,1,1,22.933-1.346l-.435-1.388a1.659,1.659,0,0,0-1.59-1.167h-3.27v-1.3a.791.791,0,0,0,.4-.687v0l.005-1.248a1.189,1.189,0,0,0-1.182-1.188,1.087,1.087,0,0,1-.6-.187,1.517,1.517,0,0,0-.842-.261h-.161a.813.813,0,0,0-.813.814v.275l-.19.13a.665.665,0,0,0,.373,1.214h.329l0,.873a1.1,1.1,0,0,0,.951,1.1v.472H97.947a1.647,1.647,0,0,0-1.567,1.134l-1.906,5.8h-.5l-1.114-2.9a.217.217,0,0,0-.2-.139Zm19.7-.529,1.113,3.563H102.6l-.19-4.551.433-.867-.711-.711.559-.373h3.421a1.228,1.228,0,0,1,1.176.863l1,3.179-2.323.835-.646-2.068a.217.217,0,0,0-.414.129Zm-3.36-.988-.19,4.551H98.842l-.3-3.65a.217.217,0,0,0-.432.035l.121,1.489-.243.779-2.367-.767L96.792,30a1.214,1.214,0,0,1,1.155-.836h3.318l.56.373-.711.711Zm-3.14,4.551h-.381l.3-.97Zm3.14-6.834v-.592a1.312,1.312,0,0,0,.311-.109.217.217,0,1,0-.194-.387.886.886,0,0,1-.4.094.669.669,0,0,1-.666-.673l0-.873.6,0h0a1.339,1.339,0,0,0,.576.608.217.217,0,0,0,.32-.181.358.358,0,0,1,.359-.343h0a.361.361,0,0,1,.358.36v0a.358.358,0,0,1-.251.34.217.217,0,0,0-.152.207V28.83l-.433.289ZM90.061,35.664a.868.868,0,1,1-.254-.613.867.867,0,0,1,.254.613Zm4.551,3.467H86.161V38.7h8.452Zm.366-.867L94.144,36.1h.486a.217.217,0,0,0,.206-.149l.653-1.986,2.373.769-.291.933H96.485a.582.582,0,0,0-.581.581.575.575,0,0,0,.117.349.585.585,0,0,0,.3.21l.814.235a1.929,1.929,0,0,1-1.829,1.226Zm1.729,0a2.32,2.32,0,0,0,.85-1.105l.152.044a.792.792,0,0,1,.548.568,1.22,1.22,0,0,0,.255.494Zm4.506.867h-.749V38.7h.768Zm1.542,0V38.7h3.915l.035.433Zm6.038-1.662a1.931,1.931,0,0,1-1.572.8H99.444a.78.78,0,0,1-.477-.161l-.01-.007h0a.79.79,0,0,1-.28-.431,1.227,1.227,0,0,0-.849-.879l-1.383-.4a.148.148,0,0,1,.04-.29h9.83a.217.217,0,0,0,.207-.281l-.425-1.362,2.324-.835.662,2.111h0a1.931,1.931,0,0,1-.289,1.738Z"
+                                                                        transform="translate(0 -0.001)"
+                                                                        fill="#4b5052" />
+                                                                    <path id="Path_676" data-name="Path 676"
+                                                                        d="M192.953,22.843a.217.217,0,0,0,.361-.24l-.433-.65a.217.217,0,1,0-.361.24Z"
+                                                                        transform="translate(-103.939 -8.298)"
+                                                                        fill="#4b5052" />
+                                                                    <path id="Path_677" data-name="Path 677"
+                                                                        d="M170.842,48.558h.867a.217.217,0,0,0,0-.433h-.867a.217.217,0,1,0,0,.433Z"
+                                                                        transform="translate(-83.164 -33.266)"
+                                                                        fill="#4b5052" />
+                                                                    <path id="Path_678" data-name="Path 678"
+                                                                        d="M223.342,14.425a.217.217,0,0,0,.217-.217v-.867a.217.217,0,0,0-.433,0v.867a.217.217,0,0,0,.217.217Z"
+                                                                        transform="translate(-133.064)"
+                                                                        fill="#4b5052" />
+                                                                </g>
+                                                            </svg>
+
+                                                        </div>
+                                                        <p>انتهى التفاعل على التحدي في</p>
+                                                        <span>
+                                                            20/04/2022
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="newwstChallengeBox">
+                                                    <div class="newsetAdminDetails clearfix">
+                                                        <div class="newestAdmnImg">
+                                                            <img src="assets/images/Rectangle 197.png" alt="">
+                                                        </div>
+                                                        <p>اسم الأدمن</p>
+                                                        <a href="#">تفاصيل التحدي</a>
+                                                    </div>
+                                                    <span>مثال على نص عربي يوضح وصف التحدي بالكامل مثال على نص عربي يوضح
+                                                        وصف التحدي بالكامل مثال على نص عربي يوضح وصف التحدي بالكامل مثال
+                                                        على نص عربي يوضح وصف التحدي بالكامل
+                                                    </span>
+                                                    <div class="newestChallengeFooter">
+                                                        <div class="newestChallengeFooterIcon">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="26.478"
+                                                                height="26.439" viewBox="0 0 26.478 26.439">
+                                                                <g id="noun-deadline-4483858"
+                                                                    transform="translate(-83.127 -13.125)">
+                                                                    <path id="Path_669" data-name="Path 669"
+                                                                        d="M144.966,41.013a11.988,11.988,0,0,0-4.28,4.315l-.018.031a.217.217,0,0,0,.08.3l8.7,4.983h-7.542a.217.217,0,0,0-.217.217v.867a.217.217,0,0,0,.217.217h7.732a1.517,1.517,0,1,0,2.158-1.946l-.571-1.8V39.586a.217.217,0,0,0-.217-.217,11.909,11.909,0,0,0-6,1.618ZM149.6,44.5,151.28,49.8h0a1.51,1.51,0,0,0-1.256.341L148.362,44.9Z"
+                                                                        transform="translate(-54.663 -24.944)"
+                                                                        fill="#4b5052" />
+                                                                    <path id="Path_670" data-name="Path 670"
+                                                                        d="M142.246,375.717l-1.5.864a.217.217,0,1,0,.216.376l1.5-.864a.217.217,0,0,0-.216-.376Z"
+                                                                        transform="translate(-54.66 -344.604)"
+                                                                        fill="#4b5052" />
+                                                                    <path id="Path_671" data-name="Path 671"
+                                                                        d="M520.214,158.939a.216.216,0,0,0,.108-.029l1.5-.864a.217.217,0,1,0-.216-.376l-1.5.864a.217.217,0,0,0,.108.4Z"
+                                                                        transform="translate(-415.23 -137.358)"
+                                                                        fill="#4b5052" />
+                                                                    <path id="Path_672" data-name="Path 672"
+                                                                        d="M446.308,72.857a.217.217,0,0,0,.3-.079l.87-1.5a.217.217,0,1,0-.375-.217l-.87,1.5a.217.217,0,0,0,.079.3Z"
+                                                                        transform="translate(-345.089 -54.962)"
+                                                                        fill="#4b5052" />
+                                                                    <path id="Path_673" data-name="Path 673"
+                                                                        d="M111.533,276.239a.217.217,0,0,0-.217-.216h0l-1.734,0a.217.217,0,1,0,0,.433h0l1.734,0a.217.217,0,0,0,.216-.217Z"
+                                                                        transform="translate(-24.94 -249.875)"
+                                                                        fill="#4b5052" />
+                                                                    <path id="Path_674" data-name="Path 674"
+                                                                        d="M546.88,275.381a.217.217,0,0,0,.217.216h0l1.734,0a.217.217,0,0,0,0-.433h0l-1.734,0a.217.217,0,0,0-.216.217Z"
+                                                                        transform="translate(-440.782 -249.056)"
+                                                                        fill="#4b5052" />
+                                                                    <path id="Path_675" data-name="Path 675"
+                                                                        d="M109.5,35.6l-1.157-3.689a13.22,13.22,0,1,0-23.625.718h-.936a.217.217,0,0,0-.2.294l2.153,5.6v.827a.217.217,0,0,0,.217.217h21a.217.217,0,0,0,.216-.234L107.1,38.7h.116a2.384,2.384,0,0,0,2.274-3.1ZM85.209,32.63a12.785,12.785,0,1,1,22.933-1.346l-.435-1.388a1.659,1.659,0,0,0-1.59-1.167h-3.27v-1.3a.791.791,0,0,0,.4-.687v0l.005-1.248a1.189,1.189,0,0,0-1.182-1.188,1.087,1.087,0,0,1-.6-.187,1.517,1.517,0,0,0-.842-.261h-.161a.813.813,0,0,0-.813.814v.275l-.19.13a.665.665,0,0,0,.373,1.214h.329l0,.873a1.1,1.1,0,0,0,.951,1.1v.472H97.947a1.647,1.647,0,0,0-1.567,1.134l-1.906,5.8h-.5l-1.114-2.9a.217.217,0,0,0-.2-.139Zm19.7-.529,1.113,3.563H102.6l-.19-4.551.433-.867-.711-.711.559-.373h3.421a1.228,1.228,0,0,1,1.176.863l1,3.179-2.323.835-.646-2.068a.217.217,0,0,0-.414.129Zm-3.36-.988-.19,4.551H98.842l-.3-3.65a.217.217,0,0,0-.432.035l.121,1.489-.243.779-2.367-.767L96.792,30a1.214,1.214,0,0,1,1.155-.836h3.318l.56.373-.711.711Zm-3.14,4.551h-.381l.3-.97Zm3.14-6.834v-.592a1.312,1.312,0,0,0,.311-.109.217.217,0,1,0-.194-.387.886.886,0,0,1-.4.094.669.669,0,0,1-.666-.673l0-.873.6,0h0a1.339,1.339,0,0,0,.576.608.217.217,0,0,0,.32-.181.358.358,0,0,1,.359-.343h0a.361.361,0,0,1,.358.36v0a.358.358,0,0,1-.251.34.217.217,0,0,0-.152.207V28.83l-.433.289ZM90.061,35.664a.868.868,0,1,1-.254-.613.867.867,0,0,1,.254.613Zm4.551,3.467H86.161V38.7h8.452Zm.366-.867L94.144,36.1h.486a.217.217,0,0,0,.206-.149l.653-1.986,2.373.769-.291.933H96.485a.582.582,0,0,0-.581.581.575.575,0,0,0,.117.349.585.585,0,0,0,.3.21l.814.235a1.929,1.929,0,0,1-1.829,1.226Zm1.729,0a2.32,2.32,0,0,0,.85-1.105l.152.044a.792.792,0,0,1,.548.568,1.22,1.22,0,0,0,.255.494Zm4.506.867h-.749V38.7h.768Zm1.542,0V38.7h3.915l.035.433Zm6.038-1.662a1.931,1.931,0,0,1-1.572.8H99.444a.78.78,0,0,1-.477-.161l-.01-.007h0a.79.79,0,0,1-.28-.431,1.227,1.227,0,0,0-.849-.879l-1.383-.4a.148.148,0,0,1,.04-.29h9.83a.217.217,0,0,0,.207-.281l-.425-1.362,2.324-.835.662,2.111h0a1.931,1.931,0,0,1-.289,1.738Z"
+                                                                        transform="translate(0 -0.001)"
+                                                                        fill="#4b5052" />
+                                                                    <path id="Path_676" data-name="Path 676"
+                                                                        d="M192.953,22.843a.217.217,0,0,0,.361-.24l-.433-.65a.217.217,0,1,0-.361.24Z"
+                                                                        transform="translate(-103.939 -8.298)"
+                                                                        fill="#4b5052" />
+                                                                    <path id="Path_677" data-name="Path 677"
+                                                                        d="M170.842,48.558h.867a.217.217,0,0,0,0-.433h-.867a.217.217,0,1,0,0,.433Z"
+                                                                        transform="translate(-83.164 -33.266)"
+                                                                        fill="#4b5052" />
+                                                                    <path id="Path_678" data-name="Path 678"
+                                                                        d="M223.342,14.425a.217.217,0,0,0,.217-.217v-.867a.217.217,0,0,0-.433,0v.867a.217.217,0,0,0,.217.217Z"
+                                                                        transform="translate(-133.064)"
+                                                                        fill="#4b5052" />
+                                                                </g>
+                                                            </svg>
+
+                                                        </div>
+                                                        <p>انتهى التفاعل على التحدي في</p>
+                                                        <span>
+                                                            20/04/2022
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </form>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -351,8 +955,7 @@
     <script src="assets/js/scripts.bundle.js"></script>
     <script src="assets/js/wow.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
-    <script type="text/javascript" src="assets/js/select.js"></script>
-    <script type="text/javascript" src="assets/js/datePicker.js"></script>
+    <script type="text/javascript" src="assets/js/chat.js"></script>
 
     <script type="text/javascript" src="assets/js/main.js"></script>
     <!--  <script type="text/javascript" src="assets/js/jquery1.js"></script>
@@ -360,7 +963,9 @@
   <script type="text/javascript" src="assets/js/countUp.js"></script>-->
 
 
+    <script>
 
+    </script>
 
 </body>
 
