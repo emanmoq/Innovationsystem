@@ -3028,6 +3028,131 @@ button.reciveSuggModalClose{
     align-self: center;
     justify-content: flex-start;
 }
-.homePageBody{
-    padding:175px 0
+.homePageBody {
+    position: relative;
+    background-image: url("../images/homepage.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding:150px 0
+}
+.homePageBody::before{
+    content: "";
+    position: absolute;
+    top:0;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(39, 39, 39, .24)
+}
+.homepageLogo{
+    width:110px ;
+}
+.mainMenuHome{
+    width: 500px;
+    position: relative;
+    justify-content: center;
+    align-self: center;
+    min-height: 500px;
+    margin: auto;
+}
+.mainMenuItem{
+    display: flex;
+    transition: all .5s;
+}
+.mainMenuItem:hover{
+    opacity: .8;
+    transition: all .5s;
+}
+.mainMenuItem p{
+    font-size: 1.25em;
+    color: white;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+    align-self: center;
+    justify-content: center;
+}
+#home1Link{
+    width:400px
+}
+#exploreChallenge{
+margin-right: -60px;
+width: 465px;
+}
+#lambBottom{
+    width:135px;
+}
+#suggestNow{
+    width:465px;
+    margin-right: -38px;
+}
+#talkpeers{
+ width:420px;
+   margin-right:-35PX
+}
+#personalInfo{
+    width: 276px;
+margin-right: 62px;
+}
+#lambBottom{
+    margin-top:18px;
+    margin-right: 25%;
+}
+.about{
+    background-color: rgba(144, 175, 196, .64);
+    width: 400px;
+    min-height: 600px;
+    padding: 24px;
+    color:white;
+    font-size: 1.25em;
+    position:absolute;
+    right:57px;
+    top:180px;
+    border-radius: 8px;
+    animation: rollIn 1s ease 1;
+    opacity: 1;
+    display: none;
+}
+
+.handImg{
+    position: absolute;
+    right: -20%;
+    top:5%;
+    display: none;
+}
+
+.homeDropdownLink{
+    margin-top: 11px;
+    padding:22px;
+    border-radius: 8px;
+    text-align: center;
+    display: block;
+    width: 100%;
+    justify-content: center;
+    transition: all .5s;
+}
+.exploreChallengeDropDown .homeDropdownLink{
+  background-color: rgba(206, 120, 71, .86);
+}
+.suggestHomeDropdown .homeDropdownLink{
+    background-color: rgba(157, 164, 122, .86);
+}
+.suggestHomeDropdown .homeDropdownLink:hover{
+    background-color: rgba(157, 164, 122, .6);
+    transition: all .5s;
+}
+.exploreChallengeDropDown .homeDropdownLink:hover{
+    background-color: rgba(206, 120, 71, .6);
+    transition: all .5s;
+  }
+.homeDropdown{
+    width:330px;
+    margin-bottom: 11px;
+    display: none;
+}
+.homeDropdownLink p{
+    font-size: 1.25em;
+    color:white
 }
