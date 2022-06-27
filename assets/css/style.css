@@ -370,6 +370,8 @@ a:hover {
 .dropdown-menu {
     min-width: 213px;
     z-index: 999999;
+
+    animation: fadeIn .3s 1 ease-in-out;
 }
 
 .profile .dropdown-menu {
@@ -462,7 +464,7 @@ a:hover {
     font-weight: bold;
     font-family: 'Tajawal', sans-serif;
     left: 40%;
-    top: 9px;
+    top: 13px;
     z-index: 9999
 }
 
