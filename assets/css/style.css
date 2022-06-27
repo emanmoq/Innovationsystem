@@ -3018,3 +3018,13 @@ button.reciveSuggModalClose{
     background-color:#efc0c0 ;
     color:#F01010;
 }
+.homePageHeader{
+    background-color: white;
+    height: 80px;
+    display: flex;
+}
+.homepageLogo{
+    display: flex;
+    align-self: center;
+    justify-content: flex-start;
+}
