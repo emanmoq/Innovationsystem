@@ -1626,7 +1626,7 @@ a:hover {
     margin-top:57px;
     margin-right: 24px;
 }
-.creatchallengeContent .form-group {
+.creatchallengeContentBox .form-group {
     width: 750px;
     float: right;
     position: relative;
@@ -1634,7 +1634,7 @@ a:hover {
     opacity: 0;
    animation: bounceInRight 2s 1 ease-in;
 }
-.creatchallengeContent .active-Form-group{
+.creatchallengeContentBox .active-Form-group{
     display: block;
     opacity: 1;
 }
