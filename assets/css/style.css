@@ -3160,3 +3160,6 @@ margin-right: 62px;
     font-size: 1.25em;
     color:white
 }
+.fade:not(.show) {
+ display: none;
+}

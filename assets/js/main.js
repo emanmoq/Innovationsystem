@@ -43,10 +43,7 @@ $(".headSec4").click(function(){
 $(".headSec5").click(function(){
     $(".benfitChallenge-group").addClass("active-Form-group")
 });
-$("#home1Link").click(function(){
-    $(".about").slideToggle( "slow", function() {});
-    $(".handImg").slideToggle( "slow", function() {});
-});
+
 $(".mainMenuItem").click(function(){
     $(this).next(".homeDropdown").slideToggle("slow", function() {
       });

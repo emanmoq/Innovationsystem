@@ -187,9 +187,10 @@
                                             التحديات
                                         </a>
                                         <div class="dropdown-menu" aria-labelledby="challenges">
-                                            <a class="dropdown-item" href="#">المقترحات المستلمة</a>
-                                            <a class="dropdown-item" href="#">مقترحات تم تغييرها سابقا </a>
-                                            <a class="dropdown-item" href="#">تقييم المقترحات الجديدة </a>
+                                            <a class="dropdown-item" href="#">طرح تحدي</a>
+                                            <a class="dropdown-item" href="#">التحديات المطروحة</a>
+                                            <a class="dropdown-item" href="#">التحديات المطروحة مسبقا</a>
+                                            <a class="dropdown-item" href="#">التحديات المستلمة</a>
                                         </div>
                                     </li>
                                     <li class="nav-item dropdown">
@@ -198,10 +199,10 @@
                                             المقترحات
                                         </a>
                                         <div class="dropdown-menu" aria-labelledby="suggestions">
-                                            <a class="dropdown-item" href="#">طرح تحدي</a>
-                                            <a class="dropdown-item" href="#">التحديات المطروحة</a>
-                                            <a class="dropdown-item" href="#">التحديات المطروحة مسبقا</a>
-                                            <a class="dropdown-item" href="#">التحديات المستلمة</a>
+                                            <a class="dropdown-item" href="#">المقترحات المستلمة</a>
+                                            <a class="dropdown-item" href="#">مقترحات تم تغييرها سابقا </a>
+                                            <a class="dropdown-item" href="#">تقييم المقترحات الجديدة </a>
+
 
                                         </div>
                                     </li>
@@ -393,7 +394,7 @@
                                             aria-labelledby="change-Pass-tab">
                                             <div class="personalInfoTitle">
                                                 <p>
-                                                    تغيير كلمة المرور 
+                                                    تغيير كلمة المرور
                                                 </p>
                                                 <span>تغيير كلمة المرور الخاصة بالحساب</span>
                                             </div>
@@ -403,44 +404,52 @@
                                                         <div class="col-md-6">
                                                             <div class="form-group passwordFormGroup">
                                                                 <label for=""> كلمة المرور الحالية</label>
-                                                                <input type="password" class="form-control password-input"
+                                                                <input type="password"
+                                                                    class="form-control password-input"
                                                                     value="123456789">
-                                                                    <i class="fa fa-eye-slash showHide"  onclick="myFunction(this)"></i>
+                                                                <i class="fa fa-eye-slash showHide"
+                                                                    onclick="myFunction(this)"></i>
                                                             </div>
                                                             <div class="form-group passwordFormGroup">
                                                                 <label for=""> كلمة المرور الجديدة</label>
                                                                 <input type="text" class="form-control password-input"
                                                                     value="123456789ا">
-                                                                    <i class="fa fa-eye showHide" onclick="myFunction(this)"></i>
+                                                                <i class="fa fa-eye showHide"
+                                                                    onclick="myFunction(this)"></i>
                                                             </div>
                                                             <div class="form-group passwordFormGroup">
                                                                 <label for=""> اأكيد كلمة المرور الجديدة</label>
-                                                                <input type="password" class="form-control password-input"
+                                                                <input type="password"
+                                                                    class="form-control password-input"
                                                                     value="123456789ا">
-                                                                    <i class="fa fa-eye-slash showHide"  onclick="myFunction(this)"></i>
+                                                                <i class="fa fa-eye-slash showHide"
+                                                                    onclick="myFunction(this)"></i>
                                                             </div>
                                                             <div class="personalInfoBtns"> <a href="#"
-                                                                class="btn saveInfoBtn"> <span>حفظ</span></a>
-                                                            <a href="#" class="btn cancelInfoBtn">
-                                                                <span>الغاء</span></a>
-                                                        </div>
+                                                                    class="btn saveInfoBtn"> <span>حفظ</span></a>
+                                                                <a href="#" class="btn cancelInfoBtn">
+                                                                    <span>الغاء</span></a>
+                                                            </div>
                                                         </div>
                                                         <script>
                                                             function myFunction(input) {
-                                                          var x = $(input).parent().find(".password-input")
-                                                          if (x.type == "password") {
-                                                            x.type = "text";
-                                                            $(".showHide").removeClass("fa-eye-slash");
-                                                            $(".showHide").addClass("fa-eye");
-                                                          }
-                                                          else {
-                                                            x.type = "password";
-                                                            $(".showHide").addClass("fa-eye-slash");
-                                                            $(".showHide").removeClass("fa-eye");
-                                                          }
-                                                        }
+                                                                var x = $(input).parent().find(".password-input")
+                                                                if (x.attr('type') == "text") {
+                                                                    x.attr('type','password');
+                                                                    $(input).addClass("fa-eye-slash");
+                                                                    $(input).removeClass("fa-eye");
+                                                                  
+                                                              
+                                                                }
+                                                                else {
+                                                                    x.attr('type','text');
+                                                                    $(input).removeClass("fa-eye-slash");
+                                                                    $(input).addClass("fa-eye");
+                                                                 
+                                                                }
+                                                            }
                                                         </script>
-                                                 
+
                                                     </div>
                                                 </div>
                                             </div>
@@ -456,25 +465,25 @@
             </div>
         </div>
     </section>
-    <div class="modal changeImgModal text-center" tabindex="-1" role="dialog" >
+    <div class="modal changeImgModal text-center" tabindex="-1" role="dialog">
         <div class="modal-dialog" role="document">
-          <div class="modal-content">
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            <div class="modal-body text-center">
-                <div class="userprofileImg modalChangeImg">
-                    <img src="assets/images/user2.png" alt="">
-                </div>
-                <span class="extension"> الامتدادات المسموح بها<span>png, jpg, jpeg.</span></span>
-                <div class="modalBtns">
-                    <a href="#" class="btn changeImgModalBtn"><span>تغيير الصورة</span></a>
-                    <a href="#" class="btn delImgBtn"><span>حذف الصورة</span></a>
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <div class="modal-body text-center">
+                    <div class="userprofileImg modalChangeImg">
+                        <img src="assets/images/user2.png" alt="">
+                    </div>
+                    <span class="extension"> الامتدادات المسموح بها<span>png, jpg, jpeg.</span></span>
+                    <div class="modalBtns">
+                        <a href="#" class="btn changeImgModalBtn"><span>تغيير الصورة</span></a>
+                        <a href="#" class="btn delImgBtn"><span>حذف الصورة</span></a>
+                    </div>
                 </div>
             </div>
-          </div>
         </div>
-      </div>
+    </div>
     <script type="text/javascript" src="assets/js/jquery.js"></script>
     <script type="text/javascript" src="assets/js/popper.js"></script>
 
@@ -491,7 +500,7 @@
   <script type="text/javascript" src="assets/js/waypoints-min.js"></script>
   <script type="text/javascript" src="assets/js/countUp.js"></script>-->
 
-<script>$(".modal").modal("show")</script>
+    <script>$(".modal").modal("show")</script>
 
 
 </body>
