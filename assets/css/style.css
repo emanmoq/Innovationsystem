@@ -1561,9 +1561,8 @@ a:hover {
 }
 
 .creatchallengeContent {
-    padding-top: 57px;
-    padding-right: 57px;
     padding-left: 25px;
+    height: 520px;
 }
 
 .createchallengesForm {
@@ -1573,14 +1572,71 @@ a:hover {
 .headIcon {
     position: absolute;
     right: 0;
-}
+    top: 0;
+    width:450px;
+    height: 529px;
 
-.createchallengedetails .form-group {
+}
+.headIcon a{
+    position: absolute;
+    display: flex;
+}
+.headIcon p{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+    display: flex;
+    align-self: center;
+    color:white;
+    font-size: 1.4375em;
+    justify-content: center;
+}
+.headIcon a:hover{
+    opacity: .7;
+}
+.headSec1{
+    right:0;
+    top: 0;
+    width: 80%;
+}
+.headSec2{
+    right: -17px;
+    top: 108px;
+    width: 90%;
+}
+.headSec3{
+    right: -15px;
+    top: 210px;
+    width: 98%;
+}
+.headSec4{
+    right: 30px;
+    top: 315px;
+    width: 82%;
+}
+.headSec5{
+    bottom: 7px;
+    right: -16px;
+    width: 89%;
+}
+.createchallengedetails{
+    position: relative;
+    margin-top:57px;
+    margin-right: 24px;
+}
+.creatchallengeContent .form-group {
     width: 750px;
     float: right;
     position: relative;
+    display: none;
+    opacity: 0;
+   animation: bounceInRight 2s 1 ease-in;
 }
-
+.creatchallengeContent .active-Form-group{
+    display: block;
+    opacity: 1;
+}
 .createchallengesForm .form-control {
     height: 56px;
     background-color: white;
@@ -1593,7 +1649,6 @@ a:hover {
     margin-bottom: 28px;
     margin-top: 20px
 }
-
 .descripChallengeForm-group {
     margin-right: 416px;
     margin-bottom: 41px;
@@ -1743,7 +1798,6 @@ a:hover {
     left: 0;
     display: block;
     position: absolute;
-
 }
 
 .chatUserBox .symbol.active::before {
@@ -1752,7 +1806,6 @@ a:hover {
 
 .chatUserBox .symbol.away:before {
     background-color: #FFBD08;
-
 }
 
 .chatUserBox .symbol.offline:before {
@@ -2404,6 +2457,7 @@ textarea {
 .recivedSuggTable.table thead {
     border: 0
 }
+
 .recivedSuggTable td,
 .recivedSuggTable.table thead th {
     border-radius: 5px;
@@ -2422,17 +2476,20 @@ textarea {
     width: 100%;
     z-index: 0;
 }
-.headerInnerIcon{
+
+.headerInnerIcon {
     margin-bottom: 8px;
 }
+
 .recivedSuggTable th .tableHeaderText {
     position: absolute;
     z-index: 1;
     width: 100%;
     height: 100%;
-    top:2px;
-    left:0
+    top: 2px;
+    left: 0
 }
+
 .blueTD {
     background-color: #E5ECF2;
 }
@@ -2524,26 +2581,440 @@ textarea {
     color: #721c24;
     background-color: #f8d7da;
 }
-.titleText{
+
+.titleText {
     max-width: 95px;
     display: inline-flex;
     text-align: center;
     justify-content: center;
 }
-.evaSuggTables td,.evaSuggTables th{
-width:17%;
+
+.evaSuggTables td,
+.evaSuggTables th {
+    width: 17%;
 }
-.actionsTD a.showEvalBtn{
-background-color: #90AFC4;
-border-radius: 8px;
-width:103px;
-height: 46px;
-color:white;
+
+.actionsTD a.showEvalBtn {
+    background-color: #90AFC4;
+    border-radius: 8px;
+    width: 103px;
+    height: 46px;
+    color: white;
 
 }
-.evaSuggTables .actionsTD a:first-child{
-    margin-left:10px;
+
+.evaSuggTables .actionsTD a:first-child {
+    margin-left: 10px;
 }
-.actionsTD a.showEvalBtn:hover{
-background-color:#498dbc;
+
+.actionsTD a.showEvalBtn:hover {
+    background-color: #498dbc;
+}
+
+.userproileContainer {
+    background-color: white;
+    border-radius: 5px;
+}
+
+.userSide {
+    padding-top: 40px;
+    border-left: 1px solid #F0F0F0;
+    height:100%;
+    background-color: white;
+}
+
+.userprofileImg {
+    position: relative;
+    margin: auto;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    margin-bottom: 13px;
+}
+
+.userprofileImg img {
+    border-radius: 50%;
+}
+
+.userprofileImg:before {
+    content: "";
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 3px solid #FFFFFF;
+    bottom: 10px;
+    left: 15px;
+    display: block;
+    position: absolute;
+}
+
+.userprofileImg.active:before {
+    background-color: #76C00D;
+}
+
+.userprofileImg.away:before {
+    background-color: #FFBD08;
+}
+
+.userprofileImg.offline:before {
+    background-color: #AFBBC6;
+}
+
+.userProfileName p {
+    font-family: "GE-SS-Two-Light";
+    font-size: 1.5em;
+}
+
+.userProfileName span {
+    font-size: 1.1875em;
+}
+
+.editProfileList {
+    margin-top: 35px
+}
+
+.editProfileList.nav.nav-pills .nav-link {
+    padding: 22px 36px;
+    color: #7D9D92;
+    font-size: 1.1875em;
+    border-bottom: 1px solid #F0F0F0
+}
+
+.personalInfoIcon {
+    margin-left: 24px;
+    width: 30px
+}
+
+.editProfileList.nav.nav-pills .nav-link.active {
+    font-size: 1.25em;
+    font-family: "GE-SS-Two-medium";
+    background-color: rgba(125, 157, 146, .22)
+}
+.personalInfoTitle{
+    padding:24px 44px;
+    border-bottom: 1px solid #F0F0F0
+}
+.personalInfoTitle p{
+    font-size: 1.375em;
+    color:#333333;
+    margin-bottom: 11px;
+}
+.userprofileCol{
+    padding:0;
+    margin:0
+}
+.changepersonalInfoCont{
+    padding:25px 42px
+}
+.personalPic{
+    width:90px;
+    height: 90px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+}
+.personalPic:before{
+    content:"";
+    width: 100%;
+    height: 100%;
+    background-color:rgba(0, 0, 0, .39) ;
+    position: absolute;
+    z-index: 1;
+    border:0
+}
+
+.changeProfileImg i{
+    position: absolute;
+    top:40%;
+    left:40%;
+    z-index: 2;
+    color:white;
+}
+#changeImg{
+    position: absolute;
+    width: 0;
+}
+.personalInfoDetailsInput{
+    margin-top:36px
+}
+.personalInfoDetailsInput label{
+    color:#373A39;
+    margin-bottom: 13px;
+    font-size: 16px;
+}
+.personalInfoDetailsInput .form-control{
+    height: 50px;
+    border:1px solid #D7D7D7;
+    border-radius: 5px;
+}
+.form-control::placeholder{
+    font-size: 14px;
+    color:#999999;
+}
+.personalInfoDetailsInput .form-group{
+    margin-bottom: 24px;
+}
+.personalInfoBtns{
+    margin-top:35px
+}
+.personalInfoBtns .btn{
+    display: inline-block;
+    margin-left:12px;
+    width:121px;
+    height: 50px;
+    border-radius: 5px;
+    font-size:1.25em
+}
+.saveInfoBtn{
+    background-color: #7D9D92;
+    color:white;
+}
+.saveInfoBtn:hover{
+    background-color: #a6c1b8;
+    color:white
+}
+.cancelInfoBtn{
+    background-color: #F6F8F9;
+    color:#333333
+}
+.cancelInfoBtn:hover{
+    background-color: #d5e4ec;
+    
+}
+.passwordFormGroup{
+    position: relative;
+
+}
+.passwordFormGroup i{
+    position: absolute;
+    top:61%;
+    left:5%
+}
+.modalChangeImg{
+    margin: auto;
+    width: 130px;
+    height: 130px;
+}
+.modalChangeImg:before{
+    display: none;
+}
+.modal-dialog {
+    max-width: 830px;}
+.changeImgModal .modal-content{
+    padding:14px 24px
+}
+.close{
+    
+    align-self: flex-end;
+}
+.extension{
+    margin-top:10px;
+    display: block;
+    font-size:.875em;
+    color:#999999;
+    margin-bottom:37px
+}
+.extension span{
+    color:#999999
+}
+.modalBtns {
+    margin:auto;
+    text-align: center;
+}
+.modalBtns .btn{
+    width:163px;
+    height: 46px;
+    border-radius: 8px;
+    font-size:1.125em;
+    margin: auto;
+}
+.modalBtns .btn.changeImgModalBtn{
+    display: block;
+    background-color: #7D9D92;
+    margin-bottom: 13px;
+    color:white;
+}
+.modalBtns .btn.changeImgModalBtn:hover{
+    background-color:#a8c9bd ;
+}
+.delImgBtn{
+    background-color: transparent;
+    border:1px solid #F60707;
+    color:#F60707;
+}
+.delImgBtn:hover{
+    background-color:#F60707;
+    color:white
+}
+.reciveSuggModalHeader{
+background-color: #90AFC4;
+padding:16px 20px;
+display: flex;
+justify-content: space-between;
+}
+.reciveSuggModalHeader p{
+    color:white;
+    font-size: 1.125em;
+}
+.reciveSuggModal{
+    padding:25px 20px
+}
+
+.checkBoxContainer{
+    border:1px solid rgba(144, 175, 196, .5);
+    border-radius: 8px;
+    padding:9px 10px;
+    width:100%;
+    height: 55px;
+    position: relative;
+    margin-bottom: 14px;
+    cursor: pointer;
+    font-size: 12px;
+    color:#373A39;
+    display: flex;
+    align-self: center;
+    justify-content: space-around;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .checkBoxContainer input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  .checkBoxContainer span{
+    align-self: center;
+    display: flex;
+  }
+  /* Create a custom checkbox */
+ .checkBoxContainer .checkmark {
+    position: relative;
+    float: left;
+    top: 0;
+    left: 0;
+    height: 15px;
+    width: 15px;
+    background-color:transparent;
+    border: 1px solid #7D9D92;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .checkBoxContainer:hover input ~ .checkmark {
+    background-color: transparent;
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .checkBoxContainer input:checked ~ .checkmark {
+    background-color: transparent;
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+ .checkBoxContainer .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .checkBoxContainer input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .checkBoxContainer .checkmark:after {
+    left: 5px;
+    top: 0;
+    width: 5px;
+    height: 10px;
+    border: solid #7D9D92;;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  .conernedLogo{
+    width: 37px;
+    height: 37px;
+    border-radius: 12px;
+    margin-left:24px;
+    display: inline-flex;
+  }
+  .concernedBtn{
+   margin-top:35px
+  }
+  .concernedBtn .btn{
+width:163px;
+height: 46px;
+border-radius: 8px;
+font-size:1.125em;
+}
+.directinBtn{
+    background-color: #7D9D92;
+    color: white;
+}
+.cancelModalBtn{
+    background-color: white;;
+    border:1px solid #7D9D92;
+    color:#7D9D92;
+    margin-right:8px
+}
+.directinBtn:hover{
+    background-color: #7D9D92;
+    color:white;
+}
+.cancelModalBtn{
+    background-color: #ebebeb;
+}
+.scrollableModal{
+    height: 270px;
+    overflow-y: scroll;
+    padding:0 12px
+}
+.scrollableModal::-webkit-scrollbar {
+    width: 6px;
+}
+
+.scrollableModal::-webkit-scrollbar-track {
+    background-color: transparent;
+    padding:50px 0
+}
+
+.scrollableModal::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #BDCFDB;
+
+}
+button.reciveSuggModalClose{
+    width:24px;
+    height: 24px;
+    background-color: #FFFFFF;
+    opacity: 1;
+}
+.rejectForm{
+    font-size:1.0625em;
+    color:black;
+    margin-bottom: 8px;
+}
+.rejectForm textarea{
+    height: 92px;
+}
+.rejectBtn{
+    background-color: #F01010;
+    color:white;
+    margin-left: 8px;
+}
+.rejectBtn:hover{
+    background-color: #d20808;
+    color:white
+}
+.rejectCancelBtn{
+    background-color: transparent;
+    color:#F01010;
+    border:1px solid #F01010
+}
+.rejectCancelBtn:hover{
+    background-color:#efc0c0 ;
+    color:#F01010;
 }
