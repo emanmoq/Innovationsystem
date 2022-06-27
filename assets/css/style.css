@@ -1562,7 +1562,10 @@ a:hover {
 
 .creatchallengeContent {
     padding-left: 25px;
-    height: 520px;
+}
+.creatchallengeContentBox{
+    padding-left: 25px;
+    height: 520px;  
 }
 
 .createchallengesForm {
@@ -2328,6 +2331,7 @@ textarea {
 
 .reciveChallengeHeader {
     margin-bottom: 35px;
+    padding-top:16px
 }
 
 .importBtn {
