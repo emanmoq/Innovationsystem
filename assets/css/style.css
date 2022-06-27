@@ -1578,47 +1578,45 @@ a:hover {
 
 }
 .headIcon a{
-    position: absolute;
-    display: flex;
+    display: block;
+    position: relative;
 }
 .headIcon p{
     position: absolute;
     width: 100%;
     text-align: center;
     z-index: 1;
-    display: flex;
     align-self: center;
     color:white;
     font-size: 1.4375em;
     justify-content: center;
+    top:35%
 }
 .headIcon a:hover{
     opacity: .7;
 }
 .headSec1{
-    right:0;
-    top: 0;
-    width: 80%;
+    width: 365px;
 }
 .headSec2{
-    right: -17px;
-    top: 108px;
-    width: 90%;
+    margin-right: -17px;
+    margin-top: -31px;
+    width: 409px;
 }
 .headSec3{
-    right: -15px;
-    top: 210px;
-    width: 98%;
+    margin-right: -15px;
+    width: 447px;
+    margin-top: -31px;
 }
 .headSec4{
-    right: 30px;
-    top: 315px;
-    width: 82%;
+    margin-right: 30px;
+    width: 374px;
+    margin-top:-31px
 }
 .headSec5{
-    bottom: 7px;
-    right: -16px;
-    width: 89%;
+    margin-right: -16px;
+    width: 408px;
+    margin-top: -31px;
 }
 .createchallengedetails{
     position: relative;
