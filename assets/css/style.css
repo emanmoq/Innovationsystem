@@ -3437,3 +3437,20 @@ background-color: #8AAF9F;
     margin-bottom: 5px;
 
 }
+
+.employeeStatistics .statsticsBox{
+height: 201px;
+}
+.employeeStatistics .statsticsBox p{
+    font-size: 1.125em;
+}
+.employeeStatistics  .statisticsIcon{
+height: 125px;
+}
+.addSuggForm .tab-pane .form-group{
+    width:50%
+}
+.completeForm{
+    margin-top:50px;
+    display: none;
+}
