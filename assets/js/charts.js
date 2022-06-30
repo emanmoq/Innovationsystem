@@ -480,5 +480,255 @@ jQuery(function ($) {
         chart.render();
     }
     _demo20();
+    var _demo20Emp = function () {
+        const apexChart = "#chart20Emp";
+        options = {
+            plotOptions: {
+                bar: {
+                    distributed: true,
+
+                }
+            },
+            legend: {
+                show: false,
+            },
+
+            chart: {
+                type: 'bar',
+                height: 450,
+                toolbar: {
+                    show: false,
+                },
+
+            },
+            colors: ['#C3C8AA', "#8D8582", "#769E91", "#D0AD5B", "#9DA47A", "#CD7747"],
+            dataLabels: {
+                enabled: false,
+            },
+            xaxis: {
+                labels: {
+                    show: true,
+                    rotate: 0,
+                    rotateAlways: false,
+                    minHeight: 100,
+                    maxHeight: 180,
+                    style: {
+                        fontSize: 11,
+                        fontFamily: 'Tajawal',
+                        color: "#373A39",
+                    }
+                },
+
+            },
+            series: [{
+                data: [{
+
+                    x: 'مقترح1',
+                    y: 10,
+
+                }, {
+                    x: 'مقترح2',
+                    y: 10,
+                }, {
+                    x: 'مقترح3',
+                    y: 8
+                }, {
+                    x: 'مقترح4',
+                    y: 8
+                }
+                    , {
+                    x: 'مقترح5',
+                    y: 18
+                }
+                    , {
+                    x: 'مقترح6',
+                    y: 22
+                },
+
+                ]
+            }],
+            tooltip: {
+                enabled: true,
+                enabledOnSeries: "colors",
+                shared: true,
+                followCursor: false,
+                intersect: false,
+                inverseOrder: false,
+                custom: undefined,
+                fillSeriesColor: false,
+                style: {
+                    fontSize: '11px',
+                    fontFamily: undefined
+                },
+                onDatasetHover: {
+                    highlightDataSeries: false,
+                    color: "#769E91"
+                },
+
+                marker: {
+                    size: 17,
+                    radius: 17,
+                    show: true,
+                    colors: undefined,
+                },
+                y: {
+                    title: {
+                        formatter(seriesName) {
+                            seriesName = ""
+                            return seriesName
+                        }
+                    }
+                }
+
+
+            },
+
+
+
+        }
+
+
+        var chart = new ApexCharts(document.querySelector(apexChart), options);
+        chart.render();
+    }
+    _demo20Emp();
+    var _bigChart = function () {
+        const apexChart = "#bigChart";
+        options = {
+            plotOptions: {
+                bar: {
+                    distributed: true,
+
+                }
+            },
+            legend: {
+                show: false,
+            },
+
+            chart: {
+                type: 'bar',
+                height: 450,
+                toolbar: {
+                    show: false,
+                },
+
+            },
+            colors: ['#C3C8AA', "#8D8582", "#769E91", "#D0AD5B", "#9DA47A", "#CD7747", "#9DA47A", "#8D8582", "#D0AD5B", "#C3C8AA", "#CD7747", "#9DA47A", "#CD7747"],
+            dataLabels: {
+                enabled: false,
+            },
+            xaxis: {
+                labels: {
+                    show: true,
+                    rotate: 0,
+                    rotateAlways: false,
+                    minHeight: 100,
+                    maxHeight: 180,
+                    style: {
+                        fontSize: 11,
+                        fontFamily: 'Tajawal',
+                        color: "#373A39",
+                    }
+                },
+
+            },
+            series: [{
+                data: [{
+
+                    x: ['دائرة الموارد ', 'البشرية'],
+                    y: 20,
+
+                }, {
+                    x: ['دائرة الأراضي','والتظيم العقاري'],
+                    y: 20,
+                }, {
+                    x: ['دائرة عجمان ', 'الرقمية'],
+                    y: 18
+                }, {
+                    x: ['دائرة الشؤون ', 'المدنية'],
+                    y: 18
+                }
+                    , {
+                    x: ['جهاز الرقابة ', 'المالية'],
+                    y: 35
+                }
+                    , {
+                    x: [' غرفة عجمان '],
+                    y: 54
+                },
+                {
+                    x: ['المجلس التنفيذي', 'لحكومة عجمان'],
+                    y: 65
+                },
+                {
+
+                    x: ['دائرة الميناء', 'والجمارك'],
+                    y: 45,
+
+                }, {
+                    x: [' دائرة التنمية  ', 'الاقتصادية'],
+                    y: 35,
+                }, {
+                    x: [' دائرة المالية '],
+                    y: 65
+                }, {
+                    x: ['تطبيق تكنولوجيا ', 'حديثة'],
+                    y: 20
+                }
+                    , {
+                    x: [' دائرة التنمية', 'والسياحة'],
+                    y: 60
+                },
+                {
+                    x: ['دائرة البلدية', 'والتخطيط'],
+                    y: 90
+                },
+                ]
+            }],
+            tooltip: {
+                enabled: true,
+                enabledOnSeries: "colors",
+                shared: true,
+                followCursor: false,
+                intersect: false,
+                inverseOrder: false,
+                custom: undefined,
+                fillSeriesColor: false,
+                style: {
+                    fontSize: '11px',
+                    fontFamily: undefined
+                },
+                onDatasetHover: {
+                    highlightDataSeries: false,
+                    color: "#769E91"
+                },
+
+                marker: {
+                    size: 17,
+                    radius: 17,
+                    show: true,
+                    colors: undefined,
+                },
+                y: {
+                    title: {
+                        formatter(seriesName) {
+                            seriesName = ""
+                            return seriesName
+                        }
+                    }
+                }
+
+
+            },
+
+
+
+        }
+
+
+        var chart = new ApexCharts(document.querySelector(apexChart), options);
+        chart.render();
+    }
+    _bigChart();
 });
 

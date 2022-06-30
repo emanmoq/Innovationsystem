@@ -158,6 +158,9 @@ a:hover {
     border-bottom: 0;
     border-left: 0.3em solid transparent;
 }
+.profileBtn.btn{
+    display: inline-block;
+}
 
 .dropdown-toggle::after {
     margin-right: 8px
@@ -500,13 +503,16 @@ a:hover {
     left: 50%;
     top: 18px;
 }
-
+.MostInteractive{
+    margin-bottom: 25px;
+}
 .mostInteractiveEmployee {
     float: right;
     width: 20%;
     margin-left: 33px;
     border-radius: 8px;
     background-color: white;
+
     ;
     padding-bottom: 30px;
     overflow: hidden;
@@ -2281,11 +2287,11 @@ textarea {
     width: 84px;
 }
 
-.pinkBox {
+.messageItemBox  .pinkBox {
     background-color: #FAF3E8;
 }
 
-.pinkBox .rightPoint {
+.messageItemBox  .pinkBox .rightPoint {
     border-top-color: #FAF3E8;
 }
 
@@ -2330,13 +2336,13 @@ textarea {
     margin-right: 10px;
 }
 
-.grayBox {
+.messageItemBox .grayBox {
     background-color: #D8D5D0;
     margin-right: 0;
     margin-left: 25px;
 }
 
-.grayBox .leftPoint {
+.messageItemBox  .grayBox .leftPoint {
     border-top-color: #D8D5D0;
 }
 
@@ -3277,7 +3283,8 @@ button.reciveSuggModalClose {
     background-color: transparent;
     margin-left: 140px;
 }
-.addSugg-tabs .nav-item:last-child{
+
+.addSugg-tabs .nav-item:last-child {
     margin-left: 0;
 }
 
@@ -3326,7 +3333,7 @@ button.reciveSuggModalClose {
     background-color: #7D9D92;
     color: white;
     width: 136px;
-    height: 54px;
+    height: 46px;
     font-size: 1.125em;
 }
 
@@ -3362,7 +3369,7 @@ button.reciveSuggModalClose {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    margin-left:48px
+    margin-left: 48px
 }
 
 /* Hide the browser's default radio button */
@@ -3375,15 +3382,15 @@ button.reciveSuggModalClose {
 }
 
 /* Create a custom radio button */
-.radioBtnCOntainer .checkmark  {
+.radioBtnCOntainer .checkmark {
     position: absolute;
     top: 0;
-  right: 0;
+    right: 0;
     height: 22px;
     width: 22px;
     background-color: transparent;
     border-radius: 50%;
-    border:3px solid  #7D9D92
+    border: 3px solid #7D9D92
 }
 
 
@@ -3406,51 +3413,115 @@ button.reciveSuggModalClose {
     width: 14px;
     height: 14px;
     border-radius: 50%;
-    background:#7D9D92;
+    background: #7D9D92;
 }
-.creatSuggBoxDetails{
-    margin:0;
-    padding:27px 40px
+
+.creatSuggBoxDetails {
+    margin: 0;
+    padding: 27px 40px
 }
-.custom-file-label::after{
-    left:0;
+
+.custom-file-label::after {
+    left: 0;
     right: auto;
     background-color: #ADC4BA;
     font-size: 1.125em;
-    color:#373A39;
+    color: #373A39;
     width: 163px;
     text-align: center;
     cursor: pointer;
-    border-radius:8px 0 0 8px
+    border-radius: 8px 0 0 8px
 }
-.custom-file-label:hover::after{
-background-color: #8AAF9F;
+
+.custom-file-label:after:hover {
+    background-color: #8AAF9F;
 }
-.form-group .custom-file-label{
+
+.form-group .custom-file-label {
     text-align: right;
 }
-.inputFile-form-group{
-    margin-top:43px
+
+.inputFile-form-group {
+    margin-top: 43px
 }
-.inputFile-form-group label{
-    font-size:1.125em;
+
+.inputFile-form-group label {
+    font-size: 1.125em;
     margin-bottom: 5px;
 
 }
 
-.employeeStatistics .statsticsBox{
-height: 201px;
+.employeeStatistics .statsticsBox {
+    height: 201px;
 }
-.employeeStatistics .statsticsBox p{
+
+.employeeStatistics .statsticsBox p {
     font-size: 1.125em;
 }
-.employeeStatistics  .statisticsIcon{
-height: 125px;
+
+.employeeStatistics .statisticsIcon {
+    height: 125px;
 }
-.addSuggForm .tab-pane .form-group{
-    width:50%
+
+.addSuggForm .tab-pane .form-group {
+    width: 50%
 }
-.completeForm{
-    margin-top:50px;
+
+.completeForm {
+    margin-top: 50px;
     display: none;
+}
+
+.submitBtns {
+    margin-top: 32px;
+    display: flex;
+}
+
+.submitBtns .btn {
+    width: 163px;
+    height: 46px;
+    font-size: 1.125em;
+    border-radius: 8px;
+}
+
+.sendEmpBtn {
+    background-color: #7D9D92;
+    color: white;
+    margin-left: 8px
+}
+
+.sendEmpBtn:hover {
+    background-color: #657e76;
+    color: white;
+ 
+}
+
+.cancelEmpEmpBtn {
+    background-color: transparent;
+    border: 1px solid #657e76;
+    color: #657e76;
+}
+
+.cancelEmpEmpBtn:hover {
+    background-color: #aac2b9;
+}
+.employeeStatistics .statsticsNum{
+    font-size: 3.125em;
+    left: 33px;
+    top: 50px;
+}
+.employeeStatistics .purbleBox .statsticsNum{
+    left: 26px;
+    top: 26px;
+}
+.darkYellowTotalBox{
+    background-color: #BAA068;
+}
+.employeePercentBox .gradiantProgress{
+    float: left;
+    width: 50%;
+
+}
+.employeePercentBox  .progressParTitle{
+width: 50%;
 }
