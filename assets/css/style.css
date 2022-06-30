@@ -1570,6 +1570,7 @@ a:hover {
 
 .creatchallengeContent {
     padding-left: 25px;
+    padding:25px
 }
 
 .creatchallengeContentBox {
@@ -3017,6 +3018,7 @@ textarea {
     height: 46px;
     border-radius: 8px;
     font-size: 1.125em;
+    display: inline-flex;
 }
 
 .directinBtn {
