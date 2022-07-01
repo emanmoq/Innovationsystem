@@ -2599,8 +2599,8 @@ textarea {
 }
 
 .successStatus {
-    background-color: #d4edda;
-    color: #155724;
+    background-color: #7AA484;
+    color: white;
 }
 
 .dangerStatus {
@@ -3526,4 +3526,29 @@ button.reciveSuggModalClose {
 }
 .employeePercentBox  .progressParTitle{
 width: 50%;
+}
+.EmployeeActionTD .actionIcon{
+    margin:auto
+}
+.addnewSuggEmpBtn{
+    font-size:1.125em;
+    border-radius: 12px;
+    width: 153px;
+    height: 46px;
+    border:2px solid #BCD0DB;
+    margin-right:12px;
+    float: left;
+}
+.addnewSuggEmpBtn:hover{
+    background-color: #e0e0e0;
+}
+.empLeftBtns{
+    float: left;
+}
+.empLeftBtns .btn{
+ display: inline-block;
+ float: left;
+}
+.empLeftBtns .dropdown{
+    display: inline-block;
 }
