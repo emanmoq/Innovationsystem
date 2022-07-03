@@ -1582,7 +1582,7 @@ a:hover {
 }
 
 .headIcon {
-    position: absolute;
+    position: relative;
     right: 0;
     top: 0;
     width: 450px;
@@ -1644,17 +1644,17 @@ a:hover {
     margin-top: 57px;
     margin-right: 24px;
 }
-
-.creatchallengeContentBox .form-group {
-    width: 750px;
-    float: right;
-    position: relative;
+.headIcon .form-group{
+    position: absolute;
+    top:0;
+    left:-700px;
+    width: 700px;
     display: none;
-    opacity: 0;
-    animation: bounceInRight 2s 1 ease-in;
+    animation: bounceInRight 1.5s 1 ease-in;
 }
 
-.creatchallengeContentBox .active-Form-group {
+
+.form-group.active-Form-group {
     display: block;
     opacity: 1;
 }
@@ -3671,6 +3671,15 @@ margin-left: 10px;
 }
 .margin-topBox {
     margin-top:-50px
+}
+.creatChallengeBtns .cancelEmpEmpBtn{
+background-color: transparent;
+border:1px solid #F01010;
+color:#F01010
+}
+.creatChallengeBtns .cancelEmpEmpBtn:hover{
+background-color: #F01010;
+color:white
 }
 @media(max-width:767px){
     body{

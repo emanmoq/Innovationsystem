@@ -28,20 +28,8 @@ jQuery(function ($) {
         TweenMax.set(flag, {x: 20})
         TweenMax.to(flag, 1, {x: 0, repeat:-3,ease:Linear.easeNone});
       
-$(".headSec1").click(function(){
-    $(".challengeTitle").addClass("active-Form-group")
-});
-$(".headSec2").click(function(){
-    $(".descripChallengeForm-group").addClass("active-Form-group")
-})
-$(".headSec3").click(function(){
-    $(".reasonhallengeForm-group").addClass("active-Form-group")
-})
-$(".headSec4").click(function(){
-    $(".ProceduresChallenge-group").addClass("active-Form-group")
-})
-$(".headSec5").click(function(){
-    $(".benfitChallenge-group").addClass("active-Form-group")
+$(".headIcon a").click(function(){
+  $(this).find(".form-group").addClass("active-Form-group")
 });
 
 $(".mainMenuItem").click(function(){
