@@ -3681,6 +3681,9 @@ color:#F01010
 background-color: #F01010;
 color:white
 }
+.filterSearchBtn{
+    float: none;
+}
 @media(max-width:767px){
     body{
         font-size: 14px;
