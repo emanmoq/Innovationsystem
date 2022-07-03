@@ -730,5 +730,102 @@ jQuery(function ($) {
         chart.render();
     }
     _bigChart();
+    var _chartGov = function () {
+        const apexChart = "#chartGov";
+        options = {
+            plotOptions: {
+                bar: {
+                    distributed: true,
+
+                }
+            },
+            legend: {
+                show: false,
+            },
+
+            chart: {
+                type: 'bar',
+                height: 400,
+                toolbar: {
+                    show: false,
+                },
+
+            },
+            colors: [ "#D0AD5B",'#8D8582'],
+            dataLabels: {
+                enabled: false,
+            },
+            series: [{
+                data: [{
+
+                    x: 'نعم',
+                    y: 30,
+
+                }, {
+                    x: 'لا',
+                    y: 55
+                }]
+            }],
+            xaxis: {
+                labels: {
+                    show: true,
+                    rotate: 0,
+                    rotateAlways: false,
+                    minHeight: 100,
+                    maxHeight: 180,
+                    style: {
+                        fontSize: 11,
+                        fontFamily: 'Tajawal',
+                        color: "#373A39",
+                    }
+                },
+
+            },
+            tooltip: {
+                enabled: true,
+                enabledOnSeries: "colors",
+                shared: true,
+                followCursor: false,
+                intersect: false,
+                inverseOrder: false,
+                custom: undefined,
+                fillSeriesColor: false,
+                style: {
+                    fontSize: '11px',
+                    fontFamily: undefined
+                },
+                onDatasetHover: {
+                    highlightDataSeries: false,
+                    color: "#769E91"
+                },
+
+                marker: {
+                    size: 17,
+                    radius: 17,
+                    show: true,
+                    colors: undefined,
+                },
+                y: {
+                    title: {
+                        formatter(seriesName) {
+                            seriesName = ""
+                            return seriesName
+                        }
+                    }
+                }
+
+
+            },
+
+
+
+        }
+
+
+        var chart = new ApexCharts(document.querySelector(apexChart), options);
+        chart.render();
+    }
+    _chartGov();
+    
 });
 

@@ -466,8 +466,8 @@ a:hover {
     font-size: 2.3625em;
     font-weight: bold;
     font-family: 'Tajawal', sans-serif;
-    left: 40%;
-    top: 13px;
+    left: 44%;
+    top: 15px;
     z-index: 9999
 }
 
@@ -1045,7 +1045,6 @@ a:hover {
 
 .lampIcon.active {
     animation: lampAnimation 1.5s ease-in 1;
-
 }
 
 @keyframes lampAnimation {
@@ -1110,8 +1109,8 @@ a:hover {
     font-size: 1em;
     font-family: 'Tajawal', sans-serif;
     color: white;
-    bottom: 18px;
-    left: 25%;
+    bottom: 19px;
+    left: 30%;
     z-index: 3;
 }
 
@@ -2498,13 +2497,14 @@ textarea {
 .tableHeaderIcon {
     position: absolute;
     top: -18px;
-    left: 0;
+    left: auto;
     width: 100%;
     z-index: 0;
+    right: 0;
 }
 
 .headerInnerIcon {
-    margin-bottom: 8px;
+    margin-bottom: 6px;
 }
 
 .recivedSuggTable th .tableHeaderText {
@@ -3551,4 +3551,150 @@ width: 50%;
 }
 .empLeftBtns .dropdown{
     display: inline-block;
+}
+.symbol-group .symbol{
+border-radius: 50%;
+width: 31px;
+height: 31px;
+border:2px solid #FFFFFF;
+padding: 0;
+}
+.symbol-group .symbol img{width: 100%;
+    height: 100%;
+    border: 0;
+}
+.symbol-group .symbol {
+    margin: 0;
+    margin-right: -10px;
+}
+.symbol.symbol-light-success .symbol-label{
+    width:100%;
+    height: 100%;
+    background-color: #7D9D92;
+    color: white;;
+    border-radius: 50%
+}
+.dont-share{
+    margin-top:11px;
+    color:#707070;
+    font-size: .875em;
+    display: block;
+}
+.voteDetails{
+    width:40%;
+    float: right;
+}
+.progresswithlamb{
+    width:60%;
+    float: left;
+}
+.voteDetails h3{
+    color:#373A39;
+    font-size: 1em;
+}
+.voteDetails span{
+    color:#373A39;
+    font-size: 1em;
+    font-family: 'Tajawal', sans-serif;
+}
+.progresswithlamb{
+    position: relative;
+}
+.gradiantProgress-bar.blackprogress:before{
+    background-image: none;
+    background-color: #373A39;
+}
+.govermentVoteSec .gradiantProgressCont {
+    margin-bottom: 27px;
+}
+.govermentVoteSec{
+    padding: 0;
+    padding-top: 27px;
+}
+.goversuggesCateg .suggestNumBoxCateg{
+margin-left: 66px;
+}
+.goversuggesCateg .suggestNumBoxCateg:last-child{
+    margin-left:0
+}
+.skyBlurTd{
+    background-color: rgba(229, 236, 242, 1);
+}
+.tableHeaderIcon{
+
+}
+.creatchallengeContent-Gov{
+    padding: 5px;
+}
+.reciveChallengeHeader-Gov {
+    padding:25px
+}
+.recivedSuggTable-Gov{
+  width: 100%;
+  margin: auto;
+}
+.recivedSuggTable-Gov tbody tr td:first-child{
+    padding: 2px;
+}
+.recivedSuggTable-Gov .actionsTD a.showEvalBtn{
+    width: 79px;
+    font-size:.75em;
+    padding: 0;
+}
+.recivedSuggTable-Gov.recivedSuggTable td, .recivedSuggTable-Gov.recivedSuggTable.table thead th{
+    width: 103px;
+    padding:5px
+}
+.recivedSuggTable-Gov .actionsTD a:first-child{
+margin-left: 10px;
+}
+.tableHeaderIconGov{
+    top:-16px
+}
+.recivedSuggTable-Gov  .titleText{
+    font-size: 13px;
+    font-family: "GE-SS-Two-Light";
+}
+.recivedSuggTable-Gov.recivedSuggTable th .tableHeaderText{
+    top:-10px
+}
+
+@media(max-width:767px){
+    body{
+        font-size: 14px;
+    }
+    .searchBox,.mostInteractiveEmployees,.mostInteractiveEmployee,.container-fluid{
+        width: 100%;
+    }
+    .lang.dropdown .dropdown-menu,.notifications.dropdown .dropdown-menu{
+        top:15px !important
+    }
+    .statsticsBox ,.mostInteractiveEmployee{
+        margin-bottom: 20px;
+    }
+    .wow{
+        animation: none;
+    }
+    .percentageBox {
+        margin-bottom: 20px;
+    }
+    .suggestNumBoxCateg{
+        margin-bottom: 15px;
+        margin-left: 20px;
+    }
+    .reciveChallengeHeader  span{
+        float: none;
+    }
+    .reciveChallengeHeader .dropdown{
+        margin-top: 40px;
+        display: block;
+    }
+    .reciveChallengeHeader .importBtn {
+        float: none !important;
+        display: block;
+    
+    }
+    .concernedBtn .btn{
+        width: 150px;
+    }
 }
