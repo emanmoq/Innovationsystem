@@ -3684,7 +3684,7 @@ color:white
 .filterSearchBtn{
     float: none;
 }
-@media(max-width:767px){
+@media(max-width:850px){
     body{
         font-size: 14px;
     }
@@ -3721,5 +3721,83 @@ color:white
     }
     .concernedBtn .btn{
         width: 150px;
+    }
+    .tableHeaderIcon svg{
+        width: 80px !important;;
+        height: 60px !important;
+    }
+    .recivedSuggTable.table thead th{
+        height: 50px;
+    
+    }
+    .moreChallengeDetails .marginLeft{
+        margin-left: 0;
+    }
+    .moreChallengeDetails .form-group{
+        width: 100%;;
+    }
+    .select2-container{
+        width: 100% !important;
+        margin:10px 0
+    }
+    #kt_datatable_search_query{
+        margin-bottom: 20px;
+    }
+    .recivedSuggTable th .tableHeaderText{
+        position: relative;
+        top: auto;
+        left: auto;
+    }
+    .blueTh{
+        background-color: #90AFC4 !important;
+    }
+    .redTh{
+        background-color: #CE7847 !important;
+    }
+    .greenTh{
+        background-color: #9DA47A !important;
+    }
+    .yellowTh{
+        background-color: #D0AD5B !important;
+    }
+    .lightGreenTh{
+        background-color: #C3C8AA !important;
+    }
+    .greenGrayTh{
+        background-color: #C3C8AA !important;
+    }
+    .purbleTh{
+        background-color: #B9B4B0 !important;
+    }
+    .blueGreenth{
+        background-color: #769F91!important;
+    }
+    .tableHeaderIcon{
+        display: none;
+    }
+    .table-mobile{
+        width:100%;
+        overflow-x: scroll;
+    }
+    .table{
+        width: 100% !important;
+    }
+    .createChallengeBox{
+        padding-bottom: 20px;
+    }
+    .filterSearchBtn{
+        width: 100%;
+    }
+    .tableEmpDetails{
+     width: 150px;
+    }
+
+    .titleText{
+        max-width: 200px;
+        width: 150px;
+    }
+
+    .suggCreator{
+        width:100px
     }
 }
