@@ -2330,7 +2330,12 @@ textarea {
     background-color: #F1D2BD;
     color: #CE7847;
 }
-
+.likeDislike a:hover svg{
+    animation: heartBeat 2s ease 1;
+}
+.like:hover svg path{
+    fill:#CE7847 !important
+}
 .dislike {
     color: #769F91;
     margin-right: 10px;
@@ -2607,7 +2612,14 @@ textarea {
     color: #721c24;
     background-color: #f8d7da;
 }
-
+.recivedSuggTable tr .actionsTD a svg,.recivedSuggTable tr .actionsTD a i{
+ 
+    transition: all .5s;
+}
+.recivedSuggTable tr .actionsTD a:hover svg,.recivedSuggTable tr .actionsTD a:hover i{
+    animation: heartBeat 2s ease 1;
+    transition: all .5s;
+}
 .titleText {
     max-width: 95px;
     display: inline-flex;
@@ -2944,8 +2956,7 @@ textarea {
     position: absolute;
     opacity: 0;
     cursor: pointer;
-    height: 0;
-    width: 0;
+    z-index: 1;
 }
 
 .checkBoxContainer span {
@@ -3658,7 +3669,9 @@ margin-left: 10px;
 .recivedSuggTable-Gov.recivedSuggTable th .tableHeaderText{
     top:-10px
 }
-
+.margin-topBox {
+    margin-top:-50px
+}
 @media(max-width:767px){
     body{
         font-size: 14px;
