@@ -3937,13 +3937,56 @@ button.reciveSuggModalClose {
     #exploreChallenge {
         margin-right: -40px;
     }
+
     #suggestNow {
         margin-right: -18px;
     }
+
     #lambBottom {
         width: 85px;
         margin-right: 32%;
     }
+
     .homeDropdown {
-        width: 290px;}
+        width: 290px;
+    }
+
+    .headSec2 {
+        margin-right: -12px;
+        margin-top: -25px;
+        width: 334px;
+    }
+    .headSec3 {
+        margin-right: -10px;
+        width: 364px;
+        margin-top: -26px;
+    }
+    .headSec4 {
+        margin-right: 24px;
+        width: 306px;
+        margin-top: -26px;
+    }
+    .headSec5 {
+        margin-right: -15px;
+        width: 334px;
+        margin-top: -24px;
+    }
+    .headSec1 {
+        width: 300px;
+    }
+
+    .headIcon .form-group {
+        position: relative;
+        width: 348px;
+        left:auto !important;
+        margin-top: 0 !important;
+        margin-right: 0 !important;
+    margin-bottom: 28px !important;
+    }
+ .headIcon{
+    height: auto;
+ }
+    .headIcon p{
+        top:15px
+    }
 }
