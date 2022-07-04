@@ -158,7 +158,8 @@ a:hover {
     border-bottom: 0;
     border-left: 0.3em solid transparent;
 }
-.profileBtn.btn{
+
+.profileBtn.btn {
     display: inline-block;
     padding: 0;
 }
@@ -504,9 +505,11 @@ a:hover {
     left: 50%;
     top: 18px;
 }
-.MostInteractive{
+
+.MostInteractive {
     margin-bottom: 25px;
 }
+
 .mostInteractiveEmployee {
     float: right;
     width: 20%;
@@ -1570,7 +1573,7 @@ a:hover {
 
 .creatchallengeContent {
     padding-left: 25px;
-    padding:25px
+    padding: 25px
 }
 
 .creatchallengeContentBox {
@@ -1645,10 +1648,11 @@ a:hover {
     margin-top: 57px;
     margin-right: 24px;
 }
-.headIcon .form-group{
+
+.headIcon .form-group {
     position: absolute;
-    top:0;
-    left:-700px;
+    top: 0;
+    left: -700px;
     width: 700px;
     display: none;
     animation: bounceInRight 1.5s 1 ease-in;
@@ -2288,11 +2292,11 @@ textarea {
     width: 84px;
 }
 
-.messageItemBox  .pinkBox {
+.messageItemBox .pinkBox {
     background-color: #FAF3E8;
 }
 
-.messageItemBox  .pinkBox .rightPoint {
+.messageItemBox .pinkBox .rightPoint {
     border-top-color: #FAF3E8;
 }
 
@@ -2331,12 +2335,15 @@ textarea {
     background-color: #F1D2BD;
     color: #CE7847;
 }
-.likeDislike a:hover svg{
+
+.likeDislike a:hover svg {
     animation: heartBeat 2s ease 1;
 }
-.like:hover svg path{
-    fill:#CE7847 !important
+
+.like:hover svg path {
+    fill: #CE7847 !important
 }
+
 .dislike {
     color: #769F91;
     margin-right: 10px;
@@ -2348,7 +2355,7 @@ textarea {
     margin-left: 25px;
 }
 
-.messageItemBox  .grayBox .leftPoint {
+.messageItemBox .grayBox .leftPoint {
     border-top-color: #D8D5D0;
 }
 
@@ -2613,14 +2620,19 @@ textarea {
     color: #721c24;
     background-color: #f8d7da;
 }
-.recivedSuggTable tr .actionsTD a svg,.recivedSuggTable tr .actionsTD a i{
- 
+
+.recivedSuggTable tr .actionsTD a svg,
+.recivedSuggTable tr .actionsTD a i {
+
     transition: all .5s;
 }
-.recivedSuggTable tr .actionsTD a:hover svg,.recivedSuggTable tr .actionsTD a:hover i{
+
+.recivedSuggTable tr .actionsTD a:hover svg,
+.recivedSuggTable tr .actionsTD a:hover i {
     animation: heartBeat 2s ease 1;
     transition: all .5s;
 }
+
 .titleText {
     max-width: 95px;
     display: inline-flex;
@@ -3507,7 +3519,7 @@ button.reciveSuggModalClose {
 .sendEmpBtn:hover {
     background-color: #657e76;
     color: white;
- 
+
 }
 
 .cancelEmpEmpBtn {
@@ -3519,297 +3531,419 @@ button.reciveSuggModalClose {
 .cancelEmpEmpBtn:hover {
     background-color: #aac2b9;
 }
-.employeeStatistics .statsticsNum{
+
+.employeeStatistics .statsticsNum {
     font-size: 3.125em;
     left: 33px;
     top: 50px;
 }
-.employeeStatistics .purbleBox .statsticsNum{
+
+.employeeStatistics .purbleBox .statsticsNum {
     left: 26px;
     top: 26px;
 }
-.darkYellowTotalBox{
+
+.darkYellowTotalBox {
     background-color: #BAA068;
 }
-.employeePercentBox .gradiantProgress{
+
+.employeePercentBox .gradiantProgress {
     float: left;
     width: 50%;
 
 }
-.employeePercentBox  .progressParTitle{
-width: 50%;
+
+.employeePercentBox .progressParTitle {
+    width: 50%;
 }
-.EmployeeActionTD .actionIcon{
-    margin:auto
+
+.EmployeeActionTD .actionIcon {
+    margin: auto
 }
-.addnewSuggEmpBtn{
-    font-size:1.125em;
+
+.addnewSuggEmpBtn {
+    font-size: 1.125em;
     border-radius: 12px;
     width: 153px;
     height: 46px;
-    border:2px solid #BCD0DB;
-    margin-right:12px;
+    border: 2px solid #BCD0DB;
+    margin-right: 12px;
     float: left;
 }
-.addnewSuggEmpBtn:hover{
+
+.addnewSuggEmpBtn:hover {
     background-color: #e0e0e0;
 }
-.empLeftBtns{
+
+.empLeftBtns {
     float: left;
 }
-.empLeftBtns .btn{
- display: inline-block;
- float: left;
+
+.empLeftBtns .btn {
+    display: inline-block;
+    float: left;
 }
-.empLeftBtns .dropdown{
+
+.empLeftBtns .dropdown {
     display: inline-block;
 }
-.symbol-group .symbol{
-border-radius: 50%;
-width: 31px;
-height: 31px;
-border:2px solid #FFFFFF;
-padding: 0;
+
+.symbol-group .symbol {
+    border-radius: 50%;
+    width: 31px;
+    height: 31px;
+    border: 2px solid #FFFFFF;
+    padding: 0;
 }
-.symbol-group .symbol img{width: 100%;
+
+.symbol-group .symbol img {
+    width: 100%;
     height: 100%;
     border: 0;
 }
+
 .symbol-group .symbol {
     margin: 0;
     margin-right: -10px;
 }
-.symbol.symbol-light-success .symbol-label{
-    width:100%;
+
+.symbol.symbol-light-success .symbol-label {
+    width: 100%;
     height: 100%;
     background-color: #7D9D92;
-    color: white;;
+    color: white;
+    ;
     border-radius: 50%
 }
-.dont-share{
-    margin-top:11px;
-    color:#707070;
+
+.dont-share {
+    margin-top: 11px;
+    color: #707070;
     font-size: .875em;
     display: block;
 }
-.voteDetails{
-    width:40%;
+
+.voteDetails {
+    width: 40%;
     float: right;
 }
-.progresswithlamb{
-    width:60%;
+
+.progresswithlamb {
+    width: 60%;
     float: left;
 }
-.voteDetails h3{
-    color:#373A39;
+
+.voteDetails h3 {
+    color: #373A39;
     font-size: 1em;
 }
-.voteDetails span{
-    color:#373A39;
+
+.voteDetails span {
+    color: #373A39;
     font-size: 1em;
     font-family: 'Tajawal', sans-serif;
 }
-.progresswithlamb{
+
+.progresswithlamb {
     position: relative;
 }
-.gradiantProgress-bar.blackprogress:before{
+
+.gradiantProgress-bar.blackprogress:before {
     background-image: none;
     background-color: #373A39;
 }
+
 .govermentVoteSec .gradiantProgressCont {
     margin-bottom: 27px;
 }
-.govermentVoteSec{
+
+.govermentVoteSec {
     padding: 0;
     padding-top: 27px;
 }
-.goversuggesCateg .suggestNumBoxCateg{
-margin-left: 66px;
+
+.goversuggesCateg .suggestNumBoxCateg {
+    margin-left: 66px;
 }
-.goversuggesCateg .suggestNumBoxCateg:last-child{
-    margin-left:0
+
+.goversuggesCateg .suggestNumBoxCateg:last-child {
+    margin-left: 0
 }
-.skyBlurTd{
+
+.skyBlurTd {
     background-color: rgba(229, 236, 242, 1);
 }
-.tableHeaderIcon{
 
-}
-.creatchallengeContent-Gov{
+.tableHeaderIcon {}
+
+.creatchallengeContent-Gov {
     padding: 5px;
 }
+
 .reciveChallengeHeader-Gov {
-    padding:25px
+    padding: 25px
 }
-.recivedSuggTable-Gov{
-  width: 100%;
-  margin: auto;
+
+.recivedSuggTable-Gov {
+    width: 100%;
+    margin: auto;
 }
-.recivedSuggTable-Gov tbody tr td:first-child{
+
+.recivedSuggTable-Gov tbody tr td:first-child {
     padding: 2px;
 }
-.recivedSuggTable-Gov .actionsTD a.showEvalBtn{
+
+.recivedSuggTable-Gov .actionsTD a.showEvalBtn {
     width: 79px;
-    font-size:.75em;
+    font-size: .75em;
     padding: 0;
 }
-.recivedSuggTable-Gov.recivedSuggTable td, .recivedSuggTable-Gov.recivedSuggTable.table thead th{
+
+.recivedSuggTable-Gov.recivedSuggTable td,
+.recivedSuggTable-Gov.recivedSuggTable.table thead th {
     width: 103px;
-    padding:5px
+    padding: 5px
 }
-.recivedSuggTable-Gov .actionsTD a:first-child{
-margin-left: 10px;
+
+.recivedSuggTable-Gov .actionsTD a:first-child {
+    margin-left: 10px;
 }
-.tableHeaderIconGov{
-    top:-16px
+
+.tableHeaderIconGov {
+    top: -16px
 }
-.recivedSuggTable-Gov  .titleText{
+
+.recivedSuggTable-Gov .titleText {
     font-size: 13px;
     font-family: "GE-SS-Two-Light";
 }
-.recivedSuggTable-Gov.recivedSuggTable th .tableHeaderText{
-    top:-10px
+
+.recivedSuggTable-Gov.recivedSuggTable th .tableHeaderText {
+    top: -10px
 }
+
 .margin-topBox {
-    margin-top:-50px
+    margin-top: -50px
 }
-.creatChallengeBtns .cancelEmpEmpBtn{
-background-color: transparent;
-border:1px solid #F01010;
-color:#F01010
+
+.creatChallengeBtns .cancelEmpEmpBtn {
+    background-color: transparent;
+    border: 1px solid #F01010;
+    color: #F01010
 }
-.creatChallengeBtns .cancelEmpEmpBtn:hover{
-background-color: #F01010;
-color:white
+
+.creatChallengeBtns .cancelEmpEmpBtn:hover {
+    background-color: #F01010;
+    color: white
 }
-.filterSearchBtn{
+
+.filterSearchBtn {
     float: none;
 }
-.burger-icon span,.burger-icon span::before, .burger-icon span::after{
+
+.burger-icon span,
+.burger-icon span::before,
+.burger-icon span::after {
     background-color: white;
 }
-@media(max-width:850px){
-    body{
+
+@media(max-width:850px) {
+    body {
         font-size: 14px;
     }
-    .searchBox,.mostInteractiveEmployees,.mostInteractiveEmployee,.container-fluid{
+
+    .searchBox,
+    .mostInteractiveEmployees,
+    .mostInteractiveEmployee,
+    .container-fluid {
         width: 100%;
     }
-    .lang.dropdown .dropdown-menu,.notifications.dropdown .dropdown-menu{
-        top:15px !important
+
+    .lang.dropdown .dropdown-menu,
+    .notifications.dropdown .dropdown-menu {
+        top: 15px !important
     }
-    .statsticsBox ,.mostInteractiveEmployee{
+
+    .statsticsBox,
+    .mostInteractiveEmployee {
         margin-bottom: 20px;
     }
-    .wow{
+
+    .wow {
         animation: none;
     }
+
     .percentageBox {
         margin-bottom: 20px;
     }
-    .suggestNumBoxCateg{
+
+    .suggestNumBoxCateg {
         margin-bottom: 15px;
         margin-left: 20px;
     }
-    .reciveChallengeHeader  span{
+
+    .reciveChallengeHeader span {
         float: none;
     }
-    .reciveChallengeHeader .dropdown{
+
+    .reciveChallengeHeader .dropdown {
         margin-top: 40px;
         display: block;
     }
+
     .reciveChallengeHeader .importBtn {
         float: none !important;
         display: block;
-    
+
     }
-    .concernedBtn .btn{
+
+    .concernedBtn .btn {
         width: 150px;
     }
-    .tableHeaderIcon svg{
-        width: 80px !important;;
+
+    .tableHeaderIcon svg {
+        width: 80px !important;
+        ;
         height: 60px !important;
     }
-    .recivedSuggTable.table thead th{
+
+    .recivedSuggTable.table thead th {
         height: 50px;
-    
+
     }
-    .moreChallengeDetails .marginLeft{
+
+    .moreChallengeDetails .marginLeft {
         margin-left: 0;
     }
-    .moreChallengeDetails .form-group{
-        width: 100%;;
+
+    .moreChallengeDetails .form-group {
+        width: 100%;
+        ;
     }
-    .select2-container{
+
+    .select2-container {
         width: 100% !important;
-        margin:10px 0
+        margin: 10px 0
     }
-    #kt_datatable_search_query{
+
+    #kt_datatable_search_query {
         margin-bottom: 20px;
     }
-    .recivedSuggTable th .tableHeaderText{
+
+    .recivedSuggTable th .tableHeaderText {
         position: relative;
         top: auto;
         left: auto;
     }
-    .blueTh{
+
+    .blueTh {
         background-color: #90AFC4 !important;
     }
-    .redTh{
+
+    .redTh {
         background-color: #CE7847 !important;
     }
-    .greenTh{
+
+    .greenTh {
         background-color: #9DA47A !important;
     }
-    .yellowTh{
+
+    .yellowTh {
         background-color: #D0AD5B !important;
     }
-    .lightGreenTh{
+
+    .lightGreenTh {
         background-color: #C3C8AA !important;
-    }
-    .greenGrayTh{
-        background-color: #C3C8AA !important;
-    }
-    .purbleTh{
-        background-color: #B9B4B0 !important;
-    }
-    .blueGreenth{
-        background-color: #769F91!important;
-    }
-    .tableHeaderIcon{
-        display: none;
-    }
-    .table-mobile{
-        width:100%;
-        overflow-x: scroll;
-    }
-    .table{
-        width: 100% !important;
-    }
-    .createChallengeBox{
-        padding-bottom: 20px;
-    }
-    .filterSearchBtn{
-        width: 100%;
-    }
-    .tableEmpDetails{
-     width: 150px;
     }
 
-    .titleText{
+    .greenGrayTh {
+        background-color: #C3C8AA !important;
+    }
+
+    .purbleTh {
+        background-color: #B9B4B0 !important;
+    }
+
+    .blueGreenth {
+        background-color: #769F91 !important;
+    }
+
+    .tableHeaderIcon {
+        display: none;
+    }
+
+    .table-mobile {
+        width: 100%;
+        overflow-x: scroll;
+    }
+
+    .table {
+        width: 100% !important;
+    }
+
+    .createChallengeBox {
+        padding-bottom: 20px;
+    }
+
+    .filterSearchBtn {
+        width: 100%;
+    }
+
+    .tableEmpDetails {
+        width: 150px;
+    }
+
+    .titleText {
         max-width: 200px;
         width: 150px;
     }
 
-    .suggCreator{
-        width:100px
+    .suggCreator {
+        width: 100px
     }
+
     .lumpImg {
         left: 39%;
         top: 140PX;
     }
-    .commonBox{
+
+    .commonBox {
         height: auto;
     }
 
+    .mainMenuHome {
+        width: 287px;
+        margin: auto
+    }
+
+    #home1Link {
+        width: 100%
+    }
+
+    #exploreChallenge,
+    #suggestNow {
+        width: 310px;
+    }
+
+    #talkpeers {
+        width: 277px;
+        margin-right: -28PX;
+    }
+
+    #personalInfo {
+        width: 150px
+    }
+
+    #exploreChallenge {
+        margin-right: -40px;
+    }
+    #suggestNow {
+        margin-right: -18px;
+    }
+    #lambBottom {
+        width: 85px;
+        margin-right: 32%;
+    }
+    .homeDropdown {
+        width: 290px;}
 }
