@@ -244,18 +244,17 @@ jQuery(function ($) {
 
             },
             responsive: [{
-                breakpoint: 480,
-                options: {
-                    chart: {
-                        width: 200
-                    },
-                    legend: {
-                        position: 'right',
-
-                    },
-
-                }
-            }],
+				breakpoint: 480,
+				options: {
+					chart: {
+						width: 500
+					},
+					legend: {
+						position: 'bottom'
+					}
+				}
+			}],
+      
             colors: ['#CE7847', '#8D8582', '#90AFC4', '#D0AD5B']
         };
 

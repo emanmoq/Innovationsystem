@@ -160,6 +160,7 @@ a:hover {
 }
 .profileBtn.btn{
     display: inline-block;
+    padding: 0;
 }
 
 .dropdown-toggle::after {
@@ -3684,6 +3685,9 @@ color:white
 .filterSearchBtn{
     float: none;
 }
+.burger-icon span,.burger-icon span::before, .burger-icon span::after{
+    background-color: white;
+}
 @media(max-width:850px){
     body{
         font-size: 14px;
@@ -3800,4 +3804,12 @@ color:white
     .suggCreator{
         width:100px
     }
+    .lumpImg {
+        left: 39%;
+        top: 140PX;
+    }
+    .commonBox{
+        height: auto;
+    }
+
 }
