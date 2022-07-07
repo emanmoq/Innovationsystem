@@ -3798,7 +3798,7 @@ button.reciveSuggModalClose {
     }
 
     .concernedBtn .btn {
-        width: 150px;
+        width: 130px;
     }
 
     .tableHeaderIcon svg {
@@ -3956,21 +3956,25 @@ button.reciveSuggModalClose {
         margin-top: -25px;
         width: 334px;
     }
+
     .headSec3 {
         margin-right: -10px;
         width: 364px;
         margin-top: -26px;
     }
+
     .headSec4 {
         margin-right: 24px;
         width: 306px;
         margin-top: -26px;
     }
+
     .headSec5 {
         margin-right: -15px;
         width: 334px;
         margin-top: -24px;
     }
+
     .headSec1 {
         width: 300px;
     }
@@ -3978,15 +3982,35 @@ button.reciveSuggModalClose {
     .headIcon .form-group {
         position: relative;
         width: 348px;
-        left:auto !important;
+        left: auto !important;
         margin-top: 0 !important;
         margin-right: 0 !important;
-    margin-bottom: 28px !important;
+        margin-bottom: 28px !important;
     }
- .headIcon{
-    height: auto;
- }
-    .headIcon p{
-        top:15px
+
+    .headIcon {
+        height: auto;
+    }
+
+    .headIcon p {
+        top: 15px
+    }
+
+    .searchInput{
+        width:98%
+    }
+    .searchIcon{
+        left:29px
+    }
+    .modalBtns .btn{
+        width: 135px;
+    }
+    .modalBtns .btn.changeImgModalBtn{
+        display: inline-block !important;
+        margin-bottom:0;
+        margin-right:10px
+    }
+    .createchallengedetails{
+        margin-right: 5px;
     }
 }
