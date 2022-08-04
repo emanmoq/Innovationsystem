@@ -2104,6 +2104,7 @@ textarea {
     font-family: 'Tajawal', sans-serif;
     padding: 6px 11px;
     border-radius: 12px;
+    cursor:pointer
 }
 
 .challengTextInteaction .danger {
@@ -2131,6 +2132,9 @@ textarea {
     border-radius: 4px;
     height: 51px;
 
+}
+.leftbtns button{
+    margin-right:10px
 }
 
 .addCommentForm-group {
@@ -3746,7 +3750,26 @@ button.reciveSuggModalClose {
 .burger-icon span::after {
     background-color: white;
 }
-
+.leftbtns{
+    float: left;
+}
+.label.label-primary {
+    color: #FFFFFF;
+    background-color: #7E9D92;
+    font-family: 'Tajawal', sans-serif;
+}
+.creatchallengeContent .bg-secondary{
+background-color: #90AFC4 !important;
+}
+.pending-Sugg-table thead th{
+    color:white
+}
+.pending-Sugg-table{
+    margin-bottom: 20px;
+}
+.table-bordered th, .table-bordered td {
+    border: 1px solid #EBEDF3;
+}
 @media(max-width:850px) {
     body {
         font-size: 14px;
